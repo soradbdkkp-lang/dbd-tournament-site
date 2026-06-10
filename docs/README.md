@@ -43,6 +43,7 @@
 | ファイル | 内容 |
 |---|---|
 | `docs/requirements/event-naming.md` | サイト名、大会シリーズ名、開催回の名称体系と将来拡張方針 |
+| `docs/requirements/event-overview.md` | ふろぐCup Vol.1の公開可能な大会概要と開催予定日 |
 
 ## ルール草案
 
