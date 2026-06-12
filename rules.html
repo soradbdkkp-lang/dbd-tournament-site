@@ -3,47 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ふろぐCup Vol.1 大会ルール | そらふぇす</title>
+    <meta name="description" content="ふろぐCup Vol.1の基本ルール、更新履歴、公開状態を掲載します。">
+    <title>ふろぐCup Vol.1 基本ルール | そらふぇす</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="rules-page">
 
     <header class="site-header site-header--compact">
         <div class="site-header__inner">
-            <h1>そらふぇす</h1>
+            <a class="site-title-link" href="index.html">そらふぇす</a>
+            <p>Dead by Daylight コミュニティ大会ポータル</p>
         </div>
     </header>
 
-    <main class="page-shell page-shell--rules">
+    <main class="rules-shell">
+        <nav class="breadcrumb" aria-label="パンくず">
+            <ol>
+                <li><a href="index.html">トップ</a></li>
+                <li>大会ルール</li>
+                <li>ふろぐCup Vol.1</li>
+                <li aria-current="page">基本ルール</li>
+            </ol>
+        </nav>
 
-        <section class="card rule-card">
-            <h2>ふろぐCup Vol.1 大会ルール</h2>
+        <header class="rules-hero">
+            <p class="rules-hero__eyebrow">ふろぐCup Vol.1</p>
+            <h1>Dead by Daylight 大会ルールブック</h1>
+            <p class="rules-hero__subtitle">基本ルール</p>
+        </header>
+
+        <section class="rule-status-card" aria-labelledby="rule-status-heading">
+            <div>
+                <p class="section-label" id="rule-status-heading">公開情報</p>
+                <p class="rule-status-card__note">
+                    正式確定前の暫定ルールとして公開しています。参加前に更新履歴をご確認ください。
+                </p>
+            </div>
+            <dl class="rule-meta">
+                <div>
+                    <dt>公開対象</dt>
+                    <dd id="rule-public-label">Vol.1 基本ルール</dd>
+                </div>
+                <div>
+                    <dt>状態</dt>
+                    <dd><span class="status-badge status-badge--provisional" id="page-status">暫定</span></dd>
+                </div>
+                <div>
+                    <dt>対象</dt>
+                    <dd id="rule-audience">参加者・運営</dd>
+                </div>
+                <div>
+                    <dt>最終更新日</dt>
+                    <dd><time id="rule-last-updated" datetime="2026-06-13">2026-06-13</time></dd>
+                </div>
+            </dl>
         </section>
 
-        <section class="card rule-card">
-            <div class="event-schedule">
-                <p class="event-schedule__name">ふろぐCup Vol.1</p>
-                <p class="event-schedule__date">開催予定日：2026年9月12日（土）</p>
+        <nav class="rule-tabs" aria-label="ふろぐCup Vol.1 ルール種別">
+            <button class="rule-tab is-active" type="button" data-panel="basic" aria-selected="true">
+                基本ルール
+            </button>
+            <button class="rule-tab" type="button" data-panel="survivor" aria-selected="false">
+                サバイバー制限ルール
+            </button>
+            <button class="rule-tab" type="button" data-panel="killer" aria-selected="false">
+                キラー制限ルール
+            </button>
+        </nav>
+
+        <section class="rule-panel" id="panel-basic" data-rule-panel="basic">
+            <section class="updates-card" aria-labelledby="updates-heading">
+                <div class="section-heading">
+                    <p class="section-label">Change log</p>
+                    <h2 id="updates-heading">更新履歴</h2>
+                </div>
+                <div class="updates-list" id="updates-list"></div>
+            </section>
+
+            <div class="rules-content-layout">
+                <aside class="toc-card" aria-labelledby="toc-heading">
+                    <details open>
+                        <summary id="toc-heading">目次を見る</summary>
+                        <nav aria-label="基本ルール目次">
+                            <ol id="rules-toc"></ol>
+                        </nav>
+                    </details>
+                </aside>
+
+                <div class="rule-sections" id="rule-sections" aria-label="基本ルール本文"></div>
             </div>
         </section>
 
-        <section class="card rule-card">
-            <h2>勝敗ルール</h2>
-            <p class="placeholder-text">ここに記載</p>
+        <section class="rule-panel preparation-panel" id="panel-survivor" data-rule-panel="survivor" hidden>
+            <p class="section-label">Survivor rules</p>
+            <h2>サバイバー制限ルール</h2>
+            <p class="preparation-panel__lead">現在準備中です</p>
+            <p>ルール確定後に公開します。</p>
         </section>
 
-        <section class="card rule-card rule-card--warning">
-            <h2>禁止事項</h2>
-            <p class="placeholder-text">ここに記載</p>
+        <section class="rule-panel preparation-panel" id="panel-killer" data-rule-panel="killer" hidden>
+            <p class="section-label">Killer rules</p>
+            <h2>キラー制限ルール</h2>
+            <p class="preparation-panel__lead">現在準備中です</p>
+            <p>ルール確定後に公開します。</p>
         </section>
+
+        <noscript>
+            <section class="card rule-card rule-card--warning">
+                <h2>基本ルールの表示について</h2>
+                <p>
+                    このページのルール本文と更新履歴はJavaScriptで表示します。
+                    JavaScriptを有効にして再読み込みしてください。
+                </p>
+            </section>
+        </noscript>
 
         <nav class="page-actions" aria-label="ページ移動">
-            <a class="button button--secondary" aria-disabled="true" tabindex="-1" data-original-href="index.html">
-                Coming soon...
-            </a>
+            <a class="button button--secondary" href="index.html">トップページへ戻る</a>
         </nav>
 
     </main>
 
+    <script src="rules-data.js"></script>
+    <script src="rules.js"></script>
 </body>
 </html>

@@ -8,6 +8,7 @@
 ## 現在の状態
 
 - 現行サイトは静的HTML/CSSで構成されている。
+- ふろぐCup Vol.1の基本ルールは、現行の静的HTML/CSS/JavaScriptで公開する。
 - 移行先としてReact + Vite + TypeScriptを採用している。
 - パッケージ管理にはnpmを使用する。
 - React Router、UIライブラリ、Dockerは初期導入しない。
@@ -69,6 +70,7 @@
 | ファイル | 内容 |
 |---|---|
 | `docs/features/initial-pages.md` | HomePage、RulesPage、NotFoundPageの初期仕様 |
+| `docs/features/vol1-basic-rules.md` | 現行静的サイトで公開するふろぐCup Vol.1基本ルール画面と更新履歴の仕様 |
 
 ## UI仕様
 
