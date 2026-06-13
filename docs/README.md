@@ -81,6 +81,13 @@
 | `docs/ui/design-references.md` | デザイン参考資料の役割、参照優先順位、矛盾時の扱い |
 | `docs/ui/getdesign-implementation-instructions.md` | getdesign由来の具体的な実装指示の記録先。現時点では実指示未投入 |
 | `docs/ui/component-guidelines.md` | 共通コンポーネント、状態表示、アクセシビリティ方針 |
+| `docs/ui/image-card-guidelines.md` | キラー、MAP、アドオンなどの共通画像カード、レアリティ背景、選択・禁止状態の表示仕様 |
+
+## レビュー用データ
+
+| ファイル | 内容 |
+|---|---|
+| `docs/data/addon-review-list.md` | アドオン画像から生成したキラー別レビュー用候補一覧。日本語名とレアリティは全件確認待ち |
 
 ## 開発
 

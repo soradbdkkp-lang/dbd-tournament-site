@@ -74,3 +74,12 @@
 
 この文書は複数のデザイン参考資料の比較と参照ルールを扱う。
 getdesignから取得する画面別・実装別の具体的な指示は、記録項目と適用状況が異なるため、`docs/ui/getdesign-implementation-instructions.md`で別に管理する。
+
+## 画像カード仕様との関係
+
+キラー、MAP、アドオンなどの画像カードに関する共通表示仕様は`docs/ui/image-card-guidelines.md`で管理する。
+
+- カードの余白、文字階層、雰囲気は`docs/DESIGN-claude.md`を参考にする。
+- レアリティ背景、選択中、選択不可、使用禁止などの色は`docs/DESIGN-cohere.md`を参考にする。
+- サイト固有の状態表示、スマホ優先、色だけに依存しない表示は`DESIGN.md`と`docs/ui/image-card-guidelines.md`を優先する。
+- DBD固有のレアリティ色は参考資料だけから確定せず、実画像とのコントラストを確認してユーザ承認後に決定する。
