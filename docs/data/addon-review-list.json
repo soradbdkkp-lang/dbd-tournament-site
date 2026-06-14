@@ -10365,13 +10365,13 @@
         "sourceFileName":  "4_coil_spring_kit.webp",
         "imagePath":  "/images/addons/trapper/4_coil_spring_kit.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "uncommon",
+        "rarityLabel":  "uncommon",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでUncommon。日本語名未確認"
     },
     {
         "id":  "bear_oil",
@@ -10379,13 +10379,13 @@
         "sourceFileName":  "bear_oil.webp",
         "imagePath":  "/images/addons/trapper/bear_oil.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "common",
+        "rarityLabel":  "common",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでCommon。日本語名未確認"
     },
     {
         "id":  "bloody_coil",
@@ -10393,13 +10393,13 @@
         "sourceFileName":  "bloody_coil.webp",
         "imagePath":  "/images/addons/trapper/bloody_coil.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "visceral",
+        "rarityLabel":  "visceral",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでUltra Rare。プロジェクト定義によりvisceral候補。日本語名未確認"
     },
     {
         "id":  "coffee_grounds",
@@ -10407,13 +10407,13 @@
         "sourceFileName":  "coffee_grounds.webp",
         "imagePath":  "/images/addons/trapper/coffee_grounds.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "uncommon",
+        "rarityLabel":  "uncommon",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでUncommon。日本語名未確認"
     },
     {
         "id":  "fastening_tools",
@@ -10421,13 +10421,13 @@
         "sourceFileName":  "fastening_tools.webp",
         "imagePath":  "/images/addons/trapper/fastening_tools.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "rare",
+        "rarityLabel":  "rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでRare。日本語名未確認"
     },
     {
         "id":  "honing_stone",
@@ -10435,13 +10435,13 @@
         "sourceFileName":  "honing_stone.webp",
         "imagePath":  "/images/addons/trapper/honing_stone.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "very_rare",
+        "rarityLabel":  "very rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでVery Rare。日本語名未確認"
     },
     {
         "id":  "iridescent_stone",
@@ -10449,13 +10449,13 @@
         "sourceFileName":  "iridescent_stone.webp",
         "imagePath":  "/images/addons/trapper/iridescent_stone.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "visceral",
+        "rarityLabel":  "visceral",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでUltra Rare。プロジェクト定義によりvisceral候補。日本語名未確認"
     },
     {
         "id":  "lengthened_jaws",
@@ -10463,13 +10463,13 @@
         "sourceFileName":  "lengthened_jaws.webp",
         "imagePath":  "/images/addons/trapper/lengthened_jaws.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "uncommon",
+        "rarityLabel":  "uncommon",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでUncommon。日本語名未確認"
     },
     {
         "id":  "makeshift_wrap",
@@ -10477,13 +10477,13 @@
         "sourceFileName":  "makeshift_wrap.webp",
         "imagePath":  "/images/addons/trapper/makeshift_wrap.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "common",
+        "rarityLabel":  "common",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでCommon。日本語名未確認"
     },
     {
         "id":  "oily_coil",
@@ -10491,13 +10491,13 @@
         "sourceFileName":  "oily_coil.webp",
         "imagePath":  "/images/addons/trapper/oily_coil.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "very_rare",
+        "rarityLabel":  "very rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでVery Rare。日本語名未確認"
     },
     {
         "id":  "padded_jaws",
@@ -10505,13 +10505,13 @@
         "sourceFileName":  "padded_jaws.webp",
         "imagePath":  "/images/addons/trapper/padded_jaws.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "common",
+        "rarityLabel":  "common",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでCommon。日本語名未確認"
     },
     {
         "id":  "rusted_jaws",
@@ -10519,13 +10519,13 @@
         "sourceFileName":  "rusted_jaws.webp",
         "imagePath":  "/images/addons/trapper/rusted_jaws.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "rare",
+        "rarityLabel":  "rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでRare。日本語名未確認"
     },
     {
         "id":  "secondary_coil",
@@ -10533,13 +10533,13 @@
         "sourceFileName":  "secondary_coil.webp",
         "imagePath":  "/images/addons/trapper/secondary_coil.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "rare",
+        "rarityLabel":  "rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでRare。日本語名未確認"
     },
     {
         "id":  "serrated_jaws",
@@ -10547,13 +10547,13 @@
         "sourceFileName":  "serrated_jaws.webp",
         "imagePath":  "/images/addons/trapper/serrated_jaws.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "uncommon",
+        "rarityLabel":  "uncommon",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでUncommon。日本語名未確認"
     },
     {
         "id":  "tar_bottle",
@@ -10561,13 +10561,13 @@
         "sourceFileName":  "tar_bottle.webp",
         "imagePath":  "/images/addons/trapper/tar_bottle.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "rare",
+        "rarityLabel":  "rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでRare。日本語名未確認"
     },
     {
         "id":  "tension_spring",
@@ -10575,13 +10575,13 @@
         "sourceFileName":  "tension_spring.webp",
         "imagePath":  "/images/addons/trapper/tension_spring.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "very_rare",
+        "rarityLabel":  "very rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでVery Rare。日本語名未確認"
     },
     {
         "id":  "trapper_bag",
@@ -10589,13 +10589,13 @@
         "sourceFileName":  "trapper_bag.webp",
         "imagePath":  "/images/addons/trapper/trapper_bag.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "rare",
+        "rarityLabel":  "rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでRare。日本語名未確認"
     },
     {
         "id":  "trapper_gloves",
@@ -10603,13 +10603,13 @@
         "sourceFileName":  "trapper_gloves.webp",
         "imagePath":  "/images/addons/trapper/trapper_gloves.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "common",
+        "rarityLabel":  "common",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでCommon。日本語名未確認"
     },
     {
         "id":  "trapper_sack",
@@ -10617,13 +10617,13 @@
         "sourceFileName":  "trapper_sack.webp",
         "imagePath":  "/images/addons/trapper/trapper_sack.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "very_rare",
+        "rarityLabel":  "very rare",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでVery Rare。日本語名未確認"
     },
     {
         "id":  "wax_brick",
@@ -10631,13 +10631,13 @@
         "sourceFileName":  "wax_brick.webp",
         "imagePath":  "/images/addons/trapper/wax_brick.webp",
         "proposedNameJa":  "TODO_日本語名確認",
-        "proposedRarity":  "TODO",
-        "rarityLabel":  "TODO",
-        "confidence":  "low",
+        "proposedRarity":  "uncommon",
+        "rarityLabel":  "uncommon",
+        "confidence":  "medium",
         "reviewStatus":  "pending",
         "finalNameJa":  "",
         "finalRarity":  "",
-        "notes":  ""
+        "notes":  "旧WikiでUncommon。日本語名未確認"
     },
     {
         "id":  "bloody_boa",

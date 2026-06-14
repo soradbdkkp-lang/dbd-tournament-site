@@ -747,26 +747,26 @@
 | white_hair_ribbon | white_hair_ribbon.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: white_hair_ribbon.webp |
 | yakuyoke_amulet | yakuyoke_amulet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: yakuyoke_amulet.webp |
 | zori | zori.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: zori.webp |
-| 4_coil_spring_kit | 4_coil_spring_kit.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: 4_coil_spring_kit.webp |
-| bear_oil | bear_oil.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bear_oil.webp |
-| bloody_coil | bloody_coil.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bloody_coil.webp |
-| coffee_grounds | coffee_grounds.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: coffee_grounds.webp |
-| fastening_tools | fastening_tools.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: fastening_tools.webp |
-| honing_stone | honing_stone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: honing_stone.webp |
-| iridescent_stone | iridescent_stone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_stone.webp |
-| lengthened_jaws | lengthened_jaws.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: lengthened_jaws.webp |
-| makeshift_wrap | makeshift_wrap.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: makeshift_wrap.webp |
-| oily_coil | oily_coil.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: oily_coil.webp |
-| padded_jaws | padded_jaws.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: padded_jaws.webp |
-| rusted_jaws | rusted_jaws.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rusted_jaws.webp |
-| secondary_coil | secondary_coil.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: secondary_coil.webp |
-| serrated_jaws | serrated_jaws.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: serrated_jaws.webp |
-| tar_bottle | tar_bottle.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tar_bottle.webp |
-| tension_spring | tension_spring.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tension_spring.webp |
-| trapper_bag | trapper_bag.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: trapper_bag.webp |
-| trapper_gloves | trapper_gloves.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: trapper_gloves.webp |
-| trapper_sack | trapper_sack.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: trapper_sack.webp |
-| wax_brick | wax_brick.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: wax_brick.webp |
+| 4_coil_spring_kit | 4_coil_spring_kit.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
+| bear_oil | bear_oil.webp | TODO_日本語名確認 | common | medium | pending |  |  | 旧WikiでCommon。日本語名未確認 |
+| bloody_coil | bloody_coil.webp | TODO_日本語名確認 | visceral | medium | pending |  |  | 旧WikiでUltra Rare。プロジェクト定義によりvisceral候補。日本語名未確認 |
+| coffee_grounds | coffee_grounds.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
+| fastening_tools | fastening_tools.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
+| honing_stone | honing_stone.webp | TODO_日本語名確認 | very_rare | medium | pending |  |  | 旧WikiでVery Rare。日本語名未確認 |
+| iridescent_stone | iridescent_stone.webp | TODO_日本語名確認 | visceral | medium | pending |  |  | 旧WikiでUltra Rare。プロジェクト定義によりvisceral候補。日本語名未確認 |
+| lengthened_jaws | lengthened_jaws.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
+| makeshift_wrap | makeshift_wrap.webp | TODO_日本語名確認 | common | medium | pending |  |  | 旧WikiでCommon。日本語名未確認 |
+| oily_coil | oily_coil.webp | TODO_日本語名確認 | very_rare | medium | pending |  |  | 旧WikiでVery Rare。日本語名未確認 |
+| padded_jaws | padded_jaws.webp | TODO_日本語名確認 | common | medium | pending |  |  | 旧WikiでCommon。日本語名未確認 |
+| rusted_jaws | rusted_jaws.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
+| secondary_coil | secondary_coil.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
+| serrated_jaws | serrated_jaws.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
+| tar_bottle | tar_bottle.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
+| tension_spring | tension_spring.webp | TODO_日本語名確認 | very_rare | medium | pending |  |  | 旧WikiでVery Rare。日本語名未確認 |
+| trapper_bag | trapper_bag.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
+| trapper_gloves | trapper_gloves.webp | TODO_日本語名確認 | common | medium | pending |  |  | 旧WikiでCommon。日本語名未確認 |
+| trapper_sack | trapper_sack.webp | TODO_日本語名確認 | very_rare | medium | pending |  |  | 旧WikiでVery Rare。日本語名未確認 |
+| wax_brick | wax_brick.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
 | bloody_boa | bloody_boa.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bloody_boa.webp |
 | caged_heart_shoes | caged_heart_shoes.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: caged_heart_shoes.webp |
 | cut_thru_u_single | cut_thru_u_single.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cut_thru_u_single.webp |
