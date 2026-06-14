@@ -827,26 +827,26 @@
 | slashed_backpack | slashed_backpack.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: slashed_backpack.webp |
 | vanishing_box | vanishing_box.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: vanishing_box.webp |
 | victims_map | victims_map.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: victims_map.webp |
-| all_seeing_blood | all_seeing_blood.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: all_seeing_blood.webp |
-| all_seeing_spirit | all_seeing_spirit.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: all_seeing_spirit.webp |
-| blind_warrior_mud | blind_warrior_mud.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blind_warrior_mud.webp |
-| blind_warrior_white | blind_warrior_white.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blind_warrior_white.webp |
-| blink_mud | blink_mud.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blink_mud.webp |
-| blink_white | blink_white.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blink_white.webp |
-| bone_clapper | bone_clapper.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bone_clapper.webp |
-| coxcombed_clapper | coxcombed_clapper.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: coxcombed_clapper.webp |
-| shadow_dance_blood | shadow_dance_blood.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: shadow_dance_blood.webp |
-| shadow_dance_white | shadow_dance_white.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: shadow_dance_white.webp |
-| swift_hunt_blood | swift_hunt_blood.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: swift_hunt_blood.webp |
-| swift_hunt_mud | swift_hunt_mud.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: swift_hunt_mud.webp |
-| swift_hunt_white | swift_hunt_white.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: swift_hunt_white.webp |
-| the_beast_soot | the_beast_soot.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: the_beast_soot.webp |
-| the_ghost_soot | the_ghost_soot.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: the_ghost_soot.webp |
-| the_hound_soot | the_hound_soot.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: the_hound_soot.webp |
-| the_serpent_soot | the_serpent_soot.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: the_serpent_soot.webp |
-| windstorm_blood | windstorm_blood.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: windstorm_blood.webp |
-| windstorm_mud | windstorm_mud.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: windstorm_mud.webp |
-| windstorm_white | windstorm_white.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: windstorm_white.webp |
+| all_seeing_blood | all_seeing_blood.webp | 「全能視」ー血 | very_rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| all_seeing_spirit | all_seeing_spirit.webp | 「全能視」ー魂 | visceral | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| blind_warrior_mud | blind_warrior_mud.webp | 「盲目の戦士」ー泥 | uncommon | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| blind_warrior_white | blind_warrior_white.webp | 「盲目の戦士」ー白 | rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| blink_mud | blink_mud.webp | 「ブリンク」ー泥 | uncommon | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| blink_white | blink_white.webp | 「ブリンク」ー白 | rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bone_clapper | bone_clapper.webp | 骨の鳴子 | uncommon | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| coxcombed_clapper | coxcombed_clapper.webp | 音無しの鳴子 | visceral | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| shadow_dance_blood | shadow_dance_blood.webp | 「影舞」ー血 | very_rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| shadow_dance_white | shadow_dance_white.webp | 「影舞」ー白 | rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| swift_hunt_blood | swift_hunt_blood.webp | 「俊足の狩人」ー血 | very_rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| swift_hunt_mud | swift_hunt_mud.webp | 「俊足の狩人」ー泥 | uncommon | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| swift_hunt_white | swift_hunt_white.webp | 「俊足の狩人」ー白 | rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| the_beast_soot | the_beast_soot.webp | 「暗獣」ー煤 | common | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| the_ghost_soot | the_ghost_soot.webp | 「亡霊」ー煤 | common | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| the_hound_soot | the_hound_soot.webp | 「猟犬」ー煤 | common | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| the_serpent_soot | the_serpent_soot.webp | 「蛇」ー煤 | common | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| windstorm_blood | windstorm_blood.webp | 「暴風」ー血 | very_rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| windstorm_mud | windstorm_mud.webp | 「暴風」ー泥 | uncommon | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| windstorm_white | windstorm_white.webp | 「暴風」ー白 | rare | medium | pending |  |  | atwiki等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | acidic_blood | acidic_blood.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: acidic_blood.webp |
 | ashs_innards | ashs_innards.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: ashs_innards.webp |
 | bretts_cap | bretts_cap.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bretts_cap.webp |
