@@ -547,26 +547,26 @@
 | unicorn_block | unicorn_block.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: unicorn_block.webp |
 | wool_shirt | wool_shirt.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: wool_shirt.webp |
 | z_block | z_block.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: z_block.webp |
-| anxious_gasp | anxious_gasp.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: anxious_gasp.webp |
-| ataxic_respiration | ataxic_respiration.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: ataxic_respiration.webp |
-| bad_man_keepsake | bad_man_keepsake.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bad_man_keepsake.webp |
-| bad_mans_last_breath | bad_mans_last_breath.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bad_mans_last_breath.webp |
-| campbells_last_breath | campbells_last_breath.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: campbells_last_breath.webp |
-| catatonic_boys_treasure | catatonic_boys_treasure.png | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: catatonic_boys_treasure.png |
-| dark_cincture | dark_cincture.png | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: dark_cincture.png |
-| dull_bracelet | dull_bracelet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: dull_bracelet.webp |
-| fragile_wheeze | fragile_wheeze.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: fragile_wheeze.webp |
-| heavy_panting | heavy_panting.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: heavy_panting.webp |
-| jenners_last_breath | jenners_last_breath.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: jenners_last_breath.webp |
-| kavanaghs_last_breath | kavanaghs_last_breath.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: kavanaghs_last_breath.webp |
-| matchbox | matchbox.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: matchbox.webp |
-| metal_spoon | metal_spoon.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: metal_spoon.webp |
-| plaid_flannel | plaid_flannel.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: plaid_flannel.webp |
-| pocket_watch | pocket_watch.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: pocket_watch.webp |
-| spasmodic_breath | spasmodic_breath.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: spasmodic_breath.webp |
-| torn_bookmark | torn_bookmark.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: torn_bookmark.webp |
-| white_nit_comb | white_nit_comb.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: white_nit_comb.webp |
-| wooden_horse | wooden_horse.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: wooden_horse.webp |
+| anxious_gasp | anxious_gasp.webp | 心配性の喘ぎ | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| ataxic_respiration | ataxic_respiration.webp | 失調性の呼気 | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bad_man_keepsake | bad_man_keepsake.webp | バッドマンの形見 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bad_mans_last_breath | bad_mans_last_breath.webp | 「バッドマン」の最期の一息 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| campbells_last_breath | campbells_last_breath.webp | キャンベルの最期の一息 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| catatonic_boys_treasure | catatonic_boys_treasure.png | 緊張病の男の子の宝物 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| dark_cincture | dark_cincture.png | 暗色の帯 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| dull_bracelet | dull_bracelet.webp | すり減ったブレスレット | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| fragile_wheeze | fragile_wheeze.webp | はかない息切れ | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| heavy_panting | heavy_panting.webp | 重く息切れする呼気 | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| jenners_last_breath | jenners_last_breath.webp | ジェナーの最期の一息 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| kavanaghs_last_breath | kavanaghs_last_breath.webp | カヴァナーの最期の一息 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| matchbox | matchbox.webp | マッチ箱 | visceral | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| metal_spoon | metal_spoon.webp | 金属のスプーン | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| plaid_flannel | plaid_flannel.webp | 縞模様の布切れ | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| pocket_watch | pocket_watch.webp | 懐中時計 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| spasmodic_breath | spasmodic_breath.webp | 痙攣する呼気 | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| torn_bookmark | torn_bookmark.webp | ちぎれた栞 | visceral | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| white_nit_comb | white_nit_comb.webp | 白い梳き櫛 | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| wooden_horse | wooden_horse.webp | 木馬 | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | akitos_crutch | akitos_crutch.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: akitos_crutch.webp |
 | blackened_toenail | blackened_toenail.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blackened_toenail.webp |
 | bloody_sash | bloody_sash.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bloody_sash.webp |
