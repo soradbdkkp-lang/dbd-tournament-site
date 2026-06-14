@@ -747,26 +747,26 @@
 | white_hair_ribbon | white_hair_ribbon.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: white_hair_ribbon.webp |
 | yakuyoke_amulet | yakuyoke_amulet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: yakuyoke_amulet.webp |
 | zori | zori.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: zori.webp |
-| 4_coil_spring_kit | 4_coil_spring_kit.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
-| bear_oil | bear_oil.webp | TODO_日本語名確認 | common | medium | pending |  |  | 旧WikiでCommon。日本語名未確認 |
-| bloody_coil | bloody_coil.webp | TODO_日本語名確認 | visceral | medium | pending |  |  | 旧WikiでUltra Rare。プロジェクト定義によりvisceral候補。日本語名未確認 |
-| coffee_grounds | coffee_grounds.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
-| fastening_tools | fastening_tools.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
-| honing_stone | honing_stone.webp | TODO_日本語名確認 | very_rare | medium | pending |  |  | 旧WikiでVery Rare。日本語名未確認 |
-| iridescent_stone | iridescent_stone.webp | TODO_日本語名確認 | visceral | medium | pending |  |  | 旧WikiでUltra Rare。プロジェクト定義によりvisceral候補。日本語名未確認 |
-| lengthened_jaws | lengthened_jaws.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
-| makeshift_wrap | makeshift_wrap.webp | TODO_日本語名確認 | common | medium | pending |  |  | 旧WikiでCommon。日本語名未確認 |
-| oily_coil | oily_coil.webp | TODO_日本語名確認 | very_rare | medium | pending |  |  | 旧WikiでVery Rare。日本語名未確認 |
-| padded_jaws | padded_jaws.webp | TODO_日本語名確認 | common | medium | pending |  |  | 旧WikiでCommon。日本語名未確認 |
-| rusted_jaws | rusted_jaws.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
-| secondary_coil | secondary_coil.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
-| serrated_jaws | serrated_jaws.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
-| tar_bottle | tar_bottle.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
-| tension_spring | tension_spring.webp | TODO_日本語名確認 | very_rare | medium | pending |  |  | 旧WikiでVery Rare。日本語名未確認 |
-| trapper_bag | trapper_bag.webp | TODO_日本語名確認 | rare | medium | pending |  |  | 旧WikiでRare。日本語名未確認 |
-| trapper_gloves | trapper_gloves.webp | TODO_日本語名確認 | common | medium | pending |  |  | 旧WikiでCommon。日本語名未確認 |
-| trapper_sack | trapper_sack.webp | TODO_日本語名確認 | very_rare | medium | pending |  |  | 旧WikiでVery Rare。日本語名未確認 |
-| wax_brick | wax_brick.webp | TODO_日本語名確認 | uncommon | medium | pending |  |  | 旧WikiでUncommon。日本語名未確認 |
+| 4_coil_spring_kit | 4_coil_spring_kit.webp | 4コイルのスプリングキット | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bear_oil | bear_oil.webp | 熊の油 | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bloody_coil | bloody_coil.webp | 血まみれのコイル | visceral | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| coffee_grounds | coffee_grounds.webp | コーヒーかす | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| fastening_tools | fastening_tools.webp | 締め具 | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| honing_stone | honing_stone.webp | 砥石 | very_rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_stone | iridescent_stone.webp | 玉虫色の石 | visceral | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち。「歯」「顎」に関する注意は本項目と無関係 |
+| lengthened_jaws | lengthened_jaws.webp | 長鋸歯 | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち。英語名からの推測訳ではなく資料上の掲載名 |
+| makeshift_wrap | makeshift_wrap.webp | 間に合わせのサポーター | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち。英語名からの直訳と異なるため要確認 |
+| oily_coil | oily_coil.webp | 油まみれのコイル | very_rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| padded_jaws | padded_jaws.webp | パッド付きの顎 | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち。資料では「顎」と掲載。「歯」へ変更しない |
+| rusted_jaws | rusted_jaws.webp | 錆びた歯 | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| secondary_coil | secondary_coil.webp | 補助コイル | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| serrated_jaws | serrated_jaws.webp | ギザギザした歯 | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| tar_bottle | tar_bottle.webp | タールのボトル | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| tension_spring | tension_spring.webp | 張り詰めたばね | very_rare | medium | pending |  |  | 神ゲー攻略・攻略大百科に掲載。非公式資料のみ。攻略大百科は2022年更新。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| trapper_bag | trapper_bag.webp | トラッパーのバッグ | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| trapper_gloves | trapper_gloves.webp | トラッパーのグローブ | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| trapper_sack | trapper_sack.webp | 罠用袋 | very_rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち。英語からの推測訳ではない。旧名・改名の有無は未確認 |
+| wax_brick | wax_brick.webp | ワックスのブロック | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | bloody_boa | bloody_boa.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bloody_boa.webp |
 | caged_heart_shoes | caged_heart_shoes.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: caged_heart_shoes.webp |
 | cut_thru_u_single | cut_thru_u_single.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cut_thru_u_single.webp |
