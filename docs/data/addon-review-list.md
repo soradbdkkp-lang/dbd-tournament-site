@@ -347,26 +347,26 @@
 | swamp_orchid_necklet | swamp_orchid_necklet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: swamp_orchid_necklet.webp |
 | waterlogged_shoe | waterlogged_shoe.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: waterlogged_shoe.webp |
 | willow_wreath | willow_wreath.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: willow_wreath.webp |
-| apex_muffler | apex_muffler.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: apex_muffler.webp |
-| begrimed_chains | begrimed_chains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: begrimed_chains.webp |
-| clogged_intake | clogged_intake.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: clogged_intake.webp |
-| counterweight | counterweight.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: counterweight.webp |
-| cracked_primer_bulb | cracked_primer_bulb.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cracked_primer_bulb.webp |
-| dads_boots | dads_boots.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: dads_boots.webp |
-| discarded_air_filter | discarded_air_filter.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: discarded_air_filter.webp |
-| filthy_slippers | filthy_slippers.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: filthy_slippers.webp |
-| greased_throttle | greased_throttle.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: greased_throttle.webp |
-| high_speed_idler_screw | high_speed_idler_screw.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: high_speed_idler_screw.webp |
-| iridescent_engravings | iridescent_engravings.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_engravings.webp |
-| lopro_chains | lopro_chains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: lopro_chains.webp |
-| low_kickback_chains | low_kickback_chains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: low_kickback_chains.webp |
-| off_brand_motor_oil | off_brand_motor_oil.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: off_brand_motor_oil.webp |
-| ragged_engine | ragged_engine.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: ragged_engine.webp |
-| spiked_boots | spiked_boots.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: spiked_boots.webp |
-| steel_toe_boots | steel_toe_boots.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: steel_toe_boots.webp |
-| the_thompsons_mix | the_thompsons_mix.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: the_thompsons_mix.webp |
-| thermal_casing | thermal_casing.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: thermal_casing.webp |
-| tuned_carburettor | tuned_carburettor.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tuned_carburettor.webp |
+| apex_muffler | apex_muffler.webp | 頂点のマフラー | very_rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| begrimed_chains | begrimed_chains.webp | 汚れたチェーン | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| clogged_intake | clogged_intake.webp | 吸気口のネジ | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| counterweight | counterweight.webp | つり合いおもり | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| cracked_primer_bulb | cracked_primer_bulb.webp | ひびの入ったプライマーバルブ | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| dads_boots | dads_boots.webp | 親父のブーツ | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| discarded_air_filter | discarded_air_filter.webp | 廃棄されたエアフィルター | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| filthy_slippers | filthy_slippers.webp | 汚れたスリッパ | very_rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| greased_throttle | greased_throttle.webp | 油を差したスロットル | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| high_speed_idler_screw | high_speed_idler_screw.webp | 高速アイドラネジ | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_engravings | iridescent_engravings.webp | 玉虫色の彫刻 | visceral | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| lopro_chains | lopro_chains.webp | 軽量チェーン | very_rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| low_kickback_chains | low_kickback_chains.webp | 低反動のチェーン | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| off_brand_motor_oil | off_brand_motor_oil.webp | ノーブランドのモーターオイル | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| ragged_engine | ragged_engine.webp | ボロボロのエンジン | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| spiked_boots | spiked_boots.webp | スパイク付きブーツ | very_rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| steel_toe_boots | steel_toe_boots.webp | 安全ブーツ | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| the_thompsons_mix | the_thompsons_mix.webp | トンプソンズ・ミックス | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| thermal_casing | thermal_casing.webp | 保温ケース | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| tuned_carburettor | tuned_carburettor.webp | 同調済みのキャブレター | visceral | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | barley_meal | barley_meal.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: barley_meal.webp |
 | belaying_pins | belaying_pins.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: belaying_pins.webp |
 | creatures_bone | creatures_bone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: creatures_bone.webp |
