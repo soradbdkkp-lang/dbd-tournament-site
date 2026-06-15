@@ -647,26 +647,26 @@
 | severed_toe | severed_toe.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: severed_toe.webp |
 | vile_emetic | vile_emetic.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: vile_emetic.webp |
 | worship_tablet | worship_tablet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: worship_tablet.webp |
-| blond_hair | blond_hair.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blond_hair.webp |
-| boyfriends_memo | boyfriends_memo.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: boyfriends_memo.webp |
-| dead_rabbit | dead_rabbit.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: dead_rabbit.webp |
-| fragrant_tuft_of_hair | fragrant_tuft_of_hair.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: fragrant_tuft_of_hair.webp |
-| glass_fragment | glass_fragment.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: glass_fragment.webp |
-| hair_bow | hair_bow.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: hair_bow.webp |
-| hair_brush | hair_brush.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: hair_brush.webp |
-| J_mayers_memorial | J_mayers_memorial.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: J_mayers_memorial.webp |
-| jewellery | jewellery.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: jewellery.webp |
-| jewellery_box | jewellery_box.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: jewellery_box.webp |
-| judiths_journal | judiths_journal.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: judiths_journal.webp |
-| judiths_tombstone | judiths_tombstone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: judiths_tombstone.webp |
-| lock_of_hair | lock_of_hair.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: lock_of_hair.webp |
-| memorial_flower | memorial_flower.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: memorial_flower.webp |
-| mirror_shard | mirror_shard.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: mirror_shard.webp |
-| reflective_fragment | reflective_fragment.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: reflective_fragment.webp |
-| scratched_mirror | scratched_mirror.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: scratched_mirror.webp |
-| tacky_earrings | tacky_earrings.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tacky_earrings.webp |
-| tombstone_piece | tombstone_piece.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tombstone_piece.webp |
-| vanity_mirror | vanity_mirror.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: vanity_mirror.webp |
+| blond_hair | blond_hair.webp | 金色の髪の毛 | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| boyfriends_memo | boyfriends_memo.webp | ボーイフレンドのメモ | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| dead_rabbit | dead_rabbit.webp | ウサギの死体 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| fragrant_tuft_of_hair | fragrant_tuft_of_hair.webp | いい香りがする髪の毛の束 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| glass_fragment | glass_fragment.webp | ガラスの破片 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| hair_bow | hair_bow.webp | リボンの髪留め | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| hair_brush | hair_brush.webp | ヘアブラシ | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| J_mayers_memorial | J_mayers_memorial.webp | J・マイヤーズの思い出 | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| jewellery | jewellery.webp | ジュエリー | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| jewellery_box | jewellery_box.webp | ジュエリーボックス | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| judiths_journal | judiths_journal.webp | ジュディスの日記 | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| judiths_tombstone | judiths_tombstone.webp | ジュディスの墓石 | visceral | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| lock_of_hair | lock_of_hair.webp | 髪の毛の房 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| memorial_flower | memorial_flower.webp | 思い出の花 | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| mirror_shard | mirror_shard.webp | 鏡のかけら | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| reflective_fragment | reflective_fragment.webp | キラキラする破片 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| scratched_mirror | scratched_mirror.webp | 傷ついた鏡 | visceral | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| tacky_earrings | tacky_earrings.webp | 安っぽいイヤリング | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| tombstone_piece | tombstone_piece.webp | 墓石の欠片 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| vanity_mirror | vanity_mirror.webp | 化粧鏡 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | android_arm | android_arm.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: android_arm.webp |
 | broken_security_key | broken_security_key.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: broken_security_key.webp |
 | cremated_remains | cremated_remains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cremated_remains.webp |
