@@ -254,6 +254,48 @@
             .join("");
     }
 
+    function renderKillerRules() {
+        const container = document.getElementById("killer-rule-sections");
+        const killerRules = window.frogCupVol1KillerRules;
+
+        if (!container || !killerRules) {
+            return;
+        }
+
+        container.innerHTML = killerRules.sections
+            .map((section) => {
+                const statusBadge = section.status
+                    ? `<span class="status-badge status-badge--pending">${escapeHtml(section.status)}</span>`
+                    : "";
+                const steps = section.steps
+                    ? `<ol class="selection-steps">${section.steps
+                        .map(
+                            (step, index) => `
+                                <li>
+                                    <span class="selection-steps__number">${index + 1}</span>
+                                    <span>${escapeHtml(step)}</span>
+                                </li>
+                            `
+                        )
+                        .join("")}</ol>`
+                    : "";
+
+                return `
+                    <article class="restriction-card" id="${escapeHtml(section.id)}">
+                        <header class="restriction-card__heading">
+                            <h3>${escapeHtml(section.title)}</h3>
+                            ${statusBadge}
+                        </header>
+                        <div class="restriction-card__body">
+                            ${renderParagraphs(section.body)}
+                            ${steps}
+                        </div>
+                    </article>
+                `;
+            })
+            .join("");
+    }
+
     function highlightTarget(targetId) {
         const target = document.getElementById(targetId);
 
@@ -339,6 +381,7 @@
     renderUpdates();
     renderTableOfContents();
     renderSections();
+    renderKillerRules();
     setupTargetLinks();
     setupTabs();
     handleInitialHash();

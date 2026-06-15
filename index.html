@@ -10,14 +10,27 @@
 
     <header class="site-header">
         <div class="site-header__inner">
-            <h1>そらふぇす</h1>
-            <p>Dead by Daylight コミュニティ大会ポータル</p>
+            <div class="site-brand">
+                <h1>そらふぇす</h1>
+                <p>Dead by Daylight コミュニティ大会ポータル</p>
+            </div>
+
+            <nav class="desktop-navigation" aria-label="サイトナビゲーション">
+                <a class="desktop-navigation__link is-current" href="index.html" aria-current="page">ホーム</a>
+                <a class="desktop-navigation__link" href="rules.html">大会ルール</a>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">お知らせ <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">大会について <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">大会スケジュール <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">今大会使用可能MAP <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">シミュレーター <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">お問い合わせ <small>Coming soon</small></span>
+            </nav>
         </div>
     </header>
 
     <main class="page-shell">
 
-        <section class="card card--featured">
+        <section class="card card--featured home-main-card">
             <div class="content-section content-section--status">
                 <h2>開催状況</h2>
 
@@ -63,21 +76,62 @@
                     大会ルール
                 </a>
 
-                <a class="button" aria-disabled="true" tabindex="-1">
-                    Coming soon...
-                </a>
+                <span class="button button--disabled" aria-disabled="true" tabindex="-1">
+                    <span>大会スケジュール</span>
+                    <small>Coming soon</small>
+                </span>
 
-                <a class="button" aria-disabled="true" tabindex="-1">
-                    Coming soon...
-                </a>
+                <span class="button button--disabled" aria-disabled="true" tabindex="-1">
+                    <span>今大会使用可能MAP</span>
+                    <small>Coming soon</small>
+                </span>
 
-                <a class="button" aria-disabled="true" tabindex="-1">
-                    Coming soon...
-                </a>
+                <span class="button button--disabled" aria-disabled="true" tabindex="-1">
+                    <span>シミュレーター</span>
+                    <small>Coming soon</small>
+                </span>
             </nav>
         </section>
 
     </main>
 
+    <div class="mobile-menu">
+        <div class="mobile-menu__backdrop" data-menu-close></div>
+        <section class="mobile-menu__panel" id="mobile-site-menu" aria-label="サイトメニュー" aria-hidden="true">
+            <header class="mobile-menu__heading">
+                <div>
+                    <p class="section-label">Navigation</p>
+                    <h2>メニュー</h2>
+                </div>
+                <button class="mobile-menu__close" type="button" data-menu-close>閉じる</button>
+            </header>
+            <nav class="mobile-menu__links" aria-label="スマートフォン用サイトナビゲーション">
+                <a class="mobile-menu__link is-current" href="index.html" aria-current="page">ホーム</a>
+                <a class="mobile-menu__link" href="rules.html">大会ルール</a>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>お知らせ</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>大会について</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>大会スケジュール</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>今大会使用可能MAP</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>シミュレーター</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>お問い合わせ</span><small>Coming soon</small></span>
+            </nav>
+        </section>
+
+        <button
+            class="mobile-menu__trigger"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-site-menu"
+        >
+            <span class="frog-menu-icon" aria-hidden="true">
+                <span class="frog-menu-icon__eye frog-menu-icon__eye--left"></span>
+                <span class="frog-menu-icon__eye frog-menu-icon__eye--right"></span>
+                <span class="frog-menu-icon__line"></span>
+            </span>
+            <span>メニュー</span>
+        </button>
+    </div>
+
+    <script src="site-menu.js"></script>
 </body>
 </html>
