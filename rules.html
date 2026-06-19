@@ -19,12 +19,10 @@
             <nav class="desktop-navigation" aria-label="サイトナビゲーション">
                 <a class="desktop-navigation__link" href="index.html">ホーム</a>
                 <a class="desktop-navigation__link is-current" href="rules.html" aria-current="page">大会ルール</a>
-                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">お知らせ <small>Coming soon</small></span>
-                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">大会について <small>Coming soon</small></span>
-                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">大会スケジュール <small>Coming soon</small></span>
-                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">今大会使用可能MAP <small>Coming soon</small></span>
-                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">シミュレーター <small>Coming soon</small></span>
-                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">お問い合わせ <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">MAPアドオンシミュレーター <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">構成提出ページ <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">チーム表対戦表 <small>Coming soon</small></span>
+                <span class="desktop-navigation__link is-disabled" aria-disabled="true" tabindex="-1">結果順位表 <small>Coming soon</small></span>
             </nav>
         </div>
     </header>
@@ -73,6 +71,9 @@
         </section>
 
         <nav class="rule-tabs" aria-label="ふろぐCup Vol.1 ルール種別">
+            <button class="rule-tab" type="button" data-panel="overview" aria-selected="false">
+                大会概要
+            </button>
             <button class="rule-tab is-active" type="button" data-panel="basic" aria-selected="true">
                 基本ルール
             </button>
@@ -82,7 +83,24 @@
             <button class="rule-tab" type="button" data-panel="killer" aria-selected="false">
                 キラー制限ルール
             </button>
+            <button class="rule-tab" type="button" data-panel="faq" aria-selected="false">
+                FAQ
+            </button>
+            <button class="rule-tab" type="button" data-panel="contact" aria-selected="false">
+                問い合わせ
+            </button>
         </nav>
+
+        <section class="rule-panel killer-rules-panel" id="panel-overview" data-rule-panel="overview" hidden>
+            <header class="restriction-panel-heading">
+                <div>
+                    <p class="section-label">Overview</p>
+                    <h2>大会概要</h2>
+                </div>
+                <span class="status-badge status-badge--provisional">公開</span>
+            </header>
+            <div class="killer-rule-sections" id="overview-rule-sections"></div>
+        </section>
 
         <section class="rule-panel" id="panel-basic" data-rule-panel="basic">
             <section class="updates-card" aria-labelledby="updates-heading">
@@ -107,12 +125,15 @@
             </div>
         </section>
 
-        <section class="rule-panel preparation-panel" id="panel-survivor" data-rule-panel="survivor" hidden>
-            <p class="section-label">Survivor rules</p>
-            <h2>サバイバー制限ルール</h2>
-            <p class="preparation-panel__lead">現在調整中</p>
-            <p>サバイバー側の使用制限、禁止事項、パーク制限などは現在調整中です。</p>
-            <p>確定後、このページで公開します。</p>
+        <section class="rule-panel killer-rules-panel" id="panel-survivor" data-rule-panel="survivor" hidden>
+            <header class="restriction-panel-heading">
+                <div>
+                    <p class="section-label">Survivor rules</p>
+                    <h2>サバイバー制限ルール</h2>
+                </div>
+                <span class="status-badge status-badge--provisional">公開</span>
+            </header>
+            <div class="killer-rule-sections" id="survivor-rule-sections"></div>
         </section>
 
         <section class="rule-panel killer-rules-panel" id="panel-killer" data-rule-panel="killer" hidden>
@@ -124,6 +145,28 @@
                 <span class="status-badge status-badge--pending">現在調整中を含む</span>
             </header>
             <div class="killer-rule-sections" id="killer-rule-sections"></div>
+        </section>
+
+        <section class="rule-panel killer-rules-panel" id="panel-faq" data-rule-panel="faq" hidden>
+            <header class="restriction-panel-heading">
+                <div>
+                    <p class="section-label">FAQ</p>
+                    <h2>FAQ</h2>
+                </div>
+                <span class="status-badge status-badge--provisional">公開</span>
+            </header>
+            <div class="killer-rule-sections faq-sections" id="faq-rule-sections"></div>
+        </section>
+
+        <section class="rule-panel killer-rules-panel" id="panel-contact" data-rule-panel="contact" hidden>
+            <header class="restriction-panel-heading">
+                <div>
+                    <p class="section-label">Contact</p>
+                    <h2>問い合わせ導線</h2>
+                </div>
+                <span class="status-badge status-badge--attention">調整中を含む</span>
+            </header>
+            <div class="killer-rule-sections" id="contact-rule-sections"></div>
         </section>
 
         <noscript>
@@ -155,12 +198,10 @@
             <nav class="mobile-menu__links" aria-label="スマートフォン用サイトナビゲーション">
                 <a class="mobile-menu__link" href="index.html">ホーム</a>
                 <a class="mobile-menu__link is-current" href="rules.html" aria-current="page">大会ルール</a>
-                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>お知らせ</span><small>Coming soon</small></span>
-                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>大会について</span><small>Coming soon</small></span>
-                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>大会スケジュール</span><small>Coming soon</small></span>
-                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>今大会使用可能MAP</span><small>Coming soon</small></span>
-                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>シミュレーター</span><small>Coming soon</small></span>
-                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>お問い合わせ</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>MAPアドオンシミュレーター</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>構成提出ページ</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>チーム表対戦表</span><small>Coming soon</small></span>
+                <span class="mobile-menu__link is-disabled" aria-disabled="true" tabindex="-1"><span>結果順位表</span><small>Coming soon</small></span>
             </nav>
         </section>
 

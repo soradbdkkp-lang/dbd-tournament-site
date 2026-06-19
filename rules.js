@@ -135,10 +135,12 @@
             .map((section) => {
                 const hasRecentUpdate =
                     recentTargetIds.has(section.id) ||
-                    section.items.some((item) => recentTargetIds.has(item.id));
+                    (section.items || []).some((item) => recentTargetIds.has(item.id));
                 let status = "";
 
-                if (section.status === "pending") {
+                if (section.status === "attention") {
+                    status = '<span class="toc-status toc-status--attention">調整中</span>';
+                } else if (section.status === "pending") {
                     status = '<span class="toc-status toc-status--pending">未確定</span>';
                 } else if (hasRecentUpdate) {
                     status = '<span class="toc-status toc-status--updated">更新あり</span>';
@@ -192,12 +194,16 @@
         const recentBadge = isRecent
             ? '<span class="status-badge status-badge--updated">更新あり</span>'
             : "";
+        const attentionBadge = item.status === "attention"
+            ? '<span class="status-badge status-badge--attention">調整中</span>'
+            : "";
+        const badge = attentionBadge || recentBadge;
 
         return `
             <section class="rule-item${recentClass}" id="${escapeHtml(item.id)}">
                 <div class="rule-item__heading">
                     <h3>${escapeHtml(item.title)}</h3>
-                    ${recentBadge}
+                    ${badge}
                 </div>
                 ${renderParagraphs(item.body)}
                 ${renderList(item.list)}
@@ -216,17 +222,20 @@
             .map((section) => {
                 const hasRecentUpdate =
                     recentTargetIds.has(section.id) ||
-                    section.items.some((item) => recentTargetIds.has(item.id));
+                    (section.items || []).some((item) => recentTargetIds.has(item.id));
                 const sectionClasses = [
                     "chapter-card",
                     hasRecentUpdate ? "chapter-card--updated" : "",
-                    section.status === "pending" ? "chapter-card--pending" : ""
+                    section.status === "pending" ? "chapter-card--pending" : "",
+                    section.status === "attention" ? "chapter-card--attention" : ""
                 ]
                     .filter(Boolean)
                     .join(" ");
                 let statusBadge = "";
 
-                if (section.status === "pending") {
+                if (section.status === "attention") {
+                    statusBadge = '<span class="status-badge status-badge--attention">調整中</span>';
+                } else if (section.status === "pending") {
                     statusBadge = '<span class="status-badge status-badge--pending">未確定</span>';
                 } else if (hasRecentUpdate) {
                     statusBadge = '<span class="status-badge status-badge--updated">更新あり</span>';
@@ -265,7 +274,7 @@
         container.innerHTML = killerRules.sections
             .map((section) => {
                 const statusBadge = section.status
-                    ? `<span class="status-badge status-badge--pending">${escapeHtml(section.status)}</span>`
+                    ? `<span class="status-badge status-badge--${section.status === "attention" ? "attention" : "pending"}">${escapeHtml(section.statusLabel || section.status)}</span>`
                     : "";
                 const steps = section.steps
                     ? `<ol class="selection-steps">${section.steps
@@ -289,6 +298,60 @@
                         <div class="restriction-card__body">
                             ${renderParagraphs(section.body)}
                             ${steps}
+                        </div>
+                    </article>
+                `;
+            })
+            .join("");
+    }
+
+    function renderContentSections(containerId, contentData) {
+        const container = document.getElementById(containerId);
+
+        if (!container || !contentData) {
+            return;
+        }
+
+        container.innerHTML = contentData.sections
+            .map((section) => {
+                const statusBadge = section.status
+                    ? `<span class="status-badge status-badge--${section.status === "attention" ? "attention" : "pending"}">${escapeHtml(section.statusLabel || section.status)}</span>`
+                    : "";
+                const items = (section.items || [])
+                    .map((item) => {
+                        const itemStatus = item.status
+                            ? `<span class="status-badge status-badge--${item.status === "attention" ? "attention" : "pending"}">${escapeHtml(item.statusLabel || item.status)}</span>`
+                            : "";
+
+                        return `
+                            <section class="rule-item${item.status === "attention" ? " rule-item--attention" : ""}" id="${escapeHtml(item.id)}">
+                                <div class="rule-item__heading">
+                                    <h3>${escapeHtml(item.title)}</h3>
+                                    ${itemStatus}
+                                </div>
+                                ${renderParagraphs(item.body)}
+                                ${renderList(item.list)}
+                                ${renderList(item.orderedList, true)}
+                                ${renderGroups(item.groups)}
+                                ${item.note ? `<p class="rule-note${item.status === "attention" ? " rule-note--attention" : ""}">${escapeHtml(item.note)}</p>` : ""}
+                            </section>
+                        `;
+                    })
+                    .join("");
+
+                return `
+                    <article class="restriction-card${section.status === "attention" ? " restriction-card--attention" : ""}" id="${escapeHtml(section.id)}">
+                        <header class="restriction-card__heading">
+                            <h3>${escapeHtml(section.title)}</h3>
+                            ${statusBadge}
+                        </header>
+                        <div class="restriction-card__body">
+                            ${renderParagraphs(section.body)}
+                            ${renderList(section.list)}
+                            ${renderList(section.orderedList, true)}
+                            ${renderGroups(section.groups)}
+                            ${items}
+                            ${section.note ? `<p class="rule-note${section.status === "attention" ? " rule-note--attention" : ""}">${escapeHtml(section.note)}</p>` : ""}
                         </div>
                     </article>
                 `;
@@ -382,6 +445,10 @@
     renderTableOfContents();
     renderSections();
     renderKillerRules();
+    renderContentSections("overview-rule-sections", window.frogCupVol1Overview);
+    renderContentSections("survivor-rule-sections", window.frogCupVol1SurvivorRules);
+    renderContentSections("faq-rule-sections", window.frogCupVol1Faq);
+    renderContentSections("contact-rule-sections", window.frogCupVol1Contact);
     setupTargetLinks();
     setupTabs();
     handleInitialHash();
