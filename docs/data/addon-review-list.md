@@ -527,26 +527,26 @@
 | tyrant_gore | tyrant_gore.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tyrant_gore.webp |
 | visitor_wristband | visitor_wristband.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: visitor_wristband.webp |
 | zombie_heart | zombie_heart.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: zombie_heart.webp |
-| black_box | black_box.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: black_box.webp |
-| blue_dress | blue_dress.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blue_dress.webp |
-| cat_block | cat_block.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cat_block.webp |
-| class_photo | class_photo.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: class_photo.webp |
-| garden_rake | garden_rake.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: garden_rake.webp |
-| green_dress | green_dress.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: green_dress.webp |
-| jump_rope | jump_rope.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: jump_rope.webp |
-| kids_drawing | kids_drawing.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: kids_drawing.webp |
-| nancys_masterpiece | nancys_masterpiece.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: nancys_masterpiece.webp |
-| nancys_sketch | nancys_sketch.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: nancys_sketch.webp |
-| outdoor_rope | outdoor_rope.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: outdoor_rope.webp |
-| paint_thinner | paint_thinner.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: paint_thinner.webp |
-| pill_bottle | pill_bottle.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: pill_bottle.webp |
-| prototype_claws | prototype_claws.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: prototype_claws.webp |
-| red_paint_brush | red_paint_brush.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: red_paint_brush.webp |
-| sheep_block | sheep_block.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: sheep_block.webp |
-| swing_chains | swing_chains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: swing_chains.webp |
-| unicorn_block | unicorn_block.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: unicorn_block.webp |
-| wool_shirt | wool_shirt.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: wool_shirt.webp |
-| z_block | z_block.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: z_block.webp |
+| black_box | black_box.webp | 黒い箱 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| blue_dress | blue_dress.webp | 青いドレス | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| cat_block | cat_block.webp | 猫のブロック | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| class_photo | class_photo.webp | クラス写真 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| garden_rake | garden_rake.webp | 庭用熊手 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| green_dress | green_dress.webp | 緑のドレス | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| jump_rope | jump_rope.webp | 縄跳び用の縄 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| kids_drawing | kids_drawing.webp | 子供の絵 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| nancys_masterpiece | nancys_masterpiece.webp | ナンシーの最高傑作 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| nancys_sketch | nancys_sketch.webp | ナンシーのスケッチ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| outdoor_rope | outdoor_rope.webp | 屋外用ロープ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| paint_thinner | paint_thinner.webp | 塗料用シンナー | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| pill_bottle | pill_bottle.webp | 錠剤の容器 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| prototype_claws | prototype_claws.webp | 爪の試作品 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| red_paint_brush | red_paint_brush.webp | 赤いペイントブラシ | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| sheep_block | sheep_block.webp | 羊のブロック | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| swing_chains | swing_chains.webp | スイングチェーン | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| unicorn_block | unicorn_block.webp | ユニコーンのブロック | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| wool_shirt | wool_shirt.webp | ウールのシャツ | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| z_block | z_block.webp | Zのブロック | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | anxious_gasp | anxious_gasp.webp | 心配性の喘ぎ | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | ataxic_respiration | ataxic_respiration.webp | 失調性の呼気 | rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | bad_man_keepsake | bad_man_keepsake.webp | バッドマンの形見 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
