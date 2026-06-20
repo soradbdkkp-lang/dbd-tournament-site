@@ -67,26 +67,26 @@
 | summoning_stone | summoning_stone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: summoning_stone.webp |
 | umbra_salts | umbra_salts.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: umbra_salts.webp |
 | vigos_journal | vigos_journal.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: vigos_journal.webp |
-| award_winning_chilli | award_winning_chilli.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: award_winning_chilli.webp |
-| begrimed_chains | begrimed_chains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: begrimed_chains.webp |
-| carburettor_tuning_guide | carburettor_tuning_guide.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: carburettor_tuning_guide.webp |
-| chainsaw_file | chainsaw_file.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: chainsaw_file.webp |
-| chilli | chilli.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: chilli.webp |
-| depth_gauge_rake | depth_gauge_rake.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: depth_gauge_rake.webp |
-| grisly_chains | grisly_chains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: grisly_chains.webp |
-| homemade_muffler | homemade_muffler.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: homemade_muffler.webp |
-| iridescent_flesh | iridescent_flesh.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_flesh.webp |
-| knife_scratches | knife_scratches.png | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: knife_scratches.png |
-| light_chassis | light_chassis.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: light_chassis.webp |
-| long_guide_bar | long_guide_bar.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: long_guide_bar.webp |
-| primer_buld | primer_buld.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: primer_buld.webp |
-| rusted_chains | rusted_chains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rusted_chains.webp |
-| shop_lubricant | shop_lubricant.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: shop_lubricant.webp |
-| spark_plug | spark_plug.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: spark_plug.webp |
-| speed_limiter | speed_limiter.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: speed_limiter.webp |
-| the_beasts_marks | the_beasts_marks.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: the_beasts_marks.webp |
-| the_grease | the_grease.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: the_grease.webp |
-| vegetable_oil | vegetable_oil.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: vegetable_oil.webp |
+| award_winning_chilli | award_winning_chilli.webp | 絶品のチリ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| begrimed_chains | begrimed_chains.webp | 汚れたチェーン | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| carburettor_tuning_guide | carburettor_tuning_guide.webp | キャブレター調整ガイド | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| chainsaw_file | chainsaw_file.webp | チェーンソー用ヤスリ | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| chilli | chilli.webp | チリ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| depth_gauge_rake | depth_gauge_rake.webp | デプスゲージ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| grisly_chains | grisly_chains.webp | 残虐なチェーン | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| homemade_muffler | homemade_muffler.webp | 自家製マフラー | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_flesh | iridescent_flesh.webp | 玉虫色の刃 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| knife_scratches | knife_scratches.png | ナイフの傷 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| light_chassis | light_chassis.webp | 軽量シャーシ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| long_guide_bar | long_guide_bar.webp | 長いガイドバー | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| primer_buld | primer_buld.webp | プライマー・バルブ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rusted_chains | rusted_chains.webp | 錆びた鎖 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| shop_lubricant | shop_lubricant.webp | 市販の潤滑剤 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| spark_plug | spark_plug.webp | 点火プラグ | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| speed_limiter | speed_limiter.webp | スピードリミッター | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| the_beasts_marks | the_beasts_marks.webp | 暗獣の刻印 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| the_grease | the_grease.webp | グリース | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| vegetable_oil | vegetable_oil.webp | 植物油 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | bent_nail | bent_nail.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bent_nail.webp |
 | burning_candle | burning_candle.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: burning_candle.webp |
 | chatterers_tooth | chatterers_tooth.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: chatterers_tooth.webp |
