@@ -187,26 +187,26 @@
 | vermilion_webcap | vermilion_webcap.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: vermilion_webcap.webp |
 | violet_waxcap | violet_waxcap.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: violet_waxcap.webp |
 | viscous_webbing | viscous_webbing.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: viscous_webbing.webp |
-| calm_class1 | calm_class1.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: calm_class1.webp |
-| calm_class2 | calm_class2.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: calm_class2.webp |
-| clam_carters_notes | clam_carters_notes.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: clam_carters_notes.webp |
-| discipline_carters_notes | discipline_carters_notes.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: discipline_carters_notes.webp |
-| discipline_class2 | discipline_class2.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: discipline_class2.webp |
-| discipline_class3 | discipline_class3.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: discipline_class3.webp |
-| high_stimulus_electrode | high_stimulus_electrode.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: high_stimulus_electrode.webp |
-| interview_tape | interview_tape.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: interview_tape.webp |
-| iridescent_king | iridescent_king.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_king.webp |
-| iridescent_queen | iridescent_queen.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_queen.webp |
-| maple_knight | maple_knight.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: maple_knight.webp |
-| mouldy_electrode | mouldy_electrode.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: mouldy_electrode.webp |
-| order_carters_notes | order_carters_notes.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: order_carters_notes.webp |
-| order_class1 | order_class1.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: order_class1.webp |
-| order_class2 | order_class2.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: order_class2.webp |
-| poloshed_electrode | poloshed_electrode.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: poloshed_electrode.webp |
-| restraint_carters_notes | restraint_carters_notes.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: restraint_carters_notes.webp |
-| restraint_class2 | restraint_class2.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: restraint_class2.webp |
-| restraint_class3 | restraint_class3.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: restraint_class3.webp |
-| scrapped_tape | scrapped_tape.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: scrapped_tape.webp |
+| calm_class1 | calm_class1.webp | 「鎮静」- クラスI | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| calm_class2 | calm_class2.webp | 「鎮静」- クラスII | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| clam_carters_notes | clam_carters_notes.webp | 「鎮静」- カーターのメモ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| discipline_carters_notes | discipline_carters_notes.webp | 「懲罰」- カーターのメモ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| discipline_class2 | discipline_class2.webp | 「懲罰」- クラスII | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| discipline_class3 | discipline_class3.webp | 「懲罰」- クラスIII | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| high_stimulus_electrode | high_stimulus_electrode.webp | 高刺激電極 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| interview_tape | interview_tape.webp | インタビューテープ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_king | iridescent_king.webp | 玉虫色のキング | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_queen | iridescent_queen.webp | 玉虫色のクイーン | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| maple_knight | maple_knight.webp | 楓製のナイト | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| mouldy_electrode | mouldy_electrode.webp | カビが生えた電極 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| order_carters_notes | order_carters_notes.webp | 「秩序」- カーターのメモ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| order_class1 | order_class1.webp | 「秩序」- クラスI | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| order_class2 | order_class2.webp | 「秩序」- クラスII | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| poloshed_electrode | poloshed_electrode.webp | 磨かれた電極 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| restraint_carters_notes | restraint_carters_notes.webp | 「抑制」- カーターのメモ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| restraint_class2 | restraint_class2.webp | 「抑制」- クラスII | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| restraint_class3 | restraint_class3.webp | 「抑制」- クラスIII | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| scrapped_tape | scrapped_tape.webp | 壊れたテープ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | air_freshener | air_freshener.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: air_freshener.webp |
 | boat_key | boat_key.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: boat_key.webp |
 | broken_doll | broken_doll.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: broken_doll.webp |
