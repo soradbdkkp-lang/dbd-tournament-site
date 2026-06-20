@@ -387,26 +387,26 @@
 | unfinished_map | unfinished_map.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: unfinished_map.webp |
 | waterskin | waterskin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: waterskin.webp |
 | young_coconut | young_coconut.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: young_coconut.webp |
-| amanita_toxin | amanita_toxin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: amanita_toxin.webp |
-| bandaged_haft | bandaged_haft.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bandaged_haft.webp |
-| begrimed_head | begrimed_head.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: begrimed_head.webp |
-| coarse_stone | coarse_stone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: coarse_stone.webp |
-| deerskin_gloves | deerskin_gloves.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: deerskin_gloves.webp |
-| flower_babushka | flower_babushka.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: flower_babushka.webp |
-| glowing_concoction | glowing_concoction.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: glowing_concoction.webp |
-| infantry_belt | infantry_belt.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: infantry_belt.webp |
-| iridescent_head | iridescent_head.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_head.webp |
-| leather_loop | leather_loop.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: leather_loop.webp |
-| manna_grass_braid | manna_grass_braid.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: manna_grass_braid.webp |
-| oak_haft | oak_haft.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: oak_haft.webp |
-| rose_root | rose_root.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rose_root.webp |
-| rusty_head | rusty_head.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rusty_head.webp |
-| shiny_pin | shiny_pin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: shiny_pin.webp |
-| soldiers_puttee | soldiers_puttee.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: soldiers_puttee.webp |
-| venomous_concoction | venomous_concoction.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: venomous_concoction.webp |
-| weighted_head | weighted_head.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: weighted_head.webp |
-| wooden_fox | wooden_fox.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: wooden_fox.webp |
-| yellowed_cloth | yellowed_cloth.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: yellowed_cloth.webp |
+| amanita_toxin | amanita_toxin.webp | テングダケの毒 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bandaged_haft | bandaged_haft.webp | 包帯が巻かれた柄 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| begrimed_head | begrimed_head.webp | 汚れた斧頭 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| coarse_stone | coarse_stone.webp | ザラザラした石 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| deerskin_gloves | deerskin_gloves.webp | 鹿革の手袋 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| flower_babushka | flower_babushka.webp | 花のバブーシュカ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| glowing_concoction | glowing_concoction.webp | 鮮やかな調合薬 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| infantry_belt | infantry_belt.webp | 歩兵のベルト | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_head | iridescent_head.webp | 玉虫色の刃 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| leather_loop | leather_loop.webp | 革の輪 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| manna_grass_braid | manna_grass_braid.webp | ドジョウツナギの編み紐 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| oak_haft | oak_haft.webp | 樫製の柄 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rose_root | rose_root.webp | イワベンケイ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rusty_head | rusty_head.webp | 錆びた刃 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| shiny_pin | shiny_pin.webp | 光り輝くブローチ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| soldiers_puttee | soldiers_puttee.webp | 兵士の巻きゲートル | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| venomous_concoction | venomous_concoction.webp | 毒性の調合物 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| weighted_head | weighted_head.webp | 重りの付いた刃 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| wooden_fox | wooden_fox.webp | 木製の狐 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| yellowed_cloth | yellowed_cloth.webp | 黄ばんだ布 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | battle_axe_head | battle_axe_head.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: battle_axe_head.webp |
 | blacksmiths_hammer | blacksmiths_hammer.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blacksmiths_hammer.webp |
 | broken_hilt | broken_hilt.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: broken_hilt.webp |
