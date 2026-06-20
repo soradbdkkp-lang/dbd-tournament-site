@@ -327,26 +327,26 @@
 | strobing_light | strobing_light.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: strobing_light.webp |
 | tiny_scalpel | tiny_scalpel.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tiny_scalpel.webp |
 | yardstick | yardstick.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: yardstick.webp |
-| bloodied_mud | bloodied_mud.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bloodied_mud.webp |
-| bloodied_water | bloodied_water.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bloodied_water.webp |
-| bog_water | bog_water.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bog_water.webp |
-| cracked_turtle_egg | cracked_turtle_egg.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cracked_turtle_egg.webp |
-| cypress_necklet | cypress_necklet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cypress_necklet.webp |
-| dead_fly_mud | dead_fly_mud.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: dead_fly_mud.webp |
-| disfigured_ear | disfigured_ear.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: disfigured_ear.webp |
-| dragonfly_wings | dragonfly_wings.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: dragonfly_wings.webp |
-| dried_cicada | dried_cicada.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: dried_cicada.webp |
-| grandmas_heart | grandmas_heart.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: grandmas_heart.webp |
-| half_eggshell | half_eggshell.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: half_eggshell.webp |
-| mint_rag | mint_rag.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: mint_rag.webp |
-| powdered_eggshell | powdered_eggshell.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: powdered_eggshell.webp |
-| pussy_willow_catkins | pussy_willow_catkins.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: pussy_willow_catkins.webp |
-| rope_necklet | rope_necklet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rope_necklet.webp |
-| rusty_shackles | rusty_shackles.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rusty_shackles.webp |
-| scarred_hand | scarred_hand.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: scarred_hand.webp |
-| swamp_orchid_necklet | swamp_orchid_necklet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: swamp_orchid_necklet.webp |
-| waterlogged_shoe | waterlogged_shoe.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: waterlogged_shoe.webp |
-| willow_wreath | willow_wreath.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: willow_wreath.webp |
+| bloodied_mud | bloodied_mud.webp | 血が混じった泥 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bloodied_water | bloodied_water.webp | 血染めの水 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bog_water | bog_water.webp | 沼の水 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| cracked_turtle_egg | cracked_turtle_egg.webp | 割れたカメの卵 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| cypress_necklet | cypress_necklet.webp | 糸杉の首飾り | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| dead_fly_mud | dead_fly_mud.webp | ハエの死骸が入った泥 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| disfigured_ear | disfigured_ear.webp | 変形した耳 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| dragonfly_wings | dragonfly_wings.webp | トンボの羽 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| dried_cicada | dried_cicada.webp | 乾燥したセミ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| grandmas_heart | grandmas_heart.webp | おばあちゃんの心臓 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| half_eggshell | half_eggshell.webp | 半分の卵の殻 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| mint_rag | mint_rag.webp | ミント柄のぼろきれ | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| powdered_eggshell | powdered_eggshell.webp | 粉々になった卵の殻 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| pussy_willow_catkins | pussy_willow_catkins.webp | ネコヤナギの花々 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rope_necklet | rope_necklet.webp | ロープのネックレス | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rusty_shackles | rusty_shackles.webp | 錆びた枷 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| scarred_hand | scarred_hand.webp | 切り取られた手 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| swamp_orchid_necklet | swamp_orchid_necklet.webp | 湿地蘭のネックレス | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| waterlogged_shoe | waterlogged_shoe.webp | ずぶ濡れの靴 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| willow_wreath | willow_wreath.webp | 柳のリース | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | apex_muffler | apex_muffler.webp | 頂点のマフラー | very_rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | begrimed_chains | begrimed_chains.webp | 汚れたチェーン | rare | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | clogged_intake | clogged_intake.webp | 吸気口のネジ | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
