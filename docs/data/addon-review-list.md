@@ -7,26 +7,26 @@
 
 | id | ファイル名 | 日本語名候補 | レアリティ候補 | confidence | reviewStatus | finalNameJa | finalRarity | notes |
 |---|---|---|---|---|---|---|---|---|
-| access_panel | access_panel.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: access_panel.webp |
-| bonnies_guitar_steings | bonnies_guitar_steings.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bonnies_guitar_steings.webp |
-| celebrate_poster | celebrate_poster.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: celebrate_poster.webp |
-| chicas_bib | chicas_bib.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: chicas_bib.webp |
-| endo_cpu | endo_cpu.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: endo_cpu.webp |
-| faz_coin | faz_coin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: faz_coin.webp |
-| foxys_hook | foxys_hook.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: foxys_hook.webp |
-| freddys_hat | freddys_hat.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: freddys_hat.webp |
-| greasy_paper_plate | greasy_paper_plate.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: greasy_paper_plate.webp |
-| help_wanted_ad | help_wanted_ad.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: help_wanted_ad.webp |
-| iridescent_remnant | iridescent_remnant.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_remnant.webp |
-| loot_bag | loot_bag.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: loot_bag.webp |
-| office_phone | office_phone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: office_phone.webp |
-| party_hat | party_hat.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: party_hat.webp |
-| purple_guy_drawing | purple_guy_drawing.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: purple_guy_drawing.webp |
-| restaurant_menu | restaurant_menu.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: restaurant_menu.webp |
-| ripped_curtain | ripped_curtain.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: ripped_curtain.webp |
-| rotten_pizza | rotten_pizza.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rotten_pizza.webp |
-| security_guards_badge | security_guards_badge.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: security_guards_badge.webp |
-| streamers | streamers.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: streamers.webp |
+| access_panel | access_panel.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bonnies_guitar_steings | bonnies_guitar_steings.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| celebrate_poster | celebrate_poster.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| chicas_bib | chicas_bib.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| endo_cpu | endo_cpu.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| faz_coin | faz_coin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| foxys_hook | foxys_hook.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| freddys_hat | freddys_hat.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| greasy_paper_plate | greasy_paper_plate.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| help_wanted_ad | help_wanted_ad.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_remnant | iridescent_remnant.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| loot_bag | loot_bag.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| office_phone | office_phone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| party_hat | party_hat.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| purple_guy_drawing | purple_guy_drawing.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| restaurant_menu | restaurant_menu.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| ripped_curtain | ripped_curtain.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rotten_pizza | rotten_pizza.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| security_guards_badge | security_guards_badge.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| streamers | streamers.webp | TODO_日本語名確認 | TODO | low | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | automatic_drawing | automatic_drawing.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: automatic_drawing.webp |
 | charcoal_stick | charcoal_stick.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: charcoal_stick.webp |
 | choclo_corn | choclo_corn.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: choclo_corn.webp |
