@@ -667,26 +667,26 @@
 | tacky_earrings | tacky_earrings.webp | 安っぽいイヤリング | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | tombstone_piece | tombstone_piece.webp | 墓石の欠片 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | vanity_mirror | vanity_mirror.webp | 化粧鏡 | very_rare | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
-| android_arm | android_arm.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: android_arm.webp |
-| broken_security_key | broken_security_key.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: broken_security_key.webp |
-| cremated_remains | cremated_remains.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cremated_remains.webp |
-| crew_manifest | crew_manifest.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: crew_manifest.webp |
-| cryo_gel | cryo_gel.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cryo_gel.webp |
-| denied_requisition_form | denied_requisition_form.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: denied_requisition_form.webp |
-| diagnostic_tool_construction | diagnostic_tool_construction.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: diagnostic_tool_construction.webp |
-| diagnostic_tool_repair | diagnostic_tool_repair.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: diagnostic_tool_repair.webp |
-| foreign_plant_fibres | foreign_plant_fibres.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: foreign_plant_fibres.webp |
-| heavy_water | heavy_water.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: heavy_water.webp |
-| hologram_generator | hologram_generator.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: hologram_generator.webp |
-| hyperawareness_spray | hyperawareness_spray.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: hyperawareness_spray.webp |
-| iridescent_crystal_shard | iridescent_crystal_shard.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_crystal_shard.webp |
-| kids_ball_glove | kids_ball_glove.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: kids_ball_glove.webp |
-| live_wires | live_wires.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: live_wires.webp |
-| nanomachine_gel | nanomachine_gel.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: nanomachine_gel.webp |
-| nutritional_slurry | nutritional_slurry.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: nutritional_slurry.webp |
-| soma_family_photo | soma_family_photo.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: soma_family_photo.webp |
-| spent_oxygen_tank | spent_oxygen_tank.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: spent_oxygen_tank.webp |
-| ultrasonic_sensor | ultrasonic_sensor.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: ultrasonic_sensor.webp |
+| android_arm | android_arm.webp | アンドロイドの腕 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| broken_security_key | broken_security_key.webp | 壊れたセキュリティキー | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| cremated_remains | cremated_remains.webp | 火葬された遺体 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| crew_manifest | crew_manifest.webp | 乗組員名簿 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| cryo_gel | cryo_gel.webp | 低温ジェル | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| denied_requisition_form | denied_requisition_form.webp | 却下された物資請求書 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| diagnostic_tool_construction | diagnostic_tool_construction.webp | 診断ツール（建設） | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| diagnostic_tool_repair | diagnostic_tool_repair.webp | 診断ツール（修理） | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| foreign_plant_fibres | foreign_plant_fibres.webp | 異星植物の繊維 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| heavy_water | heavy_water.webp | 重水 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| hologram_generator | hologram_generator.webp | ホログラム発生装置 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| hyperawareness_spray | hyperawareness_spray.webp | 過覚醒スプレー | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_crystal_shard | iridescent_crystal_shard.webp | 玉虫色のクリスタル片 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| kids_ball_glove | kids_ball_glove.webp | 子供用の野球グローブ | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| live_wires | live_wires.webp | 通電ワイヤー | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| nanomachine_gel | nanomachine_gel.webp | ナノマシンジェル | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| nutritional_slurry | nutritional_slurry.webp | 栄養スラリー | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| soma_family_photo | soma_family_photo.webp | ソーマ家の写真 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| spent_oxygen_tank | spent_oxygen_tank.webp | 空の酸素タンク | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| ultrasonic_sensor | ultrasonic_sensor.webp | 超音波センサー | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | adaptive_lighting | adaptive_lighting.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: adaptive_lighting.webp |
 | adi_valente_issue1 | adi_valente_issue1.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: adi_valente_issue1.webp |
 | advanced_movement_prediction | advanced_movement_prediction.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: advanced_movement_prediction.webp |
