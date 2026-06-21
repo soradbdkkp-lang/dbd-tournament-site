@@ -447,26 +447,26 @@
 | sticky_lozenge | sticky_lozenge.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: sticky_lozenge.webp |
 | theatre_binoculars | theatre_binoculars.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: theatre_binoculars.webp |
 | wriggling_parasite | wriggling_parasite.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: wriggling_parasite.webp |
-| bffs | bffs.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bffs.webp |
-| defaced_smiley_pin | defaced_smiley_pin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: defaced_smiley_pin.webp |
-| etched_ruler | etched_ruler.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: etched_ruler.webp |
-| filthy_blade | filthy_blade.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: filthy_blade.webp |
-| franks_mix_tape | franks_mix_tape.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: franks_mix_tape.webp |
-| friendship_bracelet | friendship_bracelet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: friendship_bracelet.webp |
-| fuming_mix_tape | fuming_mix_tape.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: fuming_mix_tape.webp |
-| iridescent_button | iridescent_button.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_button.webp |
-| joeys_mix_tape | joeys_mix_tape.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: joeys_mix_tape.webp |
-| julies_mix_tape | julies_mix_tape.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: julies_mix_tape.webp |
-| mischief_list | mischief_list.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: mischief_list.webp |
-| mural_sketch | mural_sketch.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: mural_sketch.webp |
-| never_sleep_pills | never_sleep_pills.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: never_sleep_pills.webp |
-| scratched_ruler | scratched_ruler.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: scratched_ruler.webp |
-| smiley_face_pin | smiley_face_pin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: smiley_face_pin.webp |
-| stab_wounds_study | stab_wounds_study.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: stab_wounds_study.webp |
-| stolen_sketch_book | stolen_sketch_book.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: stolen_sketch_book.webp |
-| stylish_sunglasses | stylish_sunglasses.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: stylish_sunglasses.webp |
-| susies_mix_tape | susies_mix_tape.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: susies_mix_tape.webp |
-| the_legion_pin | the_legion_pin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: the_legion_pin.webp |
+| bffs | bffs.webp | 永遠のベストフレンド | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| defaced_smiley_pin | defaced_smiley_pin.webp | 落書きされたスマイリーバッジ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| etched_ruler | etched_ruler.webp | エッチングされた定規 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| filthy_blade | filthy_blade.webp | 汚れた刃 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| franks_mix_tape | franks_mix_tape.webp | フランクのミックステープ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| friendship_bracelet | friendship_bracelet.webp | 友情のブレスレット | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| fuming_mix_tape | fuming_mix_tape.webp | 煙を吐くミックステープ | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_button | iridescent_button.webp | 玉虫色のバッジ | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| joeys_mix_tape | joeys_mix_tape.webp | ジョーイのミックステープ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| julies_mix_tape | julies_mix_tape.webp | ジュリーのミックステープ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| mischief_list | mischief_list.webp | いたずらリスト | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| mural_sketch | mural_sketch.webp | 壁画のスケッチ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| never_sleep_pills | never_sleep_pills.webp | 眠気覚まし薬 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| scratched_ruler | scratched_ruler.webp | 傷のついた定規 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| smiley_face_pin | smiley_face_pin.webp | スマイリーフェイスのバッジ | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| stab_wounds_study | stab_wounds_study.webp | 刺し傷の研究 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| stolen_sketch_book | stolen_sketch_book.webp | 盗まれたスケッチブック | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| stylish_sunglasses | stylish_sunglasses.webp | スタイリッシュなサングラス | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| susies_mix_tape | susies_mix_tape.webp | スージーのミックステープ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| the_legion_pin | the_legion_pin.webp | リージョンのバッジ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | bag_of_holding | bag_of_holding.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bag_of_holding.webp |
 | boots_of_speed | boots_of_speed.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: boots_of_speed.webp |
 | cloak_of_invisibility | cloak_of_invisibility.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cloak_of_invisibility.webp |
