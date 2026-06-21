@@ -627,26 +627,26 @@
 | utility_blades | utility_blades.webp | 万能な刃物 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | video_tape | video_tape.webp | ビデオテープ | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | workshop_grease | workshop_grease.webp | 工場の潤滑油 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
-| ashen_apple | ashen_apple.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: ashen_apple.webp |
-| black_incense | black_incense.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: black_incense.webp |
-| blessed_apple | blessed_apple.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blessed_apple.webp |
-| devotees_amulet | devotees_amulet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: devotees_amulet.webp |
-| emetic_potion | emetic_potion.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: emetic_potion.webp |
-| exorcism_amulet | exorcism_amulet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: exorcism_amulet.webp |
-| healing_salve | healing_salve.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: healing_salve.webp |
-| heamatite_seal | heamatite_seal.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: heamatite_seal.webp |
-| incensed_ointment | incensed_ointment.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: incensed_ointment.webp |
-| infected_emetic | infected_emetic.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: infected_emetic.webp |
-| iridescent_seal | iridescent_seal.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: iridescent_seal.webp |
-| limesone_seal | limesone_seal.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: limesone_seal.webp |
-| olibanum_incense | olibanum_incense.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: olibanum_incense.webp |
-| potent_tincture | potent_tincture.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: potent_tincture.webp |
-| prayer_tablet_fragment | prayer_tablet_fragment.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: prayer_tablet_fragment.webp |
-| prophylactic_amulet | prophylactic_amulet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: prophylactic_amulet.webp |
-| rubbing_oil | rubbing_oil.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rubbing_oil.webp |
-| severed_toe | severed_toe.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: severed_toe.webp |
-| vile_emetic | vile_emetic.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: vile_emetic.webp |
-| worship_tablet | worship_tablet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: worship_tablet.webp |
+| ashen_apple | ashen_apple.webp | 灰色のりんご | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| black_incense | black_incense.webp | 黒のお香 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| blessed_apple | blessed_apple.webp | 祝福のりんご | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| devotees_amulet | devotees_amulet.webp | 信奉者のお守り | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| emetic_potion | emetic_potion.webp | 催吐薬 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| exorcism_amulet | exorcism_amulet.webp | 魔除けのお守り | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| healing_salve | healing_salve.webp | 治癒の軟膏 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| heamatite_seal | heamatite_seal.webp | 赤鉄鉱の印章 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| incensed_ointment | incensed_ointment.webp | 香油 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| infected_emetic | infected_emetic.webp | 感染催吐薬 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| iridescent_seal | iridescent_seal.webp | 玉虫色の印章 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| limesone_seal | limesone_seal.webp | 石灰岩の印章 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| olibanum_incense | olibanum_incense.webp | 乳香のお香 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| potent_tincture | potent_tincture.webp | 強力なチンキ剤 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| prayer_tablet_fragment | prayer_tablet_fragment.webp | 祈りの石板片 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| prophylactic_amulet | prophylactic_amulet.webp | 予防のお守り | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rubbing_oil | rubbing_oil.webp | 摩擦油 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| severed_toe | severed_toe.webp | 切断された足の指 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| vile_emetic | vile_emetic.webp | 汚れた催吐薬 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| worship_tablet | worship_tablet.webp | 崇拝の石板 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | blond_hair | blond_hair.webp | 金色の髪の毛 | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | boyfriends_memo | boyfriends_memo.webp | ボーイフレンドのメモ | common | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | dead_rabbit | dead_rabbit.webp | ウサギの死体 | uncommon | medium | pending |  |  | atwikiに掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
