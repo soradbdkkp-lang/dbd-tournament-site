@@ -727,26 +727,26 @@
 | sleeping_bag | sleeping_bag.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: sleeping_bag.webp |
 | toxic_waste | toxic_waste.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: toxic_waste.webp |
 | two_nails | two_nails.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: two_nails.webp |
-| dried_cherry_blossom | dried_cherry_blossom.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: dried_cherry_blossom.webp |
-| furin | furin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: furin.webp |
-| gifted_bamboo_comb | gifted_bamboo_comb.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: gifted_bamboo_comb.webp |
-| juniper_bonsai | juniper_bonsai.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: juniper_bonsai.webp |
-| kaiun_talisman | kaiun_talisman.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: kaiun_talisman.webp |
-| katana_tsuba | katana_tsuba.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: katana_tsuba.webp |
-| kintsugi_teacup | kintsugi_teacup.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: kintsugi_teacup.webp |
-| mother_daughter_ring | mother_daughter_ring.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: mother_daughter_ring.webp |
-| mothers_glasses | mothers_glasses.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: mothers_glasses.webp |
-| muddy_sports_day_cap | muddy_sports_day_cap.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: muddy_sports_day_cap.webp |
-| origami_crane | origami_crane.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: origami_crane.webp |
-| rins_broken_watch | rins_broken_watch.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rins_broken_watch.webp |
-| rusty_flute | rusty_flute.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rusty_flute.webp |
-| senko_hanabi | senko_hanabi.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: senko_hanabi.webp |
-| shiawase_amulet | shiawase_amulet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: shiawase_amulet.webp |
-| uchiwa | uchiwa.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: uchiwa.webp |
-| wakizashi_saya | wakizashi_saya.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: wakizashi_saya.webp |
-| white_hair_ribbon | white_hair_ribbon.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: white_hair_ribbon.webp |
-| yakuyoke_amulet | yakuyoke_amulet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: yakuyoke_amulet.webp |
-| zori | zori.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: zori.webp |
+| dried_cherry_blossom | dried_cherry_blossom.webp | 桜のドライフラワー | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| furin | furin.webp | 風鈴 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| gifted_bamboo_comb | gifted_bamboo_comb.webp | 贈り物の竹櫛 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| juniper_bonsai | juniper_bonsai.webp | 杜松の盆栽 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| kaiun_talisman | kaiun_talisman.webp | 開運のお守り | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| katana_tsuba | katana_tsuba.webp | 刀の鍔 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| kintsugi_teacup | kintsugi_teacup.webp | 金継ぎの茶碗 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| mother_daughter_ring | mother_daughter_ring.webp | 母娘の指輪 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| mothers_glasses | mothers_glasses.webp | 母の眼鏡 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| muddy_sports_day_cap | muddy_sports_day_cap.webp | 泥だらけの運動会のキャップ | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| origami_crane | origami_crane.webp | 折り鶴 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rins_broken_watch | rins_broken_watch.webp | 凜の壊れた腕時計 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rusty_flute | rusty_flute.webp | 錆びた横笛 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| senko_hanabi | senko_hanabi.webp | 線香花火 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| shiawase_amulet | shiawase_amulet.webp | 幸せのお守り | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| uchiwa | uchiwa.webp | うちわ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| wakizashi_saya | wakizashi_saya.webp | 脇差の鞘 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| white_hair_ribbon | white_hair_ribbon.webp | 白のヘアリボン | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| yakuyoke_amulet | yakuyoke_amulet.webp | 厄除けのお守り | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| zori | zori.webp | 草履 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | 4_coil_spring_kit | 4_coil_spring_kit.webp | 4コイルのスプリングキット | uncommon | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | bear_oil | bear_oil.webp | 熊の油 | common | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | bloody_coil | bloody_coil.webp | 血まみれのコイル | visceral | medium | pending |  |  | 神ゲー攻略に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
