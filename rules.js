@@ -297,7 +297,11 @@
                         </header>
                         <div class="restriction-card__body">
                             ${renderParagraphs(section.body)}
+                            ${renderList(section.list)}
+                            ${renderList(section.orderedList, true)}
+                            ${renderGroups(section.groups)}
                             ${steps}
+                            ${section.note ? `<p class="rule-note${section.status === "attention" ? " rule-note--attention" : ""}">${escapeHtml(section.note)}</p>` : ""}
                         </div>
                     </article>
                 `;
