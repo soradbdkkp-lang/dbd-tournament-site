@@ -607,26 +607,26 @@
 | well_stone | well_stone.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: well_stone.webp |
 | well_water | well_water.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: well_water.webp |
 | yoichis_fishing_net | yoichis_fishing_net.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: yoichis_fishing_net.webp |
-| amandas_letter | amandas_letter.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: amandas_letter.webp |
-| amandas_secret | amandas_secret.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: amandas_secret.webp |
-| bag_of_gears | bag_of_gears.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bag_of_gears.webp |
-| combat_straps | combat_straps.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: combat_straps.webp |
-| crate_of_gears | crate_of_gears.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: crate_of_gears.webp |
-| face_mask | face_mask.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: face_mask.webp |
-| interlocking_razor | interlocking_razor.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: interlocking_razor.webp |
-| jigsaws_annotated_plan | jigsaws_annotated_plan.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: jigsaws_annotated_plan.webp |
-| jigsaws_sketch | jigsaws_sketch.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: jigsaws_sketch.webp |
-| johns_medical_file | johns_medical_file.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: johns_medical_file.webp |
-| last_will | last_will.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: last_will.webp |
-| razor_wires | razor_wires.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: razor_wires.webp |
-| rules_set_no2 | rules_set_no2.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rules_set_no2.webp |
-| rusty_attachments | rusty_attachments.png | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: rusty_attachments.png |
-| shattered_syringe | shattered_syringe.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: shattered_syringe.webp |
-| slow_release_toxin | slow_release_toxin.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: slow_release_toxin.webp |
-| tampered_timer | tampered_timer.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tampered_timer.webp |
-| utility_blades | utility_blades.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: utility_blades.webp |
-| video_tape | video_tape.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: video_tape.webp |
-| workshop_grease | workshop_grease.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: workshop_grease.webp |
+| amandas_letter | amandas_letter.webp | アマンダへの手紙 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| amandas_secret | amandas_secret.webp | アマンダの秘密 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| bag_of_gears | bag_of_gears.webp | 機械部品の袋 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| combat_straps | combat_straps.webp | 軍用の革紐 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| crate_of_gears | crate_of_gears.webp | 機械部品の箱 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| face_mask | face_mask.webp | フェイスマスク | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| interlocking_razor | interlocking_razor.webp | 重なり合うカミソリ刃 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| jigsaws_annotated_plan | jigsaws_annotated_plan.webp | ジグソウの注釈付き設計図 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| jigsaws_sketch | jigsaws_sketch.webp | ジグソウのスケッチ | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| johns_medical_file | johns_medical_file.webp | ジョンのカルテ | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| last_will | last_will.webp | 遺言 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| razor_wires | razor_wires.webp | カミソリワイヤー | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rules_set_no2 | rules_set_no2.webp | ルールセットNo.2 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| rusty_attachments | rusty_attachments.png | 錆びた付属品 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| shattered_syringe | shattered_syringe.webp | 割られた注射器 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| slow_release_toxin | slow_release_toxin.webp | 緩効性毒物 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| tampered_timer | tampered_timer.webp | 改造タイマー | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| utility_blades | utility_blades.webp | 万能な刃物 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| video_tape | video_tape.webp | ビデオテープ | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| workshop_grease | workshop_grease.webp | 工場の潤滑油 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | ashen_apple | ashen_apple.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: ashen_apple.webp |
 | black_incense | black_incense.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: black_incense.webp |
 | blessed_apple | blessed_apple.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blessed_apple.webp |
