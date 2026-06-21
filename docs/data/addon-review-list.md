@@ -107,26 +107,26 @@
 | spoiled_meal | spoiled_meal.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: spoiled_meal.webp |
 | torture_pillar | torture_pillar.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: torture_pillar.webp |
 | wriggling_maggots | wriggling_maggots.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: wriggling_maggots.webp |
-| bottle_of_chloroform | bottle_of_chloroform.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: bottle_of_chloroform.webp |
-| cheap_gin_bottle | cheap_gin_bottle.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cheap_gin_bottle.webp |
-| cigar_box | cigar_box.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cigar_box.webp |
-| ether_15vol | ether_15vol.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: ether_15vol.webp |
-| fingerless_parade_gloves | fingerless_parade_gloves.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: fingerless_parade_gloves.webp |
-| flask_of_bleach | flask_of_bleach.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: flask_of_bleach.webp |
-| garish_make_up_kit | garish_make_up_kit.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: garish_make_up_kit.webp |
-| kerosene_can | kerosene_can.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: kerosene_can.webp |
-| party_bottle | party_bottle.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: party_bottle.webp |
-| redheads_pinkie_finger | redheads_pinkie_finger.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: redheads_pinkie_finger.webp |
-| robin_feather | robin_feather.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: robin_feather.webp |
-| smelly_inner_soles | smelly_inner_soles.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: smelly_inner_soles.webp |
-| solvent_jug | solvent_jug.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: solvent_jug.webp |
-| spirit_of_hartshorn | spirit_of_hartshorn.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: spirit_of_hartshorn.webp |
-| starling_feather | starling_feather.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: starling_feather.webp |
-| sticky_soda_bottle | sticky_soda_bottle.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: sticky_soda_bottle.webp |
-| sulphuric_acid_vial | sulphuric_acid_vial.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: sulphuric_acid_vial.webp |
-| tattoos_middle_finger | tattoos_middle_finger.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: tattoos_middle_finger.webp |
-| thick_cork_stopper | thick_cork_stopper.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: thick_cork_stopper.webp |
-| vhs_porn | vhs_porn.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: vhs_porn.webp |
+| bottle_of_chloroform | bottle_of_chloroform.webp | クロロホルムのボトル | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| cheap_gin_bottle | cheap_gin_bottle.webp | 安物のジンボトル | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| cigar_box | cigar_box.webp | 葉巻の箱 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| ether_15vol | ether_15vol.webp | 15vol%のエーテル | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| fingerless_parade_gloves | fingerless_parade_gloves.webp | 指あきのパレード用手袋 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| flask_of_bleach | flask_of_bleach.webp | ブリーチのフラスコ | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| garish_make_up_kit | garish_make_up_kit.webp | 派手なメイク道具 | very_rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| kerosene_can | kerosene_can.webp | 灯油缶 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| party_bottle | party_bottle.webp | パーティー用ボトル | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| redheads_pinkie_finger | redheads_pinkie_finger.webp | 赤毛の小指 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| robin_feather | robin_feather.webp | コマドリの羽根 | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| smelly_inner_soles | smelly_inner_soles.webp | 臭い中敷 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| solvent_jug | solvent_jug.webp | 溶剤の器 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| spirit_of_hartshorn | spirit_of_hartshorn.webp | アンモニア水 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| starling_feather | starling_feather.webp | ムクドリの羽 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| sticky_soda_bottle | sticky_soda_bottle.webp | ネバネバしたソーダボトル | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| sulphuric_acid_vial | sulphuric_acid_vial.webp | 硫酸の瓶 | rare | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| tattoos_middle_finger | tattoos_middle_finger.webp | 入れ墨男の中指 | visceral | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| thick_cork_stopper | thick_cork_stopper.webp | 厚いコルク栓 | uncommon | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
+| vhs_porn | vhs_porn.webp | VHSポルノビデオ | common | medium | pending |  |  | atwiki・神ゲー攻略等に掲載。非公式資料のみ。公式・現行ゲーム内表示は未確認。ユーザ確認待ち |
 | alucards_shield | alucards_shield.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: alucards_shield.webp |
 | blood_filled_goblet | blood_filled_goblet.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: blood_filled_goblet.webp |
 | cerberus_talon | cerberus_talon.webp | TODO_日本語名確認 | TODO | low | pending |  |  | 元ファイル名: cerberus_talon.webp |
