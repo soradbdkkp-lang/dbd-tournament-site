@@ -45,6 +45,9 @@
 |---|---|
 | `docs/requirements/event-naming.md` | サイト名、大会シリーズ名、開催回の名称体系と将来拡張方針 |
 | `docs/requirements/event-overview.md` | ふろぐCup Vol.1の公開可能な大会概要と開催予定日 |
+| `docs/requirements/vol1-common-match-rules.md` | ふろぐCup Vol.1の共通試合判定ルール。勝利条件、予選順位、吊り数、脱出死亡、バグ・グリッチ、煽り、異議申し立て、リザルト提出を管理 |
+| `docs/requirements/vol1-survivor-rules.md` | ふろぐCup Vol.1のサバイバー制限ルール。キャラクター、パーク、アイテム、オファリング、トーテム、AFC、試合前確認、切断・クラッシュを管理 |
+| `docs/requirements/vol1-killer-rules.md` | ふろぐCup Vol.1のキラー制限ルール。使用キラー、再使用制限、パーク、MAP、アドオン、構成提出、試合前確認、切断・クラッシュを管理 |
 
 ## ルール草案
 
@@ -54,7 +57,7 @@
 | `docs/killer-points.md` | キラーポイント、分類、ポイントドラフト案 | 重複あり。公開前に確認が必要 |
 | `docs/map-pool.md` | MAPプール、室内・屋外MAP候補 | 草案。候補と確定の分離が必要 |
 | `docs/point-system.md` | ポイントドラフトシステム | 見出し重複あり。整理候補 |
-| `docs/tournament-rule.md` | 大会概要、勝敗判定、サバイバー・キラールール | 公開ルールと運営メモの分離候補 |
+| `docs/tournament-rule.md` | 大会概要、勝敗判定、サバイバー・キラールール | 古い草案。Vol.1正本化では履歴参考扱い |
 
 上記の既存草案はCP932を含む。UTF-8への統一はReact移行とは別フェーズで行う。
 
@@ -141,7 +144,7 @@
 2. 初期ルーティング方式を決定する。
 3. GitHubリポジトリ名とPages公開URLを確認する。
 4. 初期`RulesPage`へ公開するルールを承認する。
-5. `tournament-rule.md`を公開ルールと運営メモに分離する。
-6. `killer-points.md`と`point-system.md`の重複を整理する。
-7. MAP、キラー、パーク、アドオン制限を個別仕様へ整理する。
+5. Vol.1共通試合判定、サバイバー制限、キラー制限の公開可否を承認する。
+6. `killer-points.md`と`point-system.md`の重複、およびVol.1最新ルールとの矛盾を整理する。
+7. MAP、キラー、パーク、アドオン制限を個別仕様へさらに整理する。
 8. 変更履歴の管理方法を決定する。
