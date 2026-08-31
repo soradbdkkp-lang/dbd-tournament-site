@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <header class="site-header"><div class="site-header__inner"><a class="brand" href="../index.html"><span>Frog Cup</span><strong>ふろぐCup Vol.1</strong></a><nav class="site-nav" aria-label="サイトナビゲーション"><a href="../index.html">トップ</a><a href="../index.html#overview">大会概要</a><a href="../index.html#rules">ルール</a><a href="../index.html#entry">応募</a></nav></div></header>
+  <header class="site-header"><div class="site-header__inner"><a class="brand" href="../index.html"><span>Frog Cup</span><strong>ふろぐCup Vol.1</strong></a><nav class="site-nav" aria-label="サイトナビゲーション"><a href="../index.html">トップ</a><a href="../index.html#overview">大会概要</a><a href="../index.html#rules">ルール</a><a href="event-guide.html">大会当日案内</a><a href="../index.html#entry">応募</a></nav></div></header>
   <main>
     <section class="page-hero"><p class="breadcrumb"><a href="../index.html">トップ</a> / MAPプール</p><h1>MAPプール</h1></section>
     <div class="rule-shell">
-      <nav class="side-nav" aria-label="ルールページ"><a href="map-pool.html" aria-current="page">MAPプール</a><a href="bonus-killer.html">ボーナスキラー</a><a href="survivor-rules.html">サバイバールール</a><a href="killer-rules.html">キラールール</a><a href="win-condition.html">勝敗の判断方法</a><a href="penalties.html">ペナルティ</a><a href="notes.html">その他注意事項</a></nav>
+      <nav class="side-nav" aria-label="ルールページ"><a href="event-guide.html">大会当日案内</a><a href="map-pool.html" aria-current="page">MAPプール</a><a href="bonus-killer.html">ボーナスキラー</a><a href="survivor-rules.html">サバイバールール</a><a href="killer-rules.html">キラールール</a><a href="win-condition.html">勝敗の判断方法</a><a href="penalties.html">ペナルティ</a><a href="notes.html">その他注意事項</a></nav>
       <div class="rule-content">
         <section class="card">
           <h2>MAP</h2>
@@ -50,10 +50,24 @@
             <li>キルスイッチ等が発生した場合は、開始前に必要な調整を行い、変更内容を両チームへ告知する。</li>
           </ul>
         </section>
+        <section class="card">
+          <h2>ステージ別MAPプール</h2>
+          <ul>
+            <li>予選は応募時に選んだMAPでなくてもブロック毎のプール内なら選択可能</li>
+            <li>予選では各チームの希望MAPにはボーナスポイントは設定されない</li>
+            <li>予選で選ばれたMAPであっても準決勝･決勝でボーナスポイントMAPに設定されている場合があります</li>
+            <li>各MAPプールに1つボーナスMAP設定</li>
+            <li>ボーナスMAPは各MAPプールの試合が全て終了するまで公開されない</li>
+            <li>予選〜決勝で同じMAPは使えない</li>
+          </ul>
+          <div data-map-pools data-map-image-base="../assets/images/maps/" data-initial-stage="semifinal-1"></div>
+        </section>
         <nav class="pager" aria-label="前後のページ"><a class="button button--ghost" href="../index.html">トップへ戻る</a><a class="button" href="bonus-killer.html">次へ</a></nav>
       </div>
     </div>
   </main>
   <footer class="site-footer"><p>ふろぐCup Vol.1</p></footer>
+  <script src="../js/event-data.js"></script>
+  <script src="../js/event-ui.js"></script>
 </body>
 </html>

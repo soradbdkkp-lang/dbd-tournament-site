@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <header class="site-header"><div class="site-header__inner"><a class="brand" href="../index.html"><span>Frog Cup</span><strong>ふろぐCup Vol.1</strong></a><nav class="site-nav" aria-label="サイトナビゲーション"><a href="../index.html">トップ</a><a href="../index.html#overview">大会概要</a><a href="../index.html#rules">ルール</a><a href="../index.html#entry">応募</a></nav></div></header>
+  <header class="site-header"><div class="site-header__inner"><a class="brand" href="../index.html"><span>Frog Cup</span><strong>ふろぐCup Vol.1</strong></a><nav class="site-nav" aria-label="サイトナビゲーション"><a href="../index.html">トップ</a><a href="../index.html#overview">大会概要</a><a href="../index.html#rules">ルール</a><a href="event-guide.html">大会当日案内</a><a href="../index.html#entry">応募</a></nav></div></header>
   <main>
     <section class="page-hero"><p class="breadcrumb"><a href="../index.html">トップ</a> / ボーナスキラー</p><h1>ボーナスキラー</h1></section>
     <div class="rule-shell">
-      <nav class="side-nav" aria-label="ルールページ"><a href="map-pool.html">MAPプール</a><a href="bonus-killer.html" aria-current="page">ボーナスキラー</a><a href="survivor-rules.html">サバイバールール</a><a href="killer-rules.html">キラールール</a><a href="win-condition.html">勝敗の判断方法</a><a href="penalties.html">ペナルティ</a><a href="notes.html">その他注意事項</a></nav>
+      <nav class="side-nav" aria-label="ルールページ"><a href="event-guide.html">大会当日案内</a><a href="map-pool.html">MAPプール</a><a href="bonus-killer.html" aria-current="page">ボーナスキラー</a><a href="survivor-rules.html">サバイバールール</a><a href="killer-rules.html">キラールール</a><a href="win-condition.html">勝敗の判断方法</a><a href="penalties.html">ペナルティ</a><a href="notes.html">その他注意事項</a></nav>
       <div class="rule-content">
         <section class="card">
           <h2>シークレットボーナス（予選・本戦共通）</h2>
@@ -37,14 +37,19 @@
         </section>
         <section class="card">
           <h2>キラー一覧</h2>
-          <p>ボーナスキラープールの具体的な対象は未確定です。確定後、公開可能な範囲だけを表示します。</p>
-          <div data-killer-cards></div>
+          <p>準決勝&#x30FB;決勝のボーナスキラーを公開しています。予選Aブロック&#x30FB;予選Bブロックのボーナスキラーは、当選チームの発表と同時に公開します。</p>
+          <ul>
+            <li>各試合でボーナスポイントが貰えるキラーの為、ボーナスが不要であれば好きなキラーを出して良い</li>
+            <li>予選〜決勝で同じキラーは使えない</li>
+          </ul>
+          <div data-killer-cards="bonus-pools" data-initial-stage="semifinal-1"></div>
         </section>
         <nav class="pager" aria-label="前後のページ"><a class="button button--ghost" href="map-pool.html">前へ</a><a class="button" href="survivor-rules.html">次へ</a><a class="button button--ghost" href="../index.html">トップへ戻る</a></nav>
       </div>
     </div>
   </main>
   <footer class="site-footer"><p>ふろぐCup Vol.1</p></footer>
+  <script src="../js/event-data.js"></script>
   <script src="../js/killer-data.js"></script>
   <script src="../js/killer-cards.js"></script>
 </body>

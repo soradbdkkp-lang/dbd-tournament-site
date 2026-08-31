@@ -1,8 +1,10 @@
 (function () {
-  const root = document.querySelector("[data-killer-cards]");
   const data = window.FROGCUP_KILLERS;
+  if (!data) return;
 
-  if (!root || !data) return;
+  const eventData = window.FROGCUP_EVENT;
+  const roots = document.querySelectorAll("[data-killer-cards]");
+  if (!roots.length) return;
 
   const statusMeta = {
     allowed: { label: "使用可能", cardLabel: "使用可能", icon: "", className: "is-ok" },
@@ -57,10 +59,17 @@
     secret: ["ボーナス非公開", "非公開"]
   };
 
-  let lastFocusedCard = null;
-  let visibleItems = [];
-  let locateTimer = null;
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let lastFocusedCard = null;
+  let locateTimer = null;
+
+  const dialog = makeDialog();
+  const dialogPanel = dialog.querySelector(".killer-dialog__panel");
+  const dialogTitle = dialog.querySelector("#killer-dialog-title");
+  const dialogImage = dialog.querySelector(".killer-dialog__image");
+  const dialogBadges = dialog.querySelector(".killer-dialog__badges");
+  const dialogBody = dialog.querySelector(".killer-dialog__body");
+  const closeButton = dialog.querySelector(".killer-dialog__close");
 
   function hasIndividualRestriction(killer) {
     return killer.status === "banned" || killer.status === "provisional" || killer.restrictions.length > 0;
@@ -68,8 +77,16 @@
 
   function makeBadge(icon, label, className) {
     const badge = document.createElement("span");
+    const text = document.createElement("span");
     badge.className = `killer-badge ${className}`;
-    badge.innerHTML = `${icon ? `<span aria-hidden="true">${icon}</span>` : ""}<span>${label}</span>`;
+    if (icon) {
+      const iconElement = document.createElement("span");
+      iconElement.setAttribute("aria-hidden", "true");
+      iconElement.textContent = icon;
+      badge.appendChild(iconElement);
+    }
+    text.textContent = label;
+    badge.appendChild(text);
     return badge;
   }
 
@@ -90,89 +107,64 @@
     return ul;
   }
 
-  function makeSelect(id, label, options) {
-    return `
-      <label class="killer-controls__field" for="${id}">
-        <span>${label}</span>
-        <select id="${id}">
-          ${options.map((option) => `<option value="${option.value}">${option.label}</option>`).join("")}
-        </select>
-      </label>
-    `;
-  }
-
-  function makeControls() {
-    const controls = document.createElement("div");
-    const id = `killer-controls-${Math.random().toString(36).slice(2)}`;
-    controls.className = "killer-controls";
-    controls.innerHTML = `
-      <label class="killer-controls__field killer-controls__field--search" for="${id}-search">
-        <span>キラー名検索</span>
-        <input id="${id}-search" type="search" autocomplete="off" inputmode="search" placeholder="キラー名・別名・ボーナス状態">
-      </label>
-      <div class="killer-controls__actions">
-        <button class="button button--ghost killer-controls__button" type="button" data-killer-move>最初の結果へ移動</button>
-        <button class="button button--ghost killer-controls__button" type="button" data-killer-clear>検索解除</button>
-        <button class="button button--ghost killer-controls__button" type="button" data-killer-reset>すべてリセット</button>
-      </div>
-      ${makeSelect(`${id}-rule-filter`, "個別制限・使用可否", ruleFilterOptions)}
-      ${makeSelect(`${id}-bonus-filter`, "ボーナス状態", bonusFilterOptions)}
-      ${makeSelect(`${id}-sort`, "並び替え", sortOptions)}
-      <p class="killer-controls__count" aria-live="polite"></p>
-      <p class="killer-controls__empty" aria-live="polite" hidden>該当するキラーが見つかりません</p>
-    `;
-    return controls;
-  }
-
   function makeDialog() {
-    const dialog = document.createElement("div");
-    dialog.className = "killer-dialog";
-    dialog.hidden = true;
-    dialog.innerHTML = `
-      <div class="killer-dialog__backdrop" data-killer-dialog-close></div>
-      <section class="killer-dialog__panel" role="dialog" aria-modal="true" aria-labelledby="killer-dialog-title" tabindex="-1">
-        <button class="killer-dialog__close" type="button" data-killer-dialog-close aria-label="詳細を閉じる">×</button>
-        <div class="killer-dialog__header">
-          <img class="killer-dialog__image" alt="" width="180" height="225">
-          <div>
-            <p class="meta">キラー詳細</p>
-            <h2 id="killer-dialog-title"></h2>
-            <div class="killer-dialog__badges"></div>
-          </div>
-        </div>
-        <div class="killer-dialog__body"></div>
-      </section>
-    `;
-    document.body.appendChild(dialog);
-    return dialog;
+    const dialogElement = document.createElement("div");
+    dialogElement.className = "killer-dialog";
+    dialogElement.hidden = true;
+
+    const backdrop = document.createElement("div");
+    backdrop.className = "killer-dialog__backdrop";
+    backdrop.dataset.killerDialogClose = "";
+
+    const panel = document.createElement("section");
+    panel.className = "killer-dialog__panel";
+    panel.setAttribute("role", "dialog");
+    panel.setAttribute("aria-modal", "true");
+    panel.setAttribute("aria-labelledby", "killer-dialog-title");
+    panel.tabIndex = -1;
+
+    const close = document.createElement("button");
+    close.className = "killer-dialog__close";
+    close.type = "button";
+    close.dataset.killerDialogClose = "";
+    close.setAttribute("aria-label", "詳細を閉じる");
+    close.textContent = "×";
+
+    const header = document.createElement("div");
+    header.className = "killer-dialog__header";
+
+    const image = document.createElement("img");
+    image.className = "killer-dialog__image";
+    image.alt = "";
+    image.width = 180;
+    image.height = 225;
+
+    const headerText = document.createElement("div");
+    const meta = document.createElement("p");
+    meta.className = "meta";
+    meta.textContent = "キラー詳細";
+    const title = document.createElement("h2");
+    title.id = "killer-dialog-title";
+    const badges = document.createElement("div");
+    badges.className = "killer-dialog__badges";
+    headerText.append(meta, title, badges);
+    header.append(image, headerText);
+
+    const body = document.createElement("div");
+    body.className = "killer-dialog__body";
+
+    panel.append(close, header, body);
+    dialogElement.append(backdrop, panel);
+    document.body.appendChild(dialogElement);
+    return dialogElement;
   }
-
-  const controls = makeControls();
-  const searchInput = controls.querySelector("input[type='search']");
-  const ruleFilter = controls.querySelector("select[id$='rule-filter']");
-  const bonusFilter = controls.querySelector("select[id$='bonus-filter']");
-  const sortSelect = controls.querySelector("select[id$='sort']");
-  const countLabel = controls.querySelector(".killer-controls__count");
-  const emptyMessage = controls.querySelector(".killer-controls__empty");
-  const moveButton = controls.querySelector("[data-killer-move]");
-  const clearButton = controls.querySelector("[data-killer-clear]");
-  const resetButton = controls.querySelector("[data-killer-reset]");
-
-  const dialog = makeDialog();
-  const dialogPanel = dialog.querySelector(".killer-dialog__panel");
-  const dialogTitle = dialog.querySelector("#killer-dialog-title");
-  const dialogImage = dialog.querySelector(".killer-dialog__image");
-  const dialogBadges = dialog.querySelector(".killer-dialog__badges");
-  const dialogBody = dialog.querySelector(".killer-dialog__body");
-  const closeButton = dialog.querySelector(".killer-dialog__close");
 
   function addDialogSection(title, content) {
     const section = document.createElement("section");
     section.className = "killer-dialog__section";
     const heading = document.createElement("h3");
     heading.textContent = title;
-    section.appendChild(heading);
-    section.appendChild(content);
+    section.append(heading, content);
     dialogBody.appendChild(section);
   }
 
@@ -203,19 +195,21 @@
     })?.[0] || null;
   }
 
-  function matchesSearch(killer, query) {
+  function matchesSearch(killer, query, mode) {
     if (!query) return true;
-
-    const bonusStatus = getBonusSearchStatus(query);
-    if (bonusStatus) return killer.bonusStatus === bonusStatus;
-
+    if (mode !== "bonus-pool") {
+      const bonusStatus = getBonusSearchStatus(query);
+      if (bonusStatus) return killer.bonusStatus === bonusStatus;
+    }
     return getSearchTarget(killer).includes(query);
   }
 
-  function openDialog(killer, opener) {
+  function openDialog(killer, opener, context) {
     const status = statusMeta[killer.status];
     const restriction = getRestrictionBadge(killer);
-    const bonus = bonusMeta[killer.bonusStatus];
+    const bonus = context?.stageLabel
+      ? { icon: "★", label: `${context.stageLabel}のボーナス対象`, className: "is-bonus" }
+      : bonusMeta[killer.bonusStatus];
     const restrictionItems = [...killer.restrictions, ...getTermNotes(killer)];
 
     lastFocusedCard = opener;
@@ -267,141 +261,382 @@
     }
   }
 
-  function makeCard(killer) {
+  function appendBadgeRow(parent, badges) {
+    badges.forEach((badge) => parent.appendChild(makeBadge(badge.icon, badge.label, badge.className)));
+  }
+
+  function makeCard(killer, context) {
     const status = statusMeta[killer.status];
     const restriction = getRestrictionBadge(killer);
-    const bonus = bonusMeta[killer.bonusStatus];
+    const bonus = context?.stageLabel
+      ? { icon: "★", label: "ボーナス対象", className: "is-bonus" }
+      : bonusMeta[killer.bonusStatus];
 
     const card = document.createElement("button");
     card.className = "killer-card";
     card.type = "button";
     card.setAttribute("aria-label", `${killer.name}の詳細を見る`);
-    card.innerHTML = `
-      <span class="killer-card__media">
-        <img src="${killer.image}" alt="${killer.name}" loading="lazy" width="320" height="400">
-        <span class="killer-card__overlay" aria-hidden="true">
-          <span class="killer-card__overlay-inner">
-            <span>${status.icon ? `${status.icon} ` : ""}${status.cardLabel}</span>
-            <span>${restriction.icon} ${restriction.label}</span>
-            <span>${bonus.icon} ${bonus.label}</span>
-            <strong>クリックで詳細</strong>
-          </span>
-        </span>
-      </span>
-      <span class="killer-card__name">${killer.name}</span>
-      <span class="killer-card__status">
-        <span class="killer-badge ${status.className}">${status.icon ? `<span aria-hidden="true">${status.icon}</span>` : ""}<span>${status.cardLabel}</span></span>
-        <span class="killer-badge ${restriction.className}"><span aria-hidden="true">${restriction.icon}</span><span>${restriction.label}</span></span>
-        <span class="killer-badge ${bonus.className}"><span aria-hidden="true">${bonus.icon}</span><span>${bonus.label}</span></span>
-        <span class="killer-card__detail">詳細を見る</span>
-      </span>
-    `;
-    card.addEventListener("click", () => openDialog(killer, card));
+
+    const media = document.createElement("span");
+    media.className = "killer-card__media";
+    const image = document.createElement("img");
+    image.src = killer.image;
+    image.alt = killer.name;
+    image.loading = "lazy";
+    image.width = 320;
+    image.height = 400;
+    media.appendChild(image);
+
+    const overlay = document.createElement("span");
+    overlay.className = "killer-card__overlay";
+    overlay.setAttribute("aria-hidden", "true");
+    const overlayInner = document.createElement("span");
+    overlayInner.className = "killer-card__overlay-inner";
+    [status, restriction, bonus].forEach((badge) => {
+      const text = document.createElement("span");
+      text.textContent = `${badge.icon ? `${badge.icon} ` : ""}${badge.cardLabel || badge.label}`;
+      overlayInner.appendChild(text);
+    });
+    const detail = document.createElement("strong");
+    detail.textContent = "クリックで詳細";
+    overlayInner.appendChild(detail);
+    overlay.appendChild(overlayInner);
+    media.appendChild(overlay);
+
+    const name = document.createElement("span");
+    name.className = "killer-card__name";
+    name.textContent = killer.name;
+
+    const statusRow = document.createElement("span");
+    statusRow.className = "killer-card__status";
+    appendBadgeRow(statusRow, [status, restriction, bonus]);
+    const detailLabel = document.createElement("span");
+    detailLabel.className = "killer-card__detail";
+    detailLabel.textContent = "詳細を見る";
+    statusRow.appendChild(detailLabel);
+
+    card.append(media, name, statusRow);
+    card.addEventListener("click", () => openDialog(killer, card, context));
     return card;
   }
 
-  function getSortedItems(items) {
+  function makeSelect(id, label, options) {
+    const field = document.createElement("label");
+    field.className = "killer-controls__field";
+    field.setAttribute("for", id);
+    const text = document.createElement("span");
+    text.textContent = label;
+    const select = document.createElement("select");
+    select.id = id;
+    options.forEach((option) => {
+      const item = document.createElement("option");
+      item.value = option.value;
+      item.textContent = option.label;
+      select.appendChild(item);
+    });
+    field.append(text, select);
+    return field;
+  }
+
+  function makeControls(showBonusFilter) {
+    const controls = document.createElement("div");
+    const id = `killer-controls-${Math.random().toString(36).slice(2)}`;
+    controls.className = "killer-controls";
+
+    const searchField = document.createElement("label");
+    searchField.className = "killer-controls__field killer-controls__field--search";
+    searchField.setAttribute("for", `${id}-search`);
+    const searchLabel = document.createElement("span");
+    searchLabel.textContent = "キラー名検索";
+    const searchInput = document.createElement("input");
+    searchInput.id = `${id}-search`;
+    searchInput.type = "search";
+    searchInput.autocomplete = "off";
+    searchInput.inputMode = "search";
+    searchInput.placeholder = showBonusFilter ? "キラー名・別名・ボーナス状態" : "キラー名・別名";
+    searchField.append(searchLabel, searchInput);
+
+    const actions = document.createElement("div");
+    actions.className = "killer-controls__actions";
+    [
+      ["move", "最初の結果へ移動"],
+      ["clear", "検索解除"],
+      ["reset", "すべてリセット"]
+    ].forEach(([key, label]) => {
+      const button = document.createElement("button");
+      button.className = "button button--ghost killer-controls__button";
+      button.type = "button";
+      button.dataset[`killer${key[0].toUpperCase()}${key.slice(1)}`] = "";
+      button.textContent = label;
+      actions.appendChild(button);
+    });
+
+    controls.append(
+      searchField,
+      actions,
+      makeSelect(`${id}-rule-filter`, "個別制限・使用可否", ruleFilterOptions)
+    );
+
+    if (showBonusFilter) {
+      controls.appendChild(makeSelect(`${id}-bonus-filter`, "ボーナス状態", bonusFilterOptions));
+    }
+    controls.appendChild(makeSelect(`${id}-sort`, "並び替え", sortOptions));
+
+    const count = document.createElement("p");
+    count.className = "killer-controls__count";
+    count.setAttribute("aria-live", "polite");
+    const empty = document.createElement("p");
+    empty.className = "killer-controls__empty";
+    empty.setAttribute("aria-live", "polite");
+    empty.hidden = true;
+    empty.textContent = "該当するキラーが見つかりません";
+    controls.append(count, empty);
+
+    return controls;
+  }
+
+  function getSortedItems(items, sortValue) {
     return [...items].sort((a, b) => {
-      if (sortSelect.value === "name") {
+      if (sortValue === "name") {
         return a.killer.name.localeCompare(b.killer.name, "ja") || a.index - b.index;
       }
-      if (sortSelect.value === "restricted") {
+      if (sortValue === "restricted") {
         return Number(hasIndividualRestriction(b.killer)) - Number(hasIndividualRestriction(a.killer)) || a.index - b.index;
       }
-      if (sortSelect.value === "status") {
+      if (sortValue === "status") {
         const rank = { banned: 2, provisional: 1, allowed: 0 };
         return rank[b.killer.status] - rank[a.killer.status] || a.index - b.index;
       }
-      if (sortSelect.value.startsWith("bonus-")) {
+      if (sortValue.startsWith("bonus-")) {
         const target = {
           "bonus-yes": "public-yes",
           "bonus-no": "public-no",
           "bonus-undecided": "undecided",
           "bonus-secret": "secret"
-        }[sortSelect.value];
+        }[sortValue];
         return Number(b.killer.bonusStatus === target) - Number(a.killer.bonusStatus === target) || a.index - b.index;
       }
       return a.index - b.index;
     });
   }
 
-  function renderCards() {
-    const query = normalizeSearchText(searchInput.value);
-    const ruleOption = ruleFilterOptions.find((option) => option.value === ruleFilter.value);
-    const bonusOption = bonusFilterOptions.find((option) => option.value === bonusFilter.value);
+  function makeKillerBrowser(root, options = {}) {
+    const showBonusFilter = options.mode !== "bonus-pool";
+    const controls = makeControls(showBonusFilter);
+    const searchInput = controls.querySelector("input[type='search']");
+    const ruleFilter = controls.querySelector("select[id$='rule-filter']");
+    const bonusFilter = controls.querySelector("select[id$='bonus-filter']");
+    const sortSelect = controls.querySelector("select[id$='sort']");
+    const countLabel = controls.querySelector(".killer-controls__count");
+    const emptyMessage = controls.querySelector(".killer-controls__empty");
+    const moveButton = controls.querySelector("[data-killer-move]");
+    const clearButton = controls.querySelector("[data-killer-clear]");
+    const resetButton = controls.querySelector("[data-killer-reset]");
+    const grid = document.createElement("div");
+    let visibleItems = [];
 
-    visibleItems = getSortedItems(data.killers
-      .map((killer, index) => ({ killer, index }))
-      .filter(({ killer }) => matchesSearch(killer, query) && ruleOption.matches(killer) && bonusOption.matches(killer)));
+    grid.className = options.gridClassName || "killer-card-grid";
+    root.append(controls, grid);
 
-    grid.replaceChildren(...visibleItems.map(({ killer }) => makeCard(killer)));
-    countLabel.textContent = `${data.killers.length}件中${visibleItems.length}件表示`;
-    emptyMessage.hidden = visibleItems.length > 0;
-    moveButton.disabled = visibleItems.length === 0;
-  }
-
-  function moveToFirstResult() {
-    const firstCard = grid.querySelector(".killer-card");
-    if (!firstCard) return;
-
-    grid.querySelectorAll(".killer-card.is-located").forEach((card) => {
-      card.classList.remove("is-located");
-    });
-
-    if (locateTimer) {
-      window.clearTimeout(locateTimer);
+    function getBaseItems() {
+      const allowedIds = options.killerIds ? new Set(options.killerIds) : null;
+      return data.killers
+        .map((killer, index) => ({ killer, index }))
+        .filter(({ killer }) => !allowedIds || allowedIds.has(killer.id));
     }
 
-    firstCard.scrollIntoView({
-      block: "center",
-      behavior: reducedMotion.matches ? "auto" : "smooth"
+    function renderCards() {
+      const query = normalizeSearchText(searchInput.value);
+      const ruleOption = ruleFilterOptions.find((option) => option.value === ruleFilter.value);
+      const bonusOption = bonusFilter
+        ? bonusFilterOptions.find((option) => option.value === bonusFilter.value)
+        : { matches: () => true };
+
+      visibleItems = getSortedItems(
+        getBaseItems().filter(({ killer }) => {
+          return matchesSearch(killer, query, options.mode) && ruleOption.matches(killer) && bonusOption.matches(killer);
+        }),
+        sortSelect.value
+      );
+
+      grid.replaceChildren(...visibleItems.map(({ killer }) => makeCard(killer, options.context)));
+      countLabel.textContent = `${getBaseItems().length}件中${visibleItems.length}件表示`;
+      emptyMessage.hidden = visibleItems.length > 0;
+      moveButton.disabled = visibleItems.length === 0;
+    }
+
+    function moveToFirstResult() {
+      const firstCard = grid.querySelector(".killer-card");
+      if (!firstCard) return;
+
+      grid.querySelectorAll(".killer-card.is-located").forEach((card) => {
+        card.classList.remove("is-located");
+      });
+
+      if (locateTimer) window.clearTimeout(locateTimer);
+
+      firstCard.scrollIntoView({
+        block: "center",
+        behavior: reducedMotion.matches ? "auto" : "smooth"
+      });
+      firstCard.focus({ preventScroll: true });
+      firstCard.classList.add("is-located");
+
+      locateTimer = window.setTimeout(() => {
+        firstCard.classList.remove("is-located");
+        locateTimer = null;
+      }, 1400);
+    }
+
+    function clearSearch() {
+      searchInput.value = "";
+      renderCards();
+      searchInput.focus();
+    }
+
+    function resetAll() {
+      searchInput.value = "";
+      ruleFilter.value = "all";
+      if (bonusFilter) bonusFilter.value = "all";
+      sortSelect.value = "initial";
+      renderCards();
+      searchInput.focus();
+    }
+
+    searchInput.addEventListener("input", renderCards);
+    searchInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        moveToFirstResult();
+      } else if (event.key === "Escape" && dialog.hidden) {
+        event.preventDefault();
+        clearSearch();
+      }
+    });
+    ruleFilter.addEventListener("change", renderCards);
+    if (bonusFilter) bonusFilter.addEventListener("change", renderCards);
+    sortSelect.addEventListener("change", renderCards);
+    moveButton.addEventListener("click", moveToFirstResult);
+    clearButton.addEventListener("click", clearSearch);
+    resetButton.addEventListener("click", resetAll);
+    renderCards();
+  }
+
+  function getInitialStageId(root) {
+    const requested = root.dataset.initialStage || eventData?.initialStageId;
+    const requestedStage = eventData?.stages.find((stage) => stage.id === requested);
+    if (requestedStage) return requestedStage.id;
+
+    const firstPublic = eventData?.stages.find((stage) => stage.status === "public");
+    return firstPublic ? firstPublic.id : eventData?.stages[0]?.id;
+  }
+
+  function makeStageTabs(root) {
+    if (!eventData) return;
+
+    const initialStageId = getInitialStageId(root);
+    const tablist = document.createElement("div");
+    const panels = document.createElement("div");
+    const tabs = [];
+    const panelMap = new Map();
+    const idPrefix = "bonus-killer";
+
+    tablist.className = "stage-tabs";
+    tablist.setAttribute("role", "tablist");
+    tablist.setAttribute("aria-label", "ボーナスキラーのステージ選択");
+    panels.className = "stage-panels";
+
+    eventData.stages.forEach((stage) => {
+      const selected = stage.id === initialStageId;
+      const tab = document.createElement("button");
+      tab.className = "stage-tab";
+      tab.type = "button";
+      tab.id = `${idPrefix}-tab-${stage.id}`;
+      tab.setAttribute("role", "tab");
+      tab.setAttribute("aria-selected", selected ? "true" : "false");
+      tab.setAttribute("aria-controls", `${idPrefix}-panel-${stage.id}`);
+      tab.tabIndex = selected ? 0 : -1;
+      tab.textContent = stage.label;
+      tab.addEventListener("click", () => selectTab(stage.id, true));
+      tabs.push(tab);
+      tablist.appendChild(tab);
+
+      const panel = document.createElement("section");
+      panel.className = "stage-panel";
+      panel.id = `${idPrefix}-panel-${stage.id}`;
+      panel.setAttribute("role", "tabpanel");
+      panel.setAttribute("aria-labelledby", tab.id);
+      panel.hidden = !selected;
+      renderBonusPanel(panel, stage);
+      panelMap.set(stage.id, panel);
+      panels.appendChild(panel);
     });
 
-    firstCard.focus({ preventScroll: true });
-    firstCard.classList.add("is-located");
+    function selectTab(stageId, moveFocus) {
+      tabs.forEach((tab) => {
+        const selected = tab.id === `${idPrefix}-tab-${stageId}`;
+        tab.setAttribute("aria-selected", selected ? "true" : "false");
+        tab.tabIndex = selected ? 0 : -1;
+        if (selected && moveFocus) tab.focus({ preventScroll: true });
+      });
 
-    locateTimer = window.setTimeout(() => {
-      firstCard.classList.remove("is-located");
-      locateTimer = null;
-    }, 1400);
-  }
-
-  function clearSearch() {
-    searchInput.value = "";
-    renderCards();
-    searchInput.focus();
-  }
-
-  function resetAll() {
-    searchInput.value = "";
-    ruleFilter.value = "all";
-    bonusFilter.value = "all";
-    sortSelect.value = "initial";
-    renderCards();
-    searchInput.focus();
-  }
-
-  const grid = document.createElement("div");
-  grid.className = "killer-card-grid";
-  root.append(controls, grid);
-  renderCards();
-
-  searchInput.addEventListener("input", renderCards);
-  searchInput.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
-      event.preventDefault();
-      moveToFirstResult();
-    } else if (event.key === "Escape" && dialog.hidden) {
-      event.preventDefault();
-      clearSearch();
+      panelMap.forEach((panel, id) => {
+        panel.hidden = id !== stageId;
+      });
     }
+
+    tablist.addEventListener("keydown", (event) => {
+      const currentIndex = tabs.indexOf(document.activeElement);
+      if (currentIndex < 0) return;
+
+      const nextIndexByKey = {
+        ArrowRight: (currentIndex + 1) % tabs.length,
+        ArrowDown: (currentIndex + 1) % tabs.length,
+        ArrowLeft: (currentIndex - 1 + tabs.length) % tabs.length,
+        ArrowUp: (currentIndex - 1 + tabs.length) % tabs.length,
+        Home: 0,
+        End: tabs.length - 1
+      };
+
+      if (!(event.key in nextIndexByKey)) return;
+      event.preventDefault();
+      const nextTab = tabs[nextIndexByKey[event.key]];
+      selectTab(nextTab.id.replace(`${idPrefix}-tab-`, ""), true);
+    });
+
+    root.append(tablist, panels);
+  }
+
+  function renderBonusPanel(panel, stage) {
+    const pool = eventData.bonusKillerPools[stage.id];
+    const heading = document.createElement("h3");
+    heading.textContent = stage.label;
+    panel.appendChild(heading);
+
+    if (!pool || pool.status === "locked") {
+      const locked = document.createElement("p");
+      locked.className = "locked-message";
+      locked.textContent = eventData.lockedMessage;
+      panel.appendChild(locked);
+      return;
+    }
+
+    makeKillerBrowser(panel, {
+      mode: "bonus-pool",
+      killerIds: pool.killerIds,
+      gridClassName: "killer-card-grid killer-card-grid--bonus",
+      context: { stageLabel: stage.label }
+    });
+  }
+
+  roots.forEach((root) => {
+    if (root.dataset.killerCards === "bonus-pools") {
+      makeStageTabs(root);
+      return;
+    }
+
+    makeKillerBrowser(root);
   });
-  ruleFilter.addEventListener("change", renderCards);
-  bonusFilter.addEventListener("change", renderCards);
-  sortSelect.addEventListener("change", renderCards);
-  moveButton.addEventListener("click", moveToFirstResult);
-  clearButton.addEventListener("click", clearSearch);
-  resetButton.addEventListener("click", resetAll);
 
   dialog.addEventListener("click", (event) => {
     if (event.target.closest("[data-killer-dialog-close]")) closeDialog();

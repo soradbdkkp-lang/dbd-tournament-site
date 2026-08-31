@@ -14,6 +14,7 @@
         <a href="index.html" aria-current="page">トップ</a>
         <a href="#overview">大会概要</a>
         <a href="#rules">ルール</a>
+        <a href="pages/event-guide.html">大会当日案内</a>
         <a href="#entry">応募</a>
       </nav>
     </div>
@@ -52,6 +53,10 @@
           <p>2026年9月10日まで</p>
         </article>
         <article class="card">
+          <span class="meta">優勝賞金</span>
+          <h3>12,000円</h3>
+        </article>
+        <article class="card">
           <span class="meta">大会形式</span>
           <div class="split-lines">
             <div class="phase">
@@ -64,6 +69,18 @@
             </div>
           </div>
         </article>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="commentators-heading">
+      <h2 class="section-heading" id="commentators-heading">実況&#x30FB;解説</h2>
+      <div class="card event-highlight">
+        <div>
+          <span class="meta">大会当日の配信</span>
+          <p>実況&#x30FB;解説はNepechi、SHINの2名です。</p>
+          <p><a href="pages/event-guide.html">大会当日案内を見る</a></p>
+        </div>
+        <div data-commentators data-commentator-image-base="assets/images/"></div>
       </div>
     </section>
 
@@ -133,12 +150,18 @@
       <div class="card">
         <span class="meta">チームでの参加をお待ちしています</span>
         <p>応募は専用フォームから受け付けています。<br>必要事項を入力のうえ、ご応募ください。</p>
+        <div class="notice-box notice-box--compact">
+          <strong>注意</strong>
+          <p>&#x203B;多数の応募をいただいた場合、応募期間内でも締切を早める可能性があります。</p>
+        </div>
         <a class="button" data-entry-link data-entry-label="応募フォームを開く" aria-disabled="true">応募フォーム準備中</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer"><p>ふろぐCup Vol.1</p></footer>
+  <script src="js/event-data.js"></script>
+  <script src="js/event-ui.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

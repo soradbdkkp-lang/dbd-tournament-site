@@ -69,6 +69,6 @@ window.FROGCUP_KILLERS = {
     { id: "animatronic", name: "アニマトロニック", image: "../assets/images/killers/animatronic.webp", status: "allowed", bonusStatus: "undecided", restrictions: [] },
     { id: "first", name: "ファースト", image: "../assets/images/killers/first.webp", status: "allowed", bonusStatus: "undecided", restrictions: ["「玉虫色のソテリアチップ」「クロゴケグモ」「電極キャップ」は使用禁止。"] },
     { id: "slasher", name: "ジェイソン", image: "../assets/images/killers/slasher.webp", status: "allowed", bonusStatus: "undecided", restrictions: ["「パーティーホーン」「寝袋」は使用禁止。"] },
-    { id: "judgment", name: "ジャッジメント", image: "../assets/images/killers/judgment.webp", status: "provisional", bonusStatus: "undecided", restrictions: ["暫定使用可能。応募期間締切を目安に、キラー本体の使用可否と必要なアドオン制限を最終判断する。"] }
+    { id: "judgment", name: "ジャッジメント", image: "../assets/images/killers/judgment.webp", status: "allowed", bonusStatus: "undecided", restrictions: [] }
   ]
 };
