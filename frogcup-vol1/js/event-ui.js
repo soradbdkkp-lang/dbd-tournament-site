@@ -106,6 +106,7 @@
         image.src = joinPath(imageBase, person.imageFile);
         image.alt = `${person.name}の画像`;
         image.loading = "lazy";
+        image.decoding = "async";
         image.width = 240;
         image.height = 240;
         name.textContent = person.name;
@@ -198,6 +199,7 @@
       image.src = joinPath(imageBase, map.imageFile);
       image.alt = map.name;
       image.loading = "lazy";
+      image.decoding = "async";
       image.width = 640;
       image.height = 360;
       title.textContent = map.name;

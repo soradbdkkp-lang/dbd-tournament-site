@@ -4,6 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ペナルティ | ふろぐCup Vol.1</title>
+  <meta name="description" content="ふろぐCup Vol.1の構成違反、切断・クラッシュ、高Pingなどの処理を確認できます。">
+  <meta property="og:title" content="ペナルティ | ふろぐCup Vol.1">
+  <meta property="og:description" content="ふろぐCup Vol.1の構成違反、切断・クラッシュ、高Pingなどの処理を確認できます。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://soradbdkkp-lang.github.io/dbd-tournament-site/frogcup-vol1/pages/penalties.html">
+  <meta property="og:image" content="https://soradbdkkp-lang.github.io/dbd-tournament-site/frogcup-vol1/assets/images/frogcup-vol1-OGP.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ペナルティ | ふろぐCup Vol.1">
+  <meta name="twitter:description" content="ふろぐCup Vol.1の構成違反、切断・クラッシュ、高Pingなどの処理を確認できます。">
+  <meta name="twitter:image" content="https://soradbdkkp-lang.github.io/dbd-tournament-site/frogcup-vol1/assets/images/frogcup-vol1-OGP.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32.png">
+  <link rel="icon" href="../assets/images/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -13,19 +26,20 @@
     <div class="rule-shell">
       <nav class="side-nav" aria-label="ルールページ"><a href="event-guide.html">大会当日案内</a><a href="map-pool.html">MAPプール</a><a href="bonus-killer.html">ボーナスキラー</a><a href="survivor-rules.html">サバイバールール</a><a href="killer-rules.html">キラールール</a><a href="win-condition.html">勝敗の判断方法</a><a href="penalties.html" aria-current="page">ペナルティ</a><a href="notes.html">その他注意事項</a></nav>
       <div class="rule-content">
-        <section class="card"><h2>構成違反</h2><p>試合開始の基準は「MAPへスポーンした時点」とする。</p><ul><li>スポーン前：修正、ペナルティなし。</li><li>スポーン後1分以内：ノーペナルティ再試合。</li><li>1分経過後：以下の個別処理を適用し、個別規定がない場合は運営判断。</li></ul></section>
-        <section class="card"><h2>1分以内</h2><ul><li>違反に気付いた時点で運営をVCへ呼ぶ。1分以内に呼び出していれば、運営の入室が1分を超えても1分以内の申告として扱う。</li><li>申告後は全員が可能な限り速やかに行動を停止する。明確な停止後も意図的に続行した場合は運営判断。</li><li>一方のみの違反では、違反側は違反箇所のみ修正し、非違反側は構成変更可能。</li><li>双方に違反がある場合は双方とも構成変更可能。</li><li>MAP違反は例外として、1分以内であれば双方とも構成変更可能。</li></ul></section>
+        <nav class="page-toc" aria-label="このページの目次"><strong>ページ内目次</strong><ul><li><a href="#composition-violation">構成違反</a></li><li><a href="#disconnect-crash">切断・クラッシュ／高Ping</a></li><li><a href="#bug-glitch">バグ・グリッチ</a></li><li><a href="#late-absence">遅刻・欠員</a></li></ul></nav>
+        <section class="card" id="composition-violation"><h2>構成違反</h2><p>試合開始の基準は「MAPへスポーンした時点」とする。</p><ul><li>スポーン前：修正、ペナルティなし。</li><li>スポーン後1分以内：ノーペナルティ再試合。</li><li>1分経過後：以下の個別処理を適用し、個別規定がない場合は運営判断。</li></ul></section>
+        <section class="card"><h2>1分以内</h2><ol><li>まず全員が可能な限り速やかに行動を停止する。</li><li>停止した状態で構成を確認する。</li><li>違反が明確になった時点で、DiscordのVCチャット欄で運営をメンションする。</li><li>運営からの応答を確認する。</li><li>運営の指示なく行動を再開しない。</li></ol><p>1分以内に運営をメンションしていれば、運営の応答が1分を超えても1分以内の申告として扱う。</p><ul><li>一方のみの違反では、違反側は違反箇所のみ修正し、非違反側は構成変更可能。</li><li>双方に違反がある場合は双方とも構成変更可能。</li><li>MAP違反は例外として、1分以内であれば双方とも構成変更可能。</li></ul></section>
         <section class="card"><h2>1分経過後の主な処理</h2><ul><li>禁止パーク：該当パークを外し、その枠を空欄にして再試合。別パークへの差し替え不可。</li><li>サバイバーパーク重複：重複していた全員が該当パークを外し、その枠を空欄。</li><li>サバイバーキャラクター重複：重複を解消する人数分だけキャラクターを変更。誰が変更するかはチームが決定し、パークは維持。</li><li>禁止アドオン：該当アドオンを外して空欄。</li><li>単体使用指定アドオンの併用違反：併用していたもう一方を外して空欄。</li><li>レアリティ併用制限違反：条件違反側のアドオンを外して空欄。</li><li>ナースのレアリティ違反：違反アドオンを外して空欄。2枠とも違反なら両枠空欄。</li><li>禁止／使用済みキラー：使用可能かつ未使用のキラーへ変更。変更後のパーク／アドオンは合法な範囲で再構成可能。</li><li>MAP違反：合法かつ未使用のMAPへ変更。違反側はキラー／パーク／アドオンを維持。新MAPにより新たに違反する部分のみ修正可能。非違反側は構成変更可能。</li><li>アイテム持ち込み：アイテムを外して再試合。その他の構成は維持。</li><li>オファリング：外して再試合。その他の構成は維持。</li><li>禁止スキン：試合への影響・故意性等を踏まえて運営判断。</li><li>複数違反は1回の再試合でまとめて処理する。</li></ul></section>
         <section class="card"><h2>キラー／MAP違反の反復</h2><ul><li>初回の再試合では、変更後のキラー／MAPを相手サバイバー側へ事前公開しない。</li><li>同様の違反を繰り返し、運営が反復違反と判断した場合は、変更後のキラーとMAPの両方を相手サバイバー側へ事前公開する。</li><li>必要に応じて追加ペナルティを科す。</li></ul></section>
         <section class="card"><h2>無効試合</h2><p>再試合により無効となった試合の以下の記録はすべて無効とし、再試合のみを正式記録とする。</p><ul><li>吊り数</li><li>修理完了台数</li><li>脱出数</li><li>全滅</li><li>ゲーム内スコア</li><li>シークレットボーナス</li><li>MAP使用履歴</li><li>キラー使用履歴</li></ul></section>
         <section class="card"><h2>共通ペナルティ</h2><ul><li>個別の違反処理が定められている場合は、その規定を優先する。</li><li>個別規定がない場合は、違反内容、故意性、試合への影響、再発性、大会進行への影響等を踏まえて運営が判断する。</li><li>処置には、注意、警告、再試合、使用枠削減、得点／結果無効、試合敗北、失格、今後の大会参加制限等を含む。</li><li>同一または類似の違反を繰り返した場合は、初回より重い処置を行う場合がある。</li><li>故意の準備遅延、入室拒否、運営指示の無視、故意AFK、試合放棄、味方への意図的妨害等はペナルティ対象。</li><li>ポイント稼ぎ目的の担ぎ降ろし行為は禁止。</li><li>リザーブ・コーチを含む登録メンバーの重大な違反は、内容に応じてチームへのペナルティ対象となる場合がある。</li><li>未通電ハッチ閉鎖後の地下室での終了処理は、試合放棄・故意AFKとして扱わない。</li></ul></section>
-        <section class="card"><h2>事故切断・クラッシュ</h2><ul><li>切断／クラッシュ発生時は運営をVCへ呼び、他のプレイヤーは自己判断で切断しない。</li></ul><h3>ノーペナルティ再試合</h3><p>以下をすべて満たす場合、元の構成を維持してノーペナルティ再試合とする。</p><ul><li>その試合で1回目の事故切断／クラッシュ</li><li>サバイバーが一度も吊られていない</li><li>発電機が1台も修理完了していない</li></ul><h3>ペナルティ再試合</h3><p>上記条件を満たさない事故切断／クラッシュは以下の処理とする。</p><p>サバイバー側のみで発生</p><ul><li>サバイバー側：事故発生時の構成から－1パーク。キャラクター・その他の構成は維持。</li><li>キラー側：構成変更可能。</li></ul><p>キラー側のみで発生</p><ul><li>キラー側：事故発生時の構成から－1パーク。キラー・アドオン・その他の構成は維持。</li><li>サバイバー側：構成変更可能。</li></ul><p>双方で発生</p><ul><li>双方ペナルティなしで再試合。</li><li>双方とも構成変更可能。</li></ul><h3>故意切断</h3><ul><li>故意切断は重大な違反として扱い、該当サバイバーは3吊り・死亡扱いとする。</li><li>BOTが生成された場合も、該当サバイバー枠は3吊りを超えて加点しない。</li><li>必要に応じて追加ペナルティを科す。</li><li>ロード中の故意切断も警告等の対象とする。</li><li>サーバー障害等、双方の責任によらない大規模な接続障害は運営判断とする。</li></ul></section>
-        <section class="card"><h2>バグ・グリッチ</h2><ul><li>運営が事前に使用禁止として告知したバグ／グリッチを意図的に使用した場合はペナルティ対象。</li><li>事前に把握していなかったバグ／グリッチが発生した場合、偶発的な発生のみで重大違反とはしない。</li><li>試合続行が可能な場合は原則として続行し、必要に応じて以後の使用禁止を告知する。</li><li>明らかに不具合と認識したうえで悪質に利用した場合はペナルティ対象。</li><li>正常な試合続行が困難な場合は、再試合等を運営が判断する。</li></ul></section>
+        <section class="card" id="disconnect-crash"><h2>事故切断・クラッシュ／高Ping</h2><ul><li>切断／クラッシュ発生時は運営をVCへ呼び、他のプレイヤーは自己判断で切断しない。</li><li>試合開始から約1分後に、Pingが100ms以上の状態で継続していることを確認した場合は再試合とする。再試合時は双方とも構成を変更しない。</li></ul><h3>ノーペナルティ再試合</h3><p>以下をすべて満たす場合、元の構成を維持してノーペナルティ再試合とする。</p><ul><li>その試合で1回目の事故切断／クラッシュ</li><li>サバイバーが一度も吊られていない</li><li>発電機が1台も修理完了していない</li></ul><h3>ペナルティ再試合</h3><p>上記条件を満たさない事故切断／クラッシュは以下の処理とする。</p><p>サバイバー側のみで発生</p><ul><li>事故切断／クラッシュが発生したサバイバー本人：事故発生時の構成から－1パーク。ほかのサバイバーはパークを減らさない。キャラクター・その他の構成は維持。</li><li>キラー側：構成変更可能。</li></ul><p>キラー側のみで発生</p><ul><li>キラー側：事故発生時の構成から－1パーク。キラー・アドオン・その他の構成は維持。</li><li>サバイバー側：構成変更可能。</li></ul><p>双方で発生</p><ul><li>双方ペナルティなしで再試合。</li><li>双方とも構成変更可能。</li></ul><h3>故意切断</h3><ul><li>故意切断は重大な違反として扱い、該当サバイバーは3吊り・死亡扱いとする。</li><li>BOTが生成された場合も、該当サバイバー枠は3吊りを超えて加点しない。</li><li>必要に応じて追加ペナルティを科す。</li><li>ロード中の故意切断も警告等の対象とする。</li><li>サーバー障害等、双方の責任によらない大規模な接続障害は運営判断とする。</li></ul></section>
+        <section class="card" id="bug-glitch"><h2>バグ・グリッチ</h2><ul><li>運営が事前に使用禁止として告知したバグ／グリッチを意図的に使用した場合はペナルティ対象。</li><li>事前に把握していなかったバグ／グリッチが発生した場合、偶発的な発生のみで重大違反とはしない。</li><li>試合続行が可能な場合は原則として続行し、必要に応じて以後の使用禁止を告知する。</li><li>明らかに不具合と認識したうえで悪質に利用した場合はペナルティ対象。</li><li>正常な試合続行が困難な場合は、再試合等を運営が判断する。</li></ul></section>
         <section class="card"><h2>試合停止・違反申告</h2><ul><li>違反の疑いだけで自己判断による試合停止は行わず、原則として運営へ連絡する。</li><li>出場中の当事者が明確な違反を確認し、直ちに停止が必要な場合は相手へ停止を伝えたうえで運営を呼ぶことができる。</li><li>運営から停止指示が出た場合は可能な限り速やかに行動を止め、運営の指示なく再開しない。</li><li>第三者からの申告のみで直ちに停止するとは限らない。客観的に確認できる構成違反等は運営が確認後に処理する。</li><li>煽り・挑発等の主観的判断を伴う申告は当事者の意見を優先する。</li></ul></section>
-        <section class="card"><h2>遅刻・欠員・不戦敗</h2><ul><li>一律の待機時間は設けず、遅刻・欠員・準備遅延は大会進行、理由、復帰見込み、他試合への影響、故意性等を踏まえて運営判断。</li><li>予選の不戦勝は対戦結果3Pt、不戦敗は0Pt。</li><li>未実施試合の吊り数・修理完了台数・ゲーム内スコア・シークレットボーナスは記録しない。</li><li>未実施試合のMAP／キラーは使用済みにしない。</li><li>1対戦の途中で続行不能となった場合、それまで正常終了した試合の記録は有効とし、対戦は原則として続行不能側の不戦敗。</li><li>本戦では不戦敗側を敗北、相手側を勝利とし、未実施分の得点は設定しない。</li></ul></section>
+        <section class="card" id="late-absence"><h2>遅刻・欠員・不戦敗</h2><ul><li>一律の待機時間は設けず、遅刻・欠員・準備遅延は大会進行、理由、復帰見込み、他試合への影響、故意性等を踏まえて運営判断。</li><li>予選の不戦勝は対戦結果3Pt、不戦敗は0Pt。</li><li>未実施試合の吊り数・修理完了台数・ゲーム内スコア・シークレットボーナスは記録しない。</li><li>未実施試合のMAP／キラーは使用済みにしない。</li><li>1対戦の途中で続行不能となった場合、それまで正常終了した試合の記録は有効とし、対戦は原則として続行不能側の不戦敗。</li><li>本戦では不戦敗側を敗北、相手側を勝利とし、未実施分の得点は設定しない。</li></ul></section>
       </div>
     </div>
   </main>
-  <footer class="site-footer"><p>ふろぐCup Vol.1</p></footer>
+  <footer class="site-footer"><p>主催：夏空-sora- / ふろぐCup運営</p><p><a href="https://x.com/sora_kkp_game?s=11" target="_blank" rel="noopener noreferrer">運営X <span aria-hidden="true">↗</span></a></p><p>大会に関するお問い合わせ：運営Xまで</p><p>&copy; 2026 Frog Cup</p></footer>
 </body>
 </html>

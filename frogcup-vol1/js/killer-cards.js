@@ -195,12 +195,8 @@
     })?.[0] || null;
   }
 
-  function matchesSearch(killer, query, mode) {
+  function matchesSearch(killer, query) {
     if (!query) return true;
-    if (mode !== "bonus-pool") {
-      const bonusStatus = getBonusSearchStatus(query);
-      if (bonusStatus) return killer.bonusStatus === bonusStatus;
-    }
     return getSearchTarget(killer).includes(query);
   }
 
@@ -216,19 +212,23 @@
     dialogTitle.textContent = killer.name;
     dialogImage.src = killer.image;
     dialogImage.alt = `${killer.name}のキラー画像`;
-    dialogBadges.replaceChildren(
+    const headerBadges = [
       makeBadge(status.icon, status.label, status.className),
-      makeBadge(restriction.icon, restriction.label, restriction.className),
-      makeBadge(bonus.icon, bonus.label, bonus.className)
-    );
+      makeBadge(restriction.icon, restriction.label, restriction.className)
+    ];
+    if (context?.stageLabel) {
+      headerBadges.push(makeBadge(bonus.icon, bonus.label, bonus.className));
+    }
+    dialogBadges.replaceChildren(...headerBadges);
     dialogBody.replaceChildren();
 
-    addDialogSection("使用可否", makeList([status.label], ""));
     addDialogSection("キラー固有の制限", makeList(restrictionItems, "個別制限なし"));
     addDialogSection("共通キラールール", makeList(data.commonRules, ""));
     addDialogSection("共通禁止パーク", makeList(data.commonBannedPerks, ""));
     addDialogSection("共通条件付きパーク", makeList(data.commonConditionalPerks, ""));
-    addDialogSection("ボーナス状態", makeList([bonus.label], ""));
+    if (context?.stageLabel) {
+      addDialogSection("ボーナス状態", makeList([bonus.label], ""));
+    }
 
     document.body.classList.add("is-dialog-open");
     dialog.hidden = false;
@@ -292,7 +292,8 @@
     overlay.setAttribute("aria-hidden", "true");
     const overlayInner = document.createElement("span");
     overlayInner.className = "killer-card__overlay-inner";
-    [status, restriction, bonus].forEach((badge) => {
+    const cardBadges = context?.stageLabel ? [status, restriction, bonus] : [status, restriction];
+    cardBadges.forEach((badge) => {
       const text = document.createElement("span");
       text.textContent = `${badge.icon ? `${badge.icon} ` : ""}${badge.cardLabel || badge.label}`;
       overlayInner.appendChild(text);
@@ -309,7 +310,7 @@
 
     const statusRow = document.createElement("span");
     statusRow.className = "killer-card__status";
-    appendBadgeRow(statusRow, [status, restriction, bonus]);
+    appendBadgeRow(statusRow, cardBadges);
     const detailLabel = document.createElement("span");
     detailLabel.className = "killer-card__detail";
     detailLabel.textContent = "詳細を見る";
@@ -338,7 +339,7 @@
     return field;
   }
 
-  function makeControls(showBonusFilter) {
+  function makeControls(showBonusFilter, showBonusSorting) {
     const controls = document.createElement("div");
     const id = `killer-controls-${Math.random().toString(36).slice(2)}`;
     controls.className = "killer-controls";
@@ -353,7 +354,7 @@
     searchInput.type = "search";
     searchInput.autocomplete = "off";
     searchInput.inputMode = "search";
-    searchInput.placeholder = showBonusFilter ? "キラー名・別名・ボーナス状態" : "キラー名・別名";
+    searchInput.placeholder = "キラー名・別名";
     searchField.append(searchLabel, searchInput);
 
     const actions = document.createElement("div");
@@ -380,7 +381,10 @@
     if (showBonusFilter) {
       controls.appendChild(makeSelect(`${id}-bonus-filter`, "ボーナス状態", bonusFilterOptions));
     }
-    controls.appendChild(makeSelect(`${id}-sort`, "並び替え", sortOptions));
+    const availableSortOptions = showBonusSorting
+      ? sortOptions
+      : sortOptions.filter((option) => !option.value.startsWith("bonus-"));
+    controls.appendChild(makeSelect(`${id}-sort`, "並び替え", availableSortOptions));
 
     const count = document.createElement("p");
     count.className = "killer-controls__count";
@@ -421,8 +425,9 @@
   }
 
   function makeKillerBrowser(root, options = {}) {
-    const showBonusFilter = options.mode !== "bonus-pool";
-    const controls = makeControls(showBonusFilter);
+    const showBonusFilter = false;
+    const showBonusSorting = options.mode === "bonus-pool";
+    const controls = makeControls(showBonusFilter, showBonusSorting);
     const searchInput = controls.querySelector("input[type='search']");
     const ruleFilter = controls.querySelector("select[id$='rule-filter']");
     const bonusFilter = controls.querySelector("select[id$='bonus-filter']");
@@ -454,7 +459,7 @@
 
       visibleItems = getSortedItems(
         getBaseItems().filter(({ killer }) => {
-          return matchesSearch(killer, query, options.mode) && ruleOption.matches(killer) && bonusOption.matches(killer);
+          return matchesSearch(killer, query) && ruleOption.matches(killer) && bonusOption.matches(killer);
         }),
         sortSelect.value
       );

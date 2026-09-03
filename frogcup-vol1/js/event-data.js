@@ -7,7 +7,7 @@ window.FROGCUP_EVENT = {
     {
       id: "nepechi",
       name: "Nepechi",
-      imageFile: "nepechi.png",
+      imageFile: "nepechi.webp",
       links: {
         x: "https://x.com/goodjob_Nepechi",
         twitch: "https://www.twitch.tv/nepechi"
