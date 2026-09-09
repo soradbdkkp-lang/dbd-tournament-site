@@ -26,10 +26,60 @@
     <div class="rule-shell">
       <nav class="side-nav" aria-label="ルールページ"><a href="event-guide.html">大会当日案内</a><a href="map-pool.html">MAPプール</a><a href="bonus-killer.html">ボーナスキラー</a><a href="survivor-rules.html">サバイバールール</a><a href="killer-rules.html">キラールール</a><a href="win-condition.html" aria-current="page">勝敗の判断方法</a><a href="penalties.html">ペナルティ</a><a href="notes.html">その他注意事項</a></nav>
       <div class="rule-content">
-        <section class="card"><h2>得点・勝敗</h2><h3>キラー得点</h3><p>吊り数（最大12Pt）＋全滅ボーナス（2Pt）</p><h3>サバイバー得点</h3><p>修理完了発電機数（1台1Pt／最大5Pt）＋脱出人数（1人1Pt／最大4Pt）</p><h3>チーム得点</h3><p>キラー得点＋サバイバー得点</p><ul><li>吊り数はゲーム内フックカウンターを基準とする。</li><li>サバイバーが死亡した場合は、死亡方法に関係なくそのサバイバーを3吊りとして計算する。</li><li>故意切断は死亡扱いとし、3吊りとして計算する。</li><li>対戦はチーム得点が高い側の勝利。</li><li>同点の場合は「キラーゲーム内スコア＋サバイバー4名のうち2番目に低いゲーム内スコア」で比較する。</li><li>それでも完全同点の場合は運営判断とする。</li></ul></section>
-        <section class="card"><h2>未通電ハッチ</h2><ul><li>「未通電」は、発電機5台の修理完了による通電前を指す。</li><li>未通電時のハッチ戦は可能。</li><li>最後のサバイバーが未通電ハッチから脱出した場合、そのサバイバーは3吊り扱い、キラー側は全滅扱い、サバイバー側の脱出得点は0Ptとする。ゲーム内スコアは有効。</li><li>キラーが未通電ハッチを閉じた場合はゲート戦へ移行しない。ハッチ閉鎖でゲートが通電しても同様。</li><li>最後のサバイバーとキラーは地下室へ集合する。移動中に遭遇した場合は、その場でキラーが最後のサバイバーを吊ってよい。退出・切断で終了させず、リザルト画面まで進める。</li><li>発電機5台修理完了後は、ハッチ・ゲートのどちらから脱出しても通常の脱出得点を加算する。</li></ul></section>
-        <section class="card"><h2>予選順位</h2><p>予選順位は以下4項目の合計で決定する。</p><ul><li>① 対戦結果：勝利3Pt／敗北0Pt</li><li>② 吊り数＋修理完了台数：ブロック内1位2Pt／2位1Pt／3位0Pt</li><li>③ ゲーム内スコア：「キラーゲーム内スコア＋サバイバー2番目に低いゲーム内スコア」の予選合計を比較し、1位2Pt／2位1Pt／3位0Pt</li><li>④ シークレットボーナス：MAP＋1Pt／キラー＋1Pt。1試合で両方獲得可能。予選の対戦勝敗には加算しない。</li><li>②③で同数の場合は同順位・同ポイントとし、次順位を飛ばす。</li><li>合計同点時は、対戦結果Pt → 直接対決 → 吊り数＋修理完了台数の実数 → ③の実数合計の順で比較する。</li><li>3チーム同点等で直接対決のみでは決定できない場合は次の比較項目へ進む。</li><li>それでも完全同点の場合は運営判断とする。</li></ul></section>
-        <section class="card"><h2>決勝のキラー先攻／後攻</h2><div class="final-order-lines"><p>決勝のキラー先攻／後攻は、準決勝の最終チーム得点が高いチームが選択する。</p><p>同点の場合は<span>「キラーゲーム内スコア＋サバイバー4名のうち2番目に低いゲーム内スコア」</span>で比較し、</p><p>それでも同点の場合は運営判断とする。</p></div></section>
+        <nav class="page-toc" aria-label="このページの目次"><strong>ページ内目次</strong><ul><li><a href="#match-result">各マッチの勝敗</a></li><li><a href="#unpowered-hatch">未通電ハッチ</a></li><li><a href="#qualifier-ranking">予選順位</a></li><li><a href="#qualifier-tiebreak">予選総合Pt同点時</a></li><li><a href="#final-order">決勝関連</a></li></ul></nav>
+
+        <section class="card" id="match-result">
+          <h2>各マッチの勝敗</h2>
+          <p class="rule-visual__intro"><strong>各マッチのチーム得点を計算し、対戦相手と比較します。</strong></p>
+          <div class="rule-score-grid">
+            <section class="rule-panel" aria-labelledby="killer-score-heading">
+              <span class="rule-panel__label">キラー得点</span><h3 id="killer-score-heading">キラー側の得点計算</h3>
+              <div class="rule-equation"><div class="rule-equation__term"><span>吊り数</span><small>1吊り1Pt</small><strong>最大12Pt</strong></div><span class="rule-equation__operator" aria-label="足す">＋</span><div class="rule-equation__term"><span>全滅ボーナス</span><strong>+2Pt</strong></div></div>
+              <p class="rule-calculation-result"><span aria-hidden="true">＝</span><strong>キラー得点</strong></p>
+            </section>
+            <section class="rule-panel" aria-labelledby="survivor-score-heading">
+              <span class="rule-panel__label">サバイバー得点</span><h3 id="survivor-score-heading">サバイバー側の得点計算</h3>
+              <div class="rule-equation"><div class="rule-equation__term"><span>修理完了発電機数</span><small>1台1Pt</small><strong>最大5Pt</strong></div><span class="rule-equation__operator" aria-label="足す">＋</span><div class="rule-equation__term"><span>脱出人数</span><small>1人1Pt</small><strong>最大4Pt</strong></div></div>
+              <p class="rule-calculation-result"><span aria-hidden="true">＝</span><strong>サバイバー得点</strong></p>
+            </section>
+          </div>
+          <section class="rule-panel rule-panel--result" aria-labelledby="team-score-heading">
+            <span class="rule-panel__label">第1判定</span><h3 id="team-score-heading">チーム得点</h3>
+            <div class="rule-equation rule-equation--result"><div class="rule-equation__term"><strong>キラー得点</strong></div><span class="rule-equation__operator" aria-label="足す">＋</span><div class="rule-equation__term"><strong>サバイバー得点</strong></div><span class="rule-equation__operator" aria-label="イコール">＝</span><div class="rule-equation__term rule-equation__term--result"><strong>チーム得点</strong></div></div>
+            <p class="rule-outcome">チーム得点が高い側の勝利</p>
+          </section>
+          <section class="rule-panel rule-panel--secondary" aria-labelledby="match-tiebreak-heading">
+            <span class="rule-panel__label">第2判定</span><h3 id="match-tiebreak-heading">チーム得点が同点の場合</h3>
+            <div class="rule-equation rule-equation--result"><div class="rule-equation__term"><strong>キラーのゲーム内スコア</strong></div><span class="rule-equation__operator" aria-label="足す">＋</span><div class="rule-equation__term"><strong>サバイバー4名のうち2番目に低いゲーム内スコア</strong></div><span class="rule-equation__operator" aria-label="イコール">＝</span><div class="rule-equation__term rule-equation__term--result"><strong>同点時比較スコア</strong></div></div>
+            <p class="rule-outcome">合算値が高い側の勝利</p><p>それでも完全同点の場合は運営判断とする。</p>
+          </section>
+          <ul><li>吊り数はゲーム内フックカウンターを基準とする。</li><li>サバイバーが死亡した場合は、死亡方法に関係なくそのサバイバーを3吊りとして計算する。</li><li>故意切断は死亡扱いとし、3吊りとして計算する。</li></ul>
+        </section>
+
+        <section class="card" id="unpowered-hatch"><h2>未通電ハッチ</h2><ul><li>「未通電」は、発電機5台の修理完了による通電前を指す。</li><li>未通電時のハッチ戦は可能。</li><li>最後のサバイバーが未通電ハッチから脱出した場合、そのサバイバーは3吊り扱い、キラー側は全滅扱い、サバイバー側の脱出得点は0Ptとする。ゲーム内スコアは有効。</li><li>キラーが未通電ハッチを閉じた場合はゲート戦へ移行しない。ハッチ閉鎖でゲートが通電しても同様。</li><li>最後のサバイバーとキラーは地下室へ集合する。移動中に遭遇した場合は、その場でキラーが最後のサバイバーを吊ってよい。退出・切断で終了させず、リザルト画面まで進める。</li><li>発電機5台修理完了後は、ハッチ・ゲートのどちらから脱出しても通常の脱出得点を加算する。</li></ul></section>
+
+        <section class="card" id="qualifier-ranking">
+          <h2>予選順位</h2>
+          <p class="rule-visual__intro"><strong>予選順位は、以下4種類の予選Ptをすべて加算した「予選総合Pt」で決定します。</strong>各マッチのチーム得点を、そのまま予選順位Ptとして使用する方式ではありません。</p>
+          <ol class="rule-points-grid">
+            <li class="rule-points-card"><span class="rule-panel__label">① 対戦結果Pt</span><h3>各マッチの勝敗</h3><p><strong>勝利：+3Pt</strong><br>敗北：0Pt</p></li>
+            <li class="rule-points-card"><span class="rule-panel__label">② 吊り数＋修理完了台数Pt</span><h3>予選2試合分を合算</h3><p>吊り数＋修理完了発電機数を合算し、ブロック内順位を決定。</p><p><strong>1位：2Pt／2位：1Pt／3位：0Pt</strong></p><p>同数の場合は同順位・同Ptとし、次順位を飛ばします。</p></li>
+            <li class="rule-points-card"><span class="rule-panel__label">③ ゲーム内スコアPt</span><h3>予選2試合分を合算</h3><p>各試合の「キラーゲーム内スコア＋サバイバー4名のうち2番目に低いゲーム内スコア」を算出し、2試合分を合算。</p><p><strong>1位：2Pt／2位：1Pt／3位：0Pt</strong></p><p>同数の場合は同順位・同Ptとし、次順位を飛ばします。</p></li>
+            <li class="rule-points-card"><span class="rule-panel__label">④ シークレットボーナス</span><h3>獲得ボーナスを加算</h3><p><strong>MAP：+1Pt／キラー：+1Pt</strong></p><p>1試合で両方獲得可能。予選の対戦勝敗には加算しません。</p></li>
+          </ol>
+          <div class="rule-total" aria-label="対戦結果Pt、吊り数と修理完了台数Pt、ゲーム内スコアPt、シークレットボーナスをすべて加算して予選総合Ptを算出">
+            <span>① 対戦結果Pt</span><strong aria-label="足す">＋</strong><span>② 吊り数＋修理完了台数Pt</span><strong aria-label="足す">＋</strong><span>③ ゲーム内スコアPt</span><strong aria-label="足す">＋</strong><span>④ シークレットボーナス</span><strong aria-label="イコール">＝</strong><span class="rule-total__result">予選総合Pt</span>
+          </div>
+        </section>
+
+        <section class="card" id="qualifier-tiebreak">
+          <h2>予選総合Pt同点時</h2>
+          <p class="rule-visual__intro"><strong>この判定は、4種類を加算した予選総合Ptが同じ場合だけ使用します。</strong></p>
+          <ol class="rule-decision-flow"><li><span>1</span><strong>対戦結果Pt</strong></li><li><span>2</span><strong>直接対決</strong></li><li><span>3</span><strong>② 吊り数＋修理完了台数の実数</strong></li><li><span>4</span><strong>③ ゲーム内スコアの実数合計</strong></li></ol>
+          <ul><li>3チーム同点等で直接対決のみでは決定できない場合は、次の比較項目へ進む。</li><li>それでも完全同点の場合は運営判断とする。</li></ul>
+        </section>
+
+        <section class="card" id="final-order"><h2>決勝のキラー先攻／後攻</h2><div class="final-order-lines"><p>決勝のキラー先攻／後攻は、準決勝の最終チーム得点が高いチームが選択する。</p><p>同点の場合は<span>「キラーゲーム内スコア＋サバイバー4名のうち2番目に低いゲーム内スコア」</span>で比較し、</p><p>それでも同点の場合は運営判断とする。</p></div></section>
       </div>
     </div>
   </main>

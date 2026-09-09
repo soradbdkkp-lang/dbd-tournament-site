@@ -181,6 +181,15 @@
     return (killer.terms || []).map((termId) => data.addonTerms[termId]).filter(Boolean);
   }
 
+  function getKeyRuleBadges(killer) {
+    return (killer.keyRules || []).map((rule) => ({
+      icon: "✓",
+      label: rule.label,
+      cardLabel: rule.cardLabel ?? rule.label,
+      className: "is-ok"
+    }));
+  }
+
   function normalizeSearchText(value) {
     return value.normalize("NFKC").toLowerCase().replace(/\s+/g, "");
   }
@@ -203,6 +212,7 @@
   function openDialog(killer, opener, context) {
     const status = statusMeta[killer.status];
     const restriction = getRestrictionBadge(killer);
+    const keyRules = getKeyRuleBadges(killer);
     const bonus = context?.stageLabel
       ? { icon: "★", label: `${context.stageLabel}のボーナス対象`, className: "is-bonus" }
       : bonusMeta[killer.bonusStatus];
@@ -214,7 +224,8 @@
     dialogImage.alt = `${killer.name}のキラー画像`;
     const headerBadges = [
       makeBadge(status.icon, status.label, status.className),
-      makeBadge(restriction.icon, restriction.label, restriction.className)
+      makeBadge(restriction.icon, restriction.label, restriction.className),
+      ...keyRules.map((rule) => makeBadge(rule.icon, rule.label, rule.className))
     ];
     if (context?.stageLabel) {
       headerBadges.push(makeBadge(bonus.icon, bonus.label, bonus.className));
@@ -261,13 +272,16 @@
     }
   }
 
-  function appendBadgeRow(parent, badges) {
-    badges.forEach((badge) => parent.appendChild(makeBadge(badge.icon, badge.label, badge.className)));
+  function appendCardBadgeRow(parent, badges) {
+    badges.forEach((badge) => {
+      parent.appendChild(makeBadge(badge.icon, badge.cardLabel ?? badge.label, badge.className));
+    });
   }
 
   function makeCard(killer, context) {
     const status = statusMeta[killer.status];
     const restriction = getRestrictionBadge(killer);
+    const keyRules = getKeyRuleBadges(killer);
     const bonus = context?.stageLabel
       ? { icon: "★", label: "ボーナス対象", className: "is-bonus" }
       : bonusMeta[killer.bonusStatus];
@@ -292,10 +306,12 @@
     overlay.setAttribute("aria-hidden", "true");
     const overlayInner = document.createElement("span");
     overlayInner.className = "killer-card__overlay-inner";
-    const cardBadges = context?.stageLabel ? [status, restriction, bonus] : [status, restriction];
+    const cardBadges = context?.stageLabel
+      ? [status, restriction, ...keyRules, bonus]
+      : [status, restriction, ...keyRules];
     cardBadges.forEach((badge) => {
       const text = document.createElement("span");
-      text.textContent = `${badge.icon ? `${badge.icon} ` : ""}${badge.cardLabel || badge.label}`;
+      text.textContent = `${badge.icon ? `${badge.icon} ` : ""}${badge.cardLabel ?? badge.label}`;
       overlayInner.appendChild(text);
     });
     const detail = document.createElement("strong");
@@ -310,7 +326,7 @@
 
     const statusRow = document.createElement("span");
     statusRow.className = "killer-card__status";
-    appendBadgeRow(statusRow, cardBadges);
+    appendCardBadgeRow(statusRow, cardBadges);
     const detailLabel = document.createElement("span");
     detailLabel.className = "killer-card__detail";
     detailLabel.textContent = "詳細を見る";

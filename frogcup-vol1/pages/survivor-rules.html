@@ -50,7 +50,46 @@
           <div class="perk-item"><img src="../assets/images/survivor-perks/boon_steadfast.webp" width="42" height="42" loading="lazy" decoding="async" alt=""><span>恵み：着実</span></div>
         </div></section>
         <section class="card" id="items"><h2>アイテム</h2><ul><li>アイテムの持ち込みは禁止。持ち込みアイテムのアドオンも使用禁止。</li><li>試合中に入手・生成したアイテムは使用可能。ただし鍵は使用禁止。拾うこと自体は可。</li><li>鍵を使用した場合、鍵によって得た結果は原則無効。試合結果・進行への影響が大きい場合は運営が再試合・追加処置等を判断する。</li></ul></section>
-        <section class="card" id="totems"><h2>トーテム</h2><ul><li>呪いのトーテムは、発電機1台目が修理完了するまで破壊完了してはいけない。</li><li>1台目の修理完了に合わせて破壊できるよう、事前に触る・浄化を開始することは可。</li><li>無力なトーテムは開幕から破壊可能。</li><li>発電機1台目の修理完了前に呪いのトーテムを破壊した場合は運営を呼び、キラー側の確認も踏まえて再試合・ペナルティ等を判断する。</li></ul></section>
+        <section class="card" id="totems">
+          <h2>トーテム（重要ルール）</h2>
+          <p class="rule-visual__intro">禁止されているのは、発電機1台目の修理完了前に<strong>呪いのトーテムを破壊完了すること</strong>です。</p>
+          <div class="rule-visual">
+            <section class="rule-panel" aria-labelledby="totem-normal-heading">
+              <h3 id="totem-normal-heading">通常ルール</h3>
+              <div class="rule-flow">
+                <div class="rule-flow__step rule-flow__step--warning"><span class="rule-panel__label">発電機 修理完了0台</span><strong>呪いのトーテム：破壊完了不可</strong><p>触ること・浄化を開始することは可能です。</p></div>
+                <div class="rule-flow__arrow" aria-label="発電機1台目が修理完了すると次の状態へ進む"><span aria-hidden="true">↓</span><strong>発電機1台目 修理完了</strong></div>
+                <div class="rule-flow__step rule-flow__step--ok"><span class="rule-panel__label">条件達成後</span><strong>呪いのトーテム：破壊可能</strong></div>
+              </div>
+              <aside class="rule-callout"><span class="rule-panel__label">別枠のルール</span><strong>無力なトーテム：開幕から破壊可能</strong></aside>
+            </section>
+
+            <section class="rule-panel" aria-labelledby="totem-first-violation-heading">
+              <h3 id="totem-first-violation-heading">1回目の早期破壊</h3>
+              <p>発電機1台目の修理完了前に、呪いのトーテムを破壊完了した場合は直ちに再試合とします。</p>
+              <div class="rule-flow">
+                <div class="rule-flow__step rule-flow__step--warning"><strong>直ちに再試合</strong><p>次の条件Aまたは条件Bの、どちらか一方を満たすまで破壊完了不可。</p></div>
+                <div class="rule-branch" aria-label="条件Aまたは条件B">
+                  <div class="rule-branch__option"><span class="rule-panel__label">条件A</span><strong>発電機を2台修理完了</strong></div>
+                  <div class="rule-branch__operator"><strong>または（OR）</strong><span>AとBの両方を達成する必要はありません</span></div>
+                  <div class="rule-branch__option"><span class="rule-panel__label">条件B</span><strong>発電機を1台修理完了</strong><span class="rule-equation__operator" aria-label="かつ">＋</span><strong>キラー側が5吊りに到達</strong></div>
+                </div>
+                <div class="rule-flow__arrow" aria-label="条件Aまたは条件Bのどちらか一方を満たすと次の状態へ進む"><span aria-hidden="true">↓</span><strong>AまたはBのどちらかを満たす</strong></div>
+                <div class="rule-flow__step rule-flow__step--ok"><strong>呪いのトーテム：破壊可能</strong></div>
+              </div>
+            </section>
+
+            <section class="rule-panel rule-panel--danger" aria-labelledby="totem-repeat-violation-heading">
+              <h3 id="totem-repeat-violation-heading">再試合でも違反した場合</h3>
+              <p>解除条件を満たす前に、再び呪いのトーテムを破壊完了した場合の処理です。</p>
+              <div class="rule-flow">
+                <div class="rule-flow__step rule-flow__step--danger"><strong>直ちに再試合</strong></div>
+                <div class="rule-flow__arrow" aria-label="その次の再試合で適用"><span aria-hidden="true">↓</span><strong>その次の再試合</strong></div>
+                <div class="rule-flow__step rule-flow__step--danger"><strong>サバイバー側は、試合中を通して呪いのトーテムを破壊できない</strong></div>
+              </div>
+            </section>
+          </div>
+        </section>
         <section class="card" id="cenobite-box"><h2>セノバイトの箱＋予想外の展開</h2><ul><li>セノバイトの箱を所持した状態で「予想外の展開」を使用することは禁止。</li><li>違反時はキラー側の意向を確認したうえで、再試合・続行等を運営が判断する。</li></ul></section>
         <section class="card" id="afc"><h2>AFC</h2><ul><li>AFCによる自力脱出は原則禁止。AFCゲージが溜まること自体は違反としない。</li><li>正規の自力脱出パークを使用する場面で、ゲーム仕様上AFCの自力脱出が優先された場合は使用可能。</li><li>未通電ハッチ閉鎖後の地下室での試合終了処理では、AFCによる自力脱出を行わない。</li></ul></section>
         <section class="card" id="taunting"><h2>煽り・エモート等</h2><ul><li>攻撃・当たり判定回避を目的としたしゃがみは使用可能。挑発目的の屈伸は禁止。</li><li>ライトカチカチ、挑発目的のエモート、その他意図的な煽り行為は禁止。</li><li>板前・ゲート内でのエモートテックは原則使用禁止。ただし、その行為単体では大会上のペナルティを科さない。キラー側から申告があった場合、運営から注意することがある。</li></ul></section>
