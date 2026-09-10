@@ -28,39 +28,39 @@ window.FROGCUP_EVENT = {
       stageId: "qualifier-a",
       stageLabel: "予選Aブロック",
       matches: [
-        { matchup: "A1 vs A2", startTime: "16:00", displayTime: "16:00〜" },
-        { matchup: "A1 vs A3", startTime: "16:45", displayTime: "16:45〜" },
-        { matchup: "A2 vs A3", startTime: "17:30", displayTime: "17:30〜" }
+        { leftTeam: "にゃんバード", rightTeam: "サミエルず", startTime: "16:00", displayTime: "16:00〜" },
+        { leftTeam: "にゃんバード", rightTeam: "XlytheriN", startTime: "16:45", displayTime: "16:45〜" },
+        { leftTeam: "サミエルず", rightTeam: "XlytheriN", startTime: "17:30", displayTime: "17:30〜" }
       ]
     },
     {
       stageId: "qualifier-b",
       stageLabel: "予選Bブロック",
       matches: [
-        { matchup: "B1 vs B2", startTime: "18:15", displayTime: "18:15〜" },
-        { matchup: "B1 vs B3", startTime: "19:00", displayTime: "19:00〜" },
-        { matchup: "B2 vs B3", startTime: "19:45", displayTime: "19:45〜" }
+        { leftTeam: "白血族", rightTeam: "BLUE族", startTime: "18:15", displayTime: "18:15〜" },
+        { leftTeam: "白血族", rightTeam: "ほたるのいかすみ", startTime: "19:00", displayTime: "19:00〜" },
+        { leftTeam: "BLUE族", rightTeam: "ほたるのいかすみ", startTime: "19:45", displayTime: "19:45〜" }
       ]
     },
     {
       stageId: "semifinal-1",
       stageLabel: "準決勝1試合目",
       matches: [
-        { matchup: "予選Aの1位 vs 予選Bの2位", startTime: "20:40", displayTime: "20:40〜" }
+        { leftTeam: "予選Aの1位", rightTeam: "予選Bの2位", startTime: "20:40", displayTime: "20:40〜" }
       ]
     },
     {
       stageId: "semifinal-2",
       stageLabel: "準決勝2試合目",
       matches: [
-        { matchup: "予選Bの1位 vs 予選Aの2位", startTime: "21:25", displayTime: "21:25〜" }
+        { leftTeam: "予選Bの1位", rightTeam: "予選Aの2位", startTime: "21:25", displayTime: "21:25〜" }
       ]
     },
     {
       stageId: "final",
       stageLabel: "決勝",
       matches: [
-        { matchup: "準決勝1試合目の勝者 vs 準決勝2試合目の勝者", startTime: "22:15", displayTime: "22:15〜" }
+        { leftTeam: "準決勝1試合目の勝者", rightTeam: "準決勝2試合目の勝者", startTime: "22:15", displayTime: "22:15〜" }
       ]
     }
   ],

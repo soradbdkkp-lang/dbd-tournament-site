@@ -149,14 +149,30 @@
       group.matches.forEach((match) => {
         const item = document.createElement("li");
         const time = document.createElement("time");
-        const matchup = document.createElement("span");
+        const matchup = document.createElement("div");
+        const leftTeam = document.createElement("span");
+        const firstKillerBadge = document.createElement("span");
+        const leftTeamName = document.createElement("span");
+        const versus = document.createElement("span");
+        const rightTeam = document.createElement("span");
 
         item.className = "timeline-item";
         time.className = "timeline-item__time";
         time.dateTime = match.startTime;
         time.textContent = match.displayTime;
         matchup.className = "timeline-item__match";
-        matchup.textContent = match.matchup;
+        leftTeam.className = "timeline-team timeline-team--left";
+        firstKillerBadge.className = "first-killer-badge";
+        firstKillerBadge.textContent = "先行キラー";
+        leftTeamName.className = "timeline-team__name";
+        leftTeamName.textContent = match.leftTeam;
+        versus.className = "timeline-item__versus";
+        versus.textContent = "vs";
+        rightTeam.className = "timeline-team timeline-team--right";
+        rightTeam.textContent = match.rightTeam;
+
+        leftTeam.append(firstKillerBadge, leftTeamName);
+        matchup.append(leftTeam, versus, rightTeam);
 
         item.append(time, matchup);
         list.appendChild(item);

@@ -28,12 +28,24 @@
         <a href="#overview">大会概要</a>
         <a href="#rules">ルール</a>
         <a href="pages/event-guide.html">大会当日案内</a>
+        <a href="pages/team-members.html">メンバー表</a>
         <a href="#entry">応募</a>
       </nav>
     </div>
   </header>
 
   <main class="site-main">
+    <aside class="announcement-banner" aria-label="当選チーム発表">
+      <a class="card announcement-banner__inner" href="pages/team-members.html">
+        <div>
+          <span class="meta">ふろぐCup Vol.1</span>
+          <h2>当選チーム発表</h2>
+          <p>当選チームメンバー表を公開しました。</p>
+        </div>
+        <span class="rule-link__action">当選チームメンバー表を見る</span>
+      </a>
+    </aside>
+
     <aside class="staff-banner" aria-label="運営スタッフ募集のお知らせ">
       <div class="card staff-banner__inner">
         <div>
@@ -52,7 +64,7 @@
           <p class="hero__date">2026年10月3日 16:00開始</p>
           <p class="hero__copy">仲間と挑む、特別な一夜。</p>
           <div class="button-row">
-            <a class="button" data-entry-link data-entry-label="応募フォーム" aria-disabled="true">応募フォーム準備中</a>
+            <a class="button" data-entry-link aria-disabled="true">応募受付は終了しました</a>
             <a class="button button--ghost" href="#rules">ルールを見る</a>
           </div>
         </div>
@@ -186,6 +198,10 @@
     <section class="section" id="updates" aria-labelledby="updates-heading">
       <h2 class="section-heading" id="updates-heading">更新履歴</h2>
       <article class="card update-history">
+        <time datetime="2026-09-11">2026-09-11</time>
+        <ul><li>応募受付を終了し、当選チームメンバー表を公開しました。タイムテーブルを更新しました。</li></ul>
+      </article>
+      <article class="card update-history">
         <time datetime="2026-09-10">2026-09-10</time>
         <ul><li>各マッチの勝敗計算と予選順位Ptの表示を整理し、それぞれの判定方法を分かりやすく改善。</li><li>ナースの「4パーク使用可・室内MAP使用可」と、ブライトの「4パーク使用可」を明確化。</li><li>呪いのトーテムの破壊可能タイミングと、早期破壊時の再試合ペナルティを明確化。</li><li>切断・高Ping・構成確認・未通電ハッチ関連の既存ルール表記を再確認。</li></ul>
       </article>
@@ -232,13 +248,10 @@
     <section class="section" id="entry" aria-labelledby="entry-heading">
       <h2 class="section-heading" id="entry-heading">応募について</h2>
       <div class="card">
-        <span class="meta">チームでの参加をお待ちしています</span>
-        <p>応募は専用フォームから受け付けています。<br>必要事項を入力のうえ、ご応募ください。</p>
-        <div class="notice-box notice-box--compact">
-          <strong>注意</strong>
-          <p>&#x203B;多数の応募をいただいた場合、応募期間内でも締切を早める可能性があります。</p>
-        </div>
-        <a class="button" data-entry-link data-entry-label="応募フォームを開く" aria-disabled="true">応募フォーム準備中</a>
+        <span class="meta">応募受付終了</span>
+        <h3>応募受付は終了しました</h3>
+        <p>たくさんのご応募ありがとうございました。</p>
+        <a class="button" data-entry-link aria-disabled="true">応募受付は終了しました</a>
       </div>
     </section>
   </main>
