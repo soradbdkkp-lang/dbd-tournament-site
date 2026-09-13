@@ -919,6 +919,25 @@ img { max-width: 100%; display: block; }
   display: grid;
   align-items: center;
 }
+.map-card--bonus {
+  border: 2px solid var(--warn);
+  background: rgba(243, 200, 106, 0.08);
+}
+.map-card__bonus-badge {
+  display: inline-flex;
+  width: fit-content;
+  margin: 12px 12px 0;
+  padding: 4px 9px;
+  border: 1px solid var(--warn);
+  color: var(--warn);
+  background: rgba(243, 200, 106, 0.1);
+  font-size: 0.78rem;
+  font-weight: 950;
+  line-height: 1.35;
+}
+.bonus-map-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .bonus-map-panel {
   display: grid;
   gap: 10px;

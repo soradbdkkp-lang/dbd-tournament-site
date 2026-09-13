@@ -75,41 +75,41 @@ window.FROGCUP_EVENT = {
       status: "public",
       bonusMapStatus: "public",
       bonusMaps: [
-        { category: "室内", name: "レリー" },
-        { category: "屋外", name: "オーモンド山のリゾートⅡ" }
+        { category: "室内", name: "レリー", imageFile: "lerys.webp" },
+        { category: "屋外", name: "オーモンド山のリゾートⅡ", imageFile: "mount_ormond_resort.webp" }
       ],
       maps: [
         { category: "室内", name: "ホーキンス国立研究所", imageFile: "underground_complex.webp" },
         { category: "室内", name: "ラクーンシティ東棟", imageFile: "raccoon_city_police_station.webp" },
         { category: "室内", name: "レリー", imageFile: "lerys.webp" },
         { category: "屋外", name: "落ちた避難所", imageFile: "fallen_refuge.webp" },
-        { category: "屋外", name: "ファザー\u30FBキャンベルズ\u30FBチャペル" },
-        { category: "屋外", name: "死んだ犬の酒場" },
-        { category: "屋外", name: "オーモンド山のリゾートⅡ" }
+        { category: "屋外", name: "ファザー\u30FBキャンベルズ\u30FBチャペル", imageFile: "father_campbells_chapel.webp" },
+        { category: "屋外", name: "死んだ犬の酒場", imageFile: "dead_dawg_saloon.webp" },
+        { category: "屋外", name: "オーモンド山のリゾートⅡ", imageFile: "mount_ormond_resort.webp" }
       ]
     },
     "qualifier-b": {
       status: "public",
       bonusMapStatus: "public",
       bonusMaps: [
-        { category: "室内", name: "レリー" },
-        { category: "屋外", name: "オーモンド山のリゾートⅡ" }
+        { category: "室内", name: "レリー", imageFile: "lerys.webp" },
+        { category: "屋外", name: "オーモンド山のリゾートⅡ", imageFile: "mount_ormond_resort.webp" }
       ],
       maps: [
         { category: "室内", name: "ホーキンス国立研究所", imageFile: "underground_complex.webp" },
         { category: "室内", name: "ギデオン", imageFile: "gideon.webp" },
         { category: "室内", name: "ミッドウィッチ小学校", imageFile: "midwich.webp" },
         { category: "室内", name: "レリー", imageFile: "lerys.webp" },
-        { category: "屋外", name: "死んだ犬の酒場" },
-        { category: "屋外", name: "コールタワーⅠ" },
-        { category: "屋外", name: "怒りの聖所" },
-        { category: "屋外", name: "オーモンド山のリゾートⅡ" }
+        { category: "屋外", name: "死んだ犬の酒場", imageFile: "dead_dawg_saloon.webp" },
+        { category: "屋外", name: "コールタワーⅠ", imageFile: "coal_tower.webp" },
+        { category: "屋外", name: "怒りの聖所", imageFile: "sanctum_of_wrath.webp" },
+        { category: "屋外", name: "オーモンド山のリゾートⅡ", imageFile: "mount_ormond_resort.webp" }
       ]
     },
     "semifinal-1": {
       status: "public",
       bonusMapStatus: "public",
-      bonusMaps: [{ name: "レリー" }],
+      bonusMaps: [{ name: "レリー", imageFile: "lerys.webp" }],
       maps: [
         { name: "ミッドウィッチ小学校", imageFile: "midwich.webp" },
         { name: "ラクーンシティ警察署･東棟", imageFile: "raccoon_city_police_station.webp" },
@@ -119,7 +119,7 @@ window.FROGCUP_EVENT = {
     "semifinal-2": {
       status: "public",
       bonusMapStatus: "public",
-      bonusMaps: [{ name: "レリー" }],
+      bonusMaps: [{ name: "レリー", imageFile: "lerys.webp" }],
       maps: [
         { name: "ホーキンス国立研究所", imageFile: "underground_complex.webp" },
         { name: "ギデオン食肉工場", imageFile: "gideon.webp" },

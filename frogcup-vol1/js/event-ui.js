@@ -207,12 +207,18 @@
 
     if (!pool) return;
 
-    function makeMapCard(map) {
+    function makeMapCard(map, isBonus = false) {
       const card = document.createElement("article");
       const title = document.createElement("h4");
 
       card.className = "map-card";
-      title.textContent = map.name;
+      title.textContent = isBonus && map.category
+        ? map.category + "：" + map.name
+        : map.name;
+
+      if (isBonus) {
+        card.classList.add("map-card--bonus");
+      }
 
       if (map.imageFile) {
         const image = document.createElement("img");
@@ -225,6 +231,13 @@
         card.appendChild(image);
       } else {
         card.classList.add("map-card--text-only");
+      }
+
+      if (isBonus) {
+        const bonusBadge = document.createElement("span");
+        bonusBadge.className = "map-card__bonus-badge";
+        bonusBadge.textContent = "ボーナスMAP";
+        card.appendChild(bonusBadge);
       }
 
       card.appendChild(title);
@@ -275,17 +288,14 @@
       privateNotice.textContent = "事前非公開";
       bonusSection.appendChild(privateNotice);
     } else if (Array.isArray(pool.bonusMaps)) {
-      const list = document.createElement("ul");
+      const grid = document.createElement("div");
+      grid.className = "map-card-grid bonus-map-grid";
 
       pool.bonusMaps.forEach((map) => {
-        const item = document.createElement("li");
-        item.textContent = map.category
-          ? map.category + "：" + map.name
-          : map.name;
-        list.appendChild(item);
+        grid.appendChild(makeMapCard(map, true));
       });
 
-      bonusSection.appendChild(list);
+      bonusSection.appendChild(grid);
     }
 
     panel.appendChild(bonusSection);
