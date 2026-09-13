@@ -780,7 +780,7 @@ img { max-width: 100%; display: block; }
 .timeline-team--right { text-align: left; }
 .timeline-team__name { overflow-wrap: anywhere; }
 .timeline-item__versus { color: var(--muted); }
-.first-killer-badge {
+.match-order-badge {
   display: inline-flex;
   align-items: center;
   width: fit-content;
@@ -793,6 +793,17 @@ img { max-width: 100%; display: block; }
   font-weight: 950;
   line-height: 1.2;
   white-space: nowrap;
+}
+.timeline-item__details {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+.match-order-note {
+  margin: 0;
+  color: var(--accent-strong);
+  font-weight: 900;
+  overflow-wrap: anywhere;
 }
 .team-members {
   display: grid;
@@ -864,7 +875,6 @@ img { max-width: 100%; display: block; }
 }
 .stage-panel[hidden] { display: none; }
 .stage-panel h3 { margin: 0; }
-.locked-message,
 .secret-note {
   margin: 0;
   padding: 14px 16px;
@@ -884,6 +894,14 @@ img { max-width: 100%; display: block; }
   background: rgba(3, 12, 11, 0.72);
   clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
 }
+.map-pool-group {
+  display: grid;
+  gap: 10px;
+}
+.map-pool-group > h4,
+.bonus-map-panel > h4 {
+  margin: 0;
+}
 .map-card img {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -895,6 +913,21 @@ img { max-width: 100%; display: block; }
   padding: 12px;
   color: #fff;
   line-height: 1.35;
+}
+.map-card--text-only {
+  min-height: 96px;
+  display: grid;
+  align-items: center;
+}
+.bonus-map-panel {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  border: 1px solid rgba(243, 200, 106, 0.55);
+  background: rgba(243, 200, 106, 0.08);
+}
+.bonus-map-panel ul {
+  margin: 0;
 }
 .image-card { overflow: hidden; }
 .image-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }

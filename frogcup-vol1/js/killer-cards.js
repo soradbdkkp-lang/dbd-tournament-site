@@ -634,13 +634,7 @@
     heading.textContent = stage.label;
     panel.appendChild(heading);
 
-    if (!pool || pool.status === "locked") {
-      const locked = document.createElement("p");
-      locked.className = "locked-message";
-      locked.textContent = eventData.lockedMessage;
-      panel.appendChild(locked);
-      return;
-    }
+    if (!pool) return;
 
     makeKillerBrowser(panel, {
       mode: "bonus-pool",

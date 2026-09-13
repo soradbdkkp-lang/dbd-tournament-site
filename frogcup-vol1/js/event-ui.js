@@ -151,10 +151,11 @@
         const time = document.createElement("time");
         const matchup = document.createElement("div");
         const leftTeam = document.createElement("span");
-        const firstKillerBadge = document.createElement("span");
+        const orderBadge = document.createElement("span");
         const leftTeamName = document.createElement("span");
         const versus = document.createElement("span");
         const rightTeam = document.createElement("span");
+        const details = document.createElement("div");
 
         item.className = "timeline-item";
         time.className = "timeline-item__time";
@@ -162,8 +163,8 @@
         time.textContent = match.displayTime;
         matchup.className = "timeline-item__match";
         leftTeam.className = "timeline-team timeline-team--left";
-        firstKillerBadge.className = "first-killer-badge";
-        firstKillerBadge.textContent = "先行キラー";
+        orderBadge.className = "match-order-badge";
+        orderBadge.textContent = match.orderBadge || "";
         leftTeamName.className = "timeline-team__name";
         leftTeamName.textContent = match.leftTeam;
         versus.className = "timeline-item__versus";
@@ -171,10 +172,23 @@
         rightTeam.className = "timeline-team timeline-team--right";
         rightTeam.textContent = match.rightTeam;
 
-        leftTeam.append(firstKillerBadge, leftTeamName);
+        if (match.orderBadge) {
+          leftTeam.appendChild(orderBadge);
+        }
+        leftTeam.appendChild(leftTeamName);
         matchup.append(leftTeam, versus, rightTeam);
 
-        item.append(time, matchup);
+        details.className = "timeline-item__details";
+        details.appendChild(matchup);
+
+        if (match.orderNote) {
+          const orderNote = document.createElement("p");
+          orderNote.className = "match-order-note";
+          orderNote.textContent = match.orderNote;
+          details.appendChild(orderNote);
+        }
+
+        item.append(time, details);
         list.appendChild(item);
       });
 
@@ -187,44 +201,94 @@
     const imageBase = root.dataset.mapImageBase || "";
     const pool = eventData.mapPools[stage.id];
     const heading = document.createElement("h3");
+
     heading.textContent = stage.label;
     panel.appendChild(heading);
 
-    if (!pool || pool.status === "locked") {
-      const locked = document.createElement("p");
-      locked.className = "locked-message";
-      locked.textContent = eventData.lockedMessage;
-      panel.appendChild(locked);
-      return;
-    }
+    if (!pool) return;
 
-    const note = document.createElement("p");
-    note.className = "secret-note";
-    note.textContent = eventData.bonusMapNotice;
-    panel.appendChild(note);
-
-    const grid = document.createElement("div");
-    grid.className = "map-card-grid";
-
-    pool.maps.forEach((map) => {
+    function makeMapCard(map) {
       const card = document.createElement("article");
-      const image = document.createElement("img");
       const title = document.createElement("h4");
 
       card.className = "map-card";
-      image.src = joinPath(imageBase, map.imageFile);
-      image.alt = map.name;
-      image.loading = "lazy";
-      image.decoding = "async";
-      image.width = 640;
-      image.height = 360;
       title.textContent = map.name;
 
-      card.append(image, title);
-      grid.appendChild(card);
-    });
+      if (map.imageFile) {
+        const image = document.createElement("img");
+        image.src = joinPath(imageBase, map.imageFile);
+        image.alt = map.name;
+        image.loading = "lazy";
+        image.decoding = "async";
+        image.width = 640;
+        image.height = 360;
+        card.appendChild(image);
+      } else {
+        card.classList.add("map-card--text-only");
+      }
 
-    panel.appendChild(grid);
+      card.appendChild(title);
+      return card;
+    }
+
+    function appendMapGroup(label, maps) {
+      const group = document.createElement("section");
+      const groupHeading = document.createElement("h4");
+      const grid = document.createElement("div");
+
+      group.className = "map-pool-group";
+      groupHeading.textContent = label;
+      grid.className = "map-card-grid";
+
+      maps.forEach((map) => {
+        grid.appendChild(makeMapCard(map));
+      });
+
+      group.append(groupHeading, grid);
+      panel.appendChild(group);
+    }
+
+    const hasCategories = pool.maps.some((map) => Boolean(map.category));
+
+    if (hasCategories) {
+      ["室内", "屋外"].forEach((category) => {
+        const categoryMaps = pool.maps.filter((map) => map.category === category);
+
+        if (categoryMaps.length > 0) {
+          appendMapGroup(category, categoryMaps);
+        }
+      });
+    } else {
+      appendMapGroup("通常MAP", pool.maps);
+    }
+
+    const bonusSection = document.createElement("section");
+    const bonusHeading = document.createElement("h4");
+
+    bonusSection.className = "bonus-map-panel";
+    bonusHeading.textContent = "ボーナスMAP";
+    bonusSection.appendChild(bonusHeading);
+
+    if (pool.bonusMapStatus === "private") {
+      const privateNotice = document.createElement("p");
+      privateNotice.className = "secret-note";
+      privateNotice.textContent = "事前非公開";
+      bonusSection.appendChild(privateNotice);
+    } else if (Array.isArray(pool.bonusMaps)) {
+      const list = document.createElement("ul");
+
+      pool.bonusMaps.forEach((map) => {
+        const item = document.createElement("li");
+        item.textContent = map.category
+          ? map.category + "：" + map.name
+          : map.name;
+        list.appendChild(item);
+      });
+
+      bonusSection.appendChild(list);
+    }
+
+    panel.appendChild(bonusSection);
   }
 
   function renderMapPools() {
