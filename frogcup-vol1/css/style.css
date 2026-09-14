@@ -263,6 +263,17 @@ img { max-width: 100%; display: block; }
 .event-info-grid .card h3 {
   font-size: 1.05rem;
 }
+.event-info-card--sponsor {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  border-color: var(--line);
+}
+.event-info-card--sponsor .button {
+  flex: 0 0 auto;
+}
 
 .card,
 .rule-link,
@@ -1352,6 +1363,10 @@ th { color: var(--accent); }
   .event-info-grid .card p,
   .event-info-grid .phase p {
     font-size: 0.88rem;
+  }
+  .event-info-card--sponsor {
+    align-items: stretch;
+    flex-direction: column;
   }
   .side-nav { grid-template-columns: 1fr; }
   .button { width: 100%; }
