@@ -190,6 +190,43 @@
     }));
   }
 
+  function getEventRelations(killer, enabled) {
+    if (!enabled || !eventData) {
+      return { bonusStages: [], sponsorQuest: null };
+    }
+
+    const bonusStages = (eventData.stages || []).filter((stage) => {
+      const pool = eventData.bonusKillerPools?.[stage.id];
+      return stage.status === "public"
+        && pool?.status === "public"
+        && Array.isArray(pool.killerIds)
+        && pool.killerIds.includes(killer.id);
+    });
+    const sponsorQuest = eventData.sponsorQuest;
+    const isSponsorTarget = sponsorQuest?.status === "public"
+      && Array.isArray(sponsorQuest.killerIds)
+      && sponsorQuest.killerIds.includes(killer.id);
+
+    return {
+      bonusStages,
+      sponsorQuest: isSponsorTarget ? sponsorQuest : null
+    };
+  }
+
+  function makeRelationContent(label, items, href, linkLabel) {
+    const content = document.createElement("div");
+    const itemLabel = document.createElement("strong");
+    const link = document.createElement("a");
+
+    content.className = "killer-dialog__relation";
+    itemLabel.textContent = label;
+    link.className = "button button--ghost killer-dialog__relation-link";
+    link.href = href;
+    link.textContent = linkLabel;
+    content.append(itemLabel, makeList(items, ""), link);
+    return content;
+  }
+
   function normalizeSearchText(value) {
     return value.normalize("NFKC").toLowerCase().replace(/\s+/g, "");
   }
@@ -209,10 +246,11 @@
     return getSearchTarget(killer).includes(query);
   }
 
-  function openDialog(killer, opener, context) {
+  function openDialog(killer, opener, context, showEventRelations) {
     const status = statusMeta[killer.status];
     const restriction = getRestrictionBadge(killer);
     const keyRules = getKeyRuleBadges(killer);
+    const eventRelations = getEventRelations(killer, showEventRelations);
     const bonus = context?.stageLabel
       ? { icon: "★", label: `${context.stageLabel}のボーナス対象`, className: "is-bonus" }
       : bonusMeta[killer.bonusStatus];
@@ -230,10 +268,38 @@
     if (context?.stageLabel) {
       headerBadges.push(makeBadge(bonus.icon, bonus.label, bonus.className));
     }
+    if (eventRelations.bonusStages.length) {
+      headerBadges.push(makeBadge("★", "ボーナスキラー対象", "is-bonus"));
+    }
+    if (eventRelations.sponsorQuest) {
+      headerBadges.push(makeBadge("◆", "協賛クエスト対象", "is-sponsor"));
+    }
     dialogBadges.replaceChildren(...headerBadges);
     dialogBody.replaceChildren();
 
     addDialogSection("キラー固有の制限", makeList(restrictionItems, "個別制限なし"));
+    if (eventRelations.bonusStages.length) {
+      addDialogSection(
+        "ボーナスキラー対象",
+        makeRelationContent(
+          "対象ステージ",
+          eventRelations.bonusStages.map((stage) => stage.label),
+          "bonus-killer.html",
+          "ボーナスキラーの詳細を見る"
+        )
+      );
+    }
+    if (eventRelations.sponsorQuest) {
+      addDialogSection(
+        "協賛クエスト対象",
+        makeRelationContent(
+          "達成条件",
+          [eventRelations.sponsorQuest.condition],
+          eventRelations.sponsorQuest.detailPage,
+          "協賛クエストの詳細を見る"
+        )
+      );
+    }
     addDialogSection("共通キラールール", makeList(data.commonRules, ""));
     addDialogSection("共通禁止パーク", makeList(data.commonBannedPerks, ""));
     addDialogSection("共通条件付きパーク", makeList(data.commonConditionalPerks, ""));
@@ -278,13 +344,21 @@
     });
   }
 
-  function makeCard(killer, context) {
+  function makeCard(killer, context, showEventRelations) {
     const status = statusMeta[killer.status];
     const restriction = getRestrictionBadge(killer);
     const keyRules = getKeyRuleBadges(killer);
+    const eventRelations = getEventRelations(killer, showEventRelations);
     const bonus = context?.stageLabel
       ? { icon: "★", label: "ボーナス対象", className: "is-bonus" }
       : bonusMeta[killer.bonusStatus];
+    const relationBadges = [];
+    if (eventRelations.bonusStages.length) {
+      relationBadges.push({ icon: "★", label: "ボーナスキラー対象", className: "is-bonus" });
+    }
+    if (eventRelations.sponsorQuest) {
+      relationBadges.push({ icon: "◆", label: "協賛クエスト対象", className: "is-sponsor" });
+    }
 
     const card = document.createElement("button");
     card.className = "killer-card";
@@ -308,7 +382,7 @@
     overlayInner.className = "killer-card__overlay-inner";
     const cardBadges = context?.stageLabel
       ? [status, restriction, ...keyRules, bonus]
-      : [status, restriction, ...keyRules];
+      : [status, restriction, ...keyRules, ...relationBadges];
     cardBadges.forEach((badge) => {
       const text = document.createElement("span");
       text.textContent = `${badge.icon ? `${badge.icon} ` : ""}${badge.cardLabel ?? badge.label}`;
@@ -333,7 +407,7 @@
     statusRow.appendChild(detailLabel);
 
     card.append(media, name, statusRow);
-    card.addEventListener("click", () => openDialog(killer, card, context));
+    card.addEventListener("click", () => openDialog(killer, card, context, showEventRelations));
     return card;
   }
 
@@ -480,7 +554,11 @@
         sortSelect.value
       );
 
-      grid.replaceChildren(...visibleItems.map(({ killer }) => makeCard(killer, options.context)));
+      grid.replaceChildren(
+        ...visibleItems.map(({ killer }) => {
+          return makeCard(killer, options.context, options.showEventRelations === true);
+        })
+      );
       countLabel.textContent = `${getBaseItems().length}件中${visibleItems.length}件表示`;
       emptyMessage.hidden = visibleItems.length > 0;
       moveButton.disabled = visibleItems.length === 0;
@@ -650,7 +728,9 @@
       return;
     }
 
-    makeKillerBrowser(root);
+    makeKillerBrowser(root, {
+      showEventRelations: root.dataset.showEventRelations === "true"
+    });
   });
 
   dialog.addEventListener("click", (event) => {

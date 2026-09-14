@@ -1147,6 +1147,11 @@ img { max-width: 100%; display: block; }
 .killer-badge.is-danger { border-color: rgba(255, 122, 122, 0.7); color: var(--danger); }
 .killer-badge.is-muted { color: var(--muted); }
 .killer-badge.is-bonus { border-color: rgba(243, 200, 106, 0.72); color: var(--warn); }
+.killer-badge.is-sponsor {
+  border-color: rgba(116, 255, 232, 0.62);
+  color: var(--accent-strong);
+  background: rgba(57, 220, 197, 0.12);
+}
 .killer-card__detail {
   display: inline-flex;
   align-items: center;
@@ -1237,6 +1242,11 @@ img { max-width: 100%; display: block; }
 }
 .killer-dialog__section ul { margin: 0; padding-left: 1.2rem; }
 .killer-dialog__empty { margin: 0; color: var(--muted); }
+.killer-dialog__relation {
+  display: grid;
+  gap: 10px;
+}
+.killer-dialog__relation-link { justify-self: start; }
 body.is-dialog-open { overflow: hidden; }
 .table-wrap { overflow-x: auto; border: 1px solid var(--line-soft); }
 table {

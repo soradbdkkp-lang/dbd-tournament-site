@@ -136,6 +136,12 @@ window.FROGCUP_EVENT = {
       ]
     }
   },
+  sponsorQuest: {
+    status: "public",
+    killerIds: ["spirit", "clown", "doctor"],
+    condition: "指定された対象キラーで未通電全滅",
+    detailPage: "sponsor-quest.html"
+  },
   bonusKillerPools: {
     "qualifier-a": {
       status: "public",
