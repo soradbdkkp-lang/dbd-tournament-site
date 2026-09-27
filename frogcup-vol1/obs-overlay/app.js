@@ -29,6 +29,9 @@
   let currentSlide = 0;
   let slidePaused = false;
   let lastSlideChange = Date.now();
+  let lastRemoteSlide = null;
+  let lastRemoteAutoplay = null;
+  let lastCommandId = null;
 
   if (demoMode) {
     document.getElementById('broadcast-canvas').classList.add('is-demo');
@@ -88,11 +91,21 @@
     setText('next-meta', 'NEXT MATCH');
     setText('next-team-a', state.nextTeamA || '');
     setText('next-team-b', state.nextTeamB || '');
-    if (currentSlide !== Number(state.breakSlide || 0)) {
-      currentSlide = Math.max(0, Math.min(RULE_SLIDES.length - 1, Number(state.breakSlide) || 0));
+    const remoteSlide = Math.max(0, Math.min(RULE_SLIDES.length - 1, Number(state.breakSlide) || 0));
+    if (lastRemoteSlide === null || remoteSlide !== lastRemoteSlide) {
+      currentSlide = remoteSlide;
+      lastRemoteSlide = remoteSlide;
       lastSlideChange = Date.now();
     }
-    slidePaused = state.breakAutoplay === false;
+
+    const remoteAutoplay = state.breakAutoplay !== false;
+    if (lastRemoteAutoplay === null || remoteAutoplay !== lastRemoteAutoplay) {
+      slidePaused = !remoteAutoplay;
+      lastRemoteAutoplay = remoteAutoplay;
+      lastSlideChange = Date.now();
+    }
+
+    applySlideCommand(state.command);
     renderRuleSlide(currentSlide);
   }
 
@@ -100,6 +113,33 @@
     const killer = role === 'killer';
     el.classList.toggle('killer', killer); el.classList.toggle('survivor', !killer);
     el.innerHTML = killer ? '<span class="killer-mark" aria-hidden="true">◆</span><strong>KILLER</strong>' : '<span class="survivor-dots" aria-hidden="true">••<br>••</span><strong>SURVIVOR</strong>';
+  }
+
+  function applySlideCommand(command) {
+    const source = command && typeof command === 'object' ? command : {};
+    const id = Math.max(0, Number(source.id) || 0);
+    const type = String(source.type || '');
+
+    // 初回読込時は過去のコマンドを再実行せず、現在IDだけ記憶する。
+    if (lastCommandId === null) {
+      lastCommandId = id;
+      return;
+    }
+    if (id <= lastCommandId) return;
+    lastCommandId = id;
+
+    if (type === 'next') {
+      currentSlide = (currentSlide + 1) % RULE_SLIDES.length;
+      lastSlideChange = Date.now();
+    } else if (type === 'previous') {
+      currentSlide = (currentSlide - 1 + RULE_SLIDES.length) % RULE_SLIDES.length;
+      lastSlideChange = Date.now();
+    } else if (type === 'pause') {
+      slidePaused = true;
+    } else if (type === 'play') {
+      slidePaused = false;
+      lastSlideChange = Date.now();
+    }
   }
 
   function tickSlides() {
