@@ -3,15 +3,6 @@ window.FROGCUP_EVENT = {
   prize: "優勝賞金 12,000円",
   commentators: [
     {
-      id: "nepechi",
-      name: "Nepechi",
-      imageFile: "nepechi.webp",
-      links: {
-        x: "https://x.com/goodjob_Nepechi",
-        twitch: "https://www.twitch.tv/nepechi"
-      }
-    },
-    {
       id: "shin",
       name: "SHIN",
       imageFile: "shin.jpg",
