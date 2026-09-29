@@ -99,8 +99,6 @@
         const image = document.createElement("img");
         const name = document.createElement("h3");
         const links = document.createElement("div");
-        const xLink = document.createElement("a");
-        const twitchLink = document.createElement("a");
 
         card.className = "commentator-card";
         image.src = joinPath(imageBase, person.imageFile);
@@ -112,19 +110,22 @@
         name.textContent = person.name;
         links.className = "commentator-links";
 
-        xLink.href = person.links.x;
-        xLink.target = "_blank";
-        xLink.rel = "noopener noreferrer";
-        xLink.setAttribute("aria-label", `${person.name}のXを開く`);
-        xLink.textContent = "X";
+        [
+          { key: "x", label: "X" },
+          { key: "youtube", label: "YouTube" },
+          { key: "twitch", label: "Twitch" }
+        ].forEach(({ key, label }) => {
+          const url = person.links[key];
+          if (!url) return;
 
-        twitchLink.href = person.links.twitch;
-        twitchLink.target = "_blank";
-        twitchLink.rel = "noopener noreferrer";
-        twitchLink.setAttribute("aria-label", `${person.name}のTwitchを開く`);
-        twitchLink.textContent = "Twitch";
-
-        links.append(xLink, twitchLink);
+          const link = document.createElement("a");
+          link.href = url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.setAttribute("aria-label", `${person.name}の${label}を開く`);
+          link.textContent = label;
+          links.appendChild(link);
+        });
         card.append(image, name, links);
         grid.appendChild(card);
       });

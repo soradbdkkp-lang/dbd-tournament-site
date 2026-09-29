@@ -3,6 +3,15 @@ window.FROGCUP_EVENT = {
   prize: "優勝賞金 12,000円",
   commentators: [
     {
+      id: "inari",
+      name: "INARI",
+      imageFile: "inari.png",
+      links: {
+        x: "https://x.com/1112Inari",
+        youtube: "https://www.youtube.com/@INARI_CH-y8u"
+      }
+    },
+    {
       id: "shin",
       name: "SHIN",
       imageFile: "shin.jpg",
